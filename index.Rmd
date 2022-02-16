@@ -83,7 +83,7 @@ output:
 
 ## 2022-02-16
 
-- [ ] 5x Rounds Of:
+- [x] 5x Rounds Of:
   - 12x KB Swing
   - 12x Single Arm KB Front Squat (6x each side)
   - 12x KB Clean + Press (6x each side)
