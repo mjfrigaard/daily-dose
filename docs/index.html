@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>The Daily Dose</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">The Daily Dose</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">2022 Workouts</a>
+</li>
+<li>
+  <a href="21-wo.html">2021 Workouts</a>
+</li>
+<li>
+  <a href="20-wo.html">2020 Workouts</a>
+</li>
+<li>
+  <a href="notes.html">NOTES</a>
+</li>
+<li>
+  <a href="dev.html">DEV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">The Daily Dose</h1>
+
+</div>
+
+
+<div id="workouts" class="section level1">
+<h1><strong>2022 Workouts</strong></h1>
+<p><a href="https://github.com/mjfrigaard/daily-dose"><em>View the
+project on Github</em></a></p>
+<div id="section" class="section level2">
+<h2>2022-02-26</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+50x Reps Of:<ul>
+<li>2x Renegade Rows + Push-Up + Devils Press + Thruster</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-1" class="section level2">
+<h2>2022-02-25</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+1x Round Of:<ul>
+<li>50x DB Deadlifts</li>
+<li>40x DB Hang Power Clean &amp; Jerks</li>
+<li>30x DB Front Squats</li>
+<li>20x Devil’s Presses</li>
+<li>10x Clusters</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-2" class="section level2">
+<h2>2022-02-24</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+EMOM x22 Minutes:<ul>
+<li>4x DB Ground-to-Shoulder + Ground-to-Overhead</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-3" class="section level2">
+<h2>2022-02-23</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+6x Rounds Of:<ul>
+<li>6x Devil’s Press</li>
+<li>6x Burpees Over DBs</li>
+<li>6x Dumbbell Thrusters</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-4" class="section level2">
+<h2>2022-02-22</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+EMOM x24 Minutes:<ul>
+<li>10x DB Hang Power Snatch (R)</li>
+<li>8x Front Squat (barbell)</li>
+<li>8x Reverse Suitcase DB Lunge</li>
+<li>10x DB Hang Power Snatch (L)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-5" class="section level2">
+<h2>2022-02-21</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+6x Rounds:<ul>
+<li>3x Devil’s Press</li>
+<li>6x DB Shoulder to Overhead</li>
+<li>9x DB Front Squat</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-6" class="section level2">
+<h2>2022-02-20</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+50x Reps Of:<ul>
+<li>1x DB Deadlift</li>
+<li>1x DB Power Clean</li>
+<li>1x DB Push-Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-7" class="section level2">
+<h2>2022-02-19</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+EMOM x20 Minutes<ul>
+<li>10x Sprawl-to-DB Power Snatch</li>
+<li>10x Sprawl-to-DB Power Clean + Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-8" class="section level2">
+<h2>2022-02-18</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+20x Rounds Of:<ul>
+<li>3x DB Power Snatch (each side)</li>
+<li>6x Push-Ups</li>
+<li>9x Squat</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-9" class="section level2">
+<h2>2022-02-17</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+6x Rounds Of:<ul>
+<li>8x Lateral Burpees</li>
+<li>8x DB Box Step-Up</li>
+<li>16x DB Hang Clean + Jerk</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-10" class="section level2">
+<h2>2022-02-16</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+5x Rounds Of:<ul>
+<li>12x KB Swing</li>
+<li>12x Single Arm KB Front Squat (6x each side)</li>
+<li>12x KB Clean + Press (6x each side)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-11" class="section level2">
+<h2>2022-02-15</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+4x Rounds:<ul>
+<li>20x DB Hang Snatch</li>
+<li>20x DB Hang Clean + Jerk</li>
+<li>20x Push-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-12" class="section level2">
+<h2>2022-02-14</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" />
+EMOM x24 Minutes:<ul>
+<li>5x Deadlift (225 lbs)</li>
+<li>20m Single Arm Rack Carry (R)</li>
+<li>20m Single Arm Rack Carry (L)</li>
+<li>5x Deadlift (225 lbs)</li>
+<li>20m Single Arm Overhead Carry (R)</li>
+<li>20m Single Arm Overhead Carry (L)</li>
+<li>5x Deadlift (225 lbs)</li>
+<li>Farmer Carry</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-13" class="section level2">
+<h2>2022-02-13</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10x Rounds:<ul>
+<li>10x DB Snatch (2x 55, 65, 75, 85 lbs)</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-14" class="section level2">
+<h2>2022-02-12</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x20 Minutes:<ul>
+<li>3x Power Cleans</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds Of:<ul>
+<li>Tire Flip x20 meters</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-15" class="section level2">
+<h2>2022-02-11</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+30-20-10 Reps Of:<ul>
+<li>Squats</li>
+<li>Hang DB Clean &amp; Jerks</li>
+<li>Single Arm Devil’s Press</li>
+</ul>
+<em>50x double-unders buy-in/out</em></li>
+</ul>
+</div>
+<div id="section-16" class="section level2">
+<h2>2022-02-10</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds Of:<ul>
+<li>10x Burpees</li>
+<li>10x Alternating DB Snatches</li>
+<li>10x Alternating DB Hang Clean &amp; Jerk</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-17" class="section level2">
+<h2>2022-02-09</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Heavy Double (15 min time-cap)<ul>
+<li>Back Squat (with pause)
+<ul>
+<li>135, 185, 205, 225, 275 lbs</li>
+</ul></li>
+<li>50x DB Hang Clean + Reverse Lunge + Snatch</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-18" class="section level2">
+<h2>2022-02-08</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 20 Minutes:<ul>
+<li>1st 10:
+<ul>
+<li>Clean + 3x Front Squat (185, 205, 215 lbs)</li>
+</ul></li>
+<li>2nd 10:
+<ul>
+<li>10x Plate Devil’s Press</li>
+<li>40x Double-Unders</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div id="section-19" class="section level2">
+<h2>2022-02-07</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+7x Rounds:<ul>
+<li>10x DB Snatch</li>
+<li>10x DB Step-Ups</li>
+<li>10x DB Reverse Lunge</li>
+<li>10x DB Burpee</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-20" class="section level2">
+<h2>2022-02-06</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds Of:<ul>
+<li>25x Double-Unders</li>
+<li>20x Squats</li>
+<li>15x Push-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-21" class="section level2">
+<h2>2022-02-05</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 18 Minutes<ul>
+<li>20x Double-Unders</li>
+<li>4x DB Power Clean + Jerk + Snatch (from floor)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-22" class="section level2">
+<h2>2022-02-04</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Back/Overhead Squat (1:1)<ul>
+<li>5x 135 lbs (x2)</li>
+<li>4x 155 lbs (x2)</li>
+<li>3x 185 lbs (x2)</li>
+<li>2x 205 lbs (x2)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-23" class="section level2">
+<h2>2022-02-03</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8x Rounds:<ul>
+<li>10x Deadlifts</li>
+<li>8x Alt DB Lunges</li>
+<li>6x DB Front Squats</li>
+<li>4x Thrusters</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-24" class="section level2">
+<h2>2022-02-02</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10x Rounds Of:<ul>
+<li>10x Double DB H Clean + Press (50 lbs)</li>
+<li>8x Single Arm DB Power Snatch (70 lbs) <em>waiters walk x20
+meters</em></li>
+</ul></li>
+</ul>
+</div>
+<div id="section-25" class="section level2">
+<h2>2022-02-01</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 45 seconds x9 cycles<ul>
+<li>Power Clean/Front Squat/Hang Power Clean/Thruster (155, 185, 205
+lbs)</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+6x Rounds<ul>
+<li>15x Push-Ups</li>
+<li>15x Squats</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-26" class="section level2">
+<h2>2022-01-31</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+7x Rounds Of:<ul>
+<li>10x KB Swings (70 lbs)</li>
+<li>10x KB Snatches (55 lbs)</li>
+<li>10x DB Hang Clean + Press (60 lbs)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-27" class="section level2">
+<h2>2022-01-30</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+4x Rounds Of:<ul>
+<li>25x Push-Ups</li>
+<li>25x Squats</li>
+<li>25x Double-Unders</li>
+</ul>
+<h2 id="section-28">2022-01-29</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+work up to heavy power snatch</li>
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds Of:<ul>
+<li>5x Deadlifts</li>
+<li>20x Double-Unders</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div id="section-29" class="section level2">
+<h2>2022-01-28</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x20 Minutes<ul>
+<li>10x KB Swings</li>
+<li>12x Thusters</li>
+<li>8x Alternating DB Snatches</li>
+<li>10x Push-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-30" class="section level2">
+<h2>2022-01-27</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+20-18-16-14-12-10-8-6-4-2x Reps Of:<ul>
+<li>Single Arm Devil’s Press</li>
+<li>*20 Double-Unders between sets</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-31" class="section level2">
+<h2>2022-01-26</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x20 Minutes<ul>
+<li>3x Power Clean</li>
+<li>3x Front Squats</li>
+<li>3x Jerks</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-32" class="section level2">
+<h2>2022-01-25</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x24 Minutes:<ul>
+<li>10x DB Snatches</li>
+<li>8x DB Deadlifts</li>
+<li>20x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-33" class="section level2">
+<h2>2022-01-24</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds of:<ul>
+<li>7x Power Snatch (95 lbs)</li>
+<li>5x Power Snatch (115 lbs)</li>
+<li>3x Power Snatch (135 lbs)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-34" class="section level2">
+<h2>2022-01-23</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+30:30 work/rest x12 Minutes<ul>
+<li>Sledge</li>
+<li>Box Jump</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+7x Rounds:<ul>
+<li>7x Curls</li>
+<li>7x Tricep Extension</li>
+<li>7x Reverse Overhead Lunge</li>
+<li>7x Overhead Sit-Up</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-35" class="section level2">
+<h2>2022-01-22</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+15 Minute Time-cap:<ul>
+<li>Heavy double back squat
+<ul>
+<li>(295 lbs)</li>
+</ul></li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+5x rounds of:<ul>
+<li>5x Back Squat (225 lbs)</li>
+<li>6x DB Power Snatch + DB Hang Power Clean + Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-36" class="section level2">
+<h2>2022-01-21</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x21 Minutes<ul>
+<li>8x DB Burpees</li>
+<li>10x DB Bench Press</li>
+<li>20x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-37" class="section level2">
+<h2>2022-01-20</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds Of:<ul>
+<li>P Clean + HP Clean + 2x Jerk</li>
+<li>8x DB Ground-2-Overhead</li>
+<li>12x Squats</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-38" class="section level2">
+<h2>2022-01-19</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+4x Rounds Of:<ul>
+<li>6x KB Snatches (L, 70lbs)</li>
+<li>5x Deadlift 225lbs</li>
+<li>6x Snatches (R, 70lbs)</li>
+<li>5x Deadlift 275 lbs</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-39" class="section level2">
+<h2>2022-01-18</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+15-12-9-6-9-12-15x Reps:<ul>
+<li>DB Front Rack Reverse Lunges</li>
+<li>Double-Unders</li>
+<li>DB Hang Power Clean &amp; Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-40" class="section level2">
+<h2>2022-01-17</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+7 Rounds:<ul>
+<li>7x Back Squats (185 lbs)</li>
+<li>7x Push Press (135 lbs)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-41" class="section level2">
+<h2>2022-01-16</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+40-30-20-10x Reps Of:<ul>
+<li>DB Alternating Snatches</li>
+<li>12x Cal Assault Bike</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-42" class="section level2">
+<h2>2022-01-15</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 90 seconds x 5x Rounds:<ul>
+<li>6x Deadlifts</li>
+<li>4x Hang Power Clean</li>
+<li>3x Push Press</li>
+</ul></li>
+</ul>
+<p>*DB or BB</p>
+</div>
+<div id="section-43" class="section level2">
+<h2>2022-01-14</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+1x Round:<ul>
+<li>15-14-13-12-11-10x DB Ground-to-Overhead</li>
+<li>20-22-24-26-28-30x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-44" class="section level2">
+<h2>2022-01-13</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+7x Rounds Of:<ul>
+<li>13x DB Hang Power Snatch (55 lbs)</li>
+<li>10x DB Hang Power Clean + Press (65 lbs)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-45" class="section level2">
+<h2>2022-01-12</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10-9-8-7-6x reps of:<ul>
+<li>Barbell Thrusters (@ 115lbs)</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+5-4-3-2-1x reps of: Barbell Thrusters (@ 135lbs)</li>
+</ul>
+<p>*20x double-unders after each set</p>
+</div>
+<div id="section-46" class="section level2">
+<h2>2022-01-11</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10x Rounds Of:<ul>
+<li>12x Cal Assault Bike</li>
+<li>10x DB Snatches (@ 70lbs)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-47" class="section level2">
+<h2>2022-01-10</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8x Rounds<ul>
+<li>Prowler</li>
+<li>6x Ball Toss (@ 50lbs)</li>
+<li>5x Box Jumps</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-48" class="section level2">
+<h2>2022-01-09</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x24 Minutes:<ul>
+<li>6x DB Sprawl + Power Clean + Press (55, 65, 75lbs)</li>
+<li>4x DB Sprawl + Power Snatch + Reverse Lunge (55, 65lbs)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-49" class="section level2">
+<h2>2022-01-08</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds<ul>
+<li>25x Push-Ups</li>
+<li>12x KB Swings (70lbs)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-50" class="section level2">
+<h2>2022-01-07</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x5<ul>
+<li>Front Squats</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+7x Rounds Of:<ul>
+<li>30x Double Unders</li>
+<li>15x Push-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-51" class="section level2">
+<h2>2022-01-06</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x20 Minutes:<ul>
+<li>10x DB Hang Clean + Press</li>
+<li>6x DB Suitcase Lunges</li>
+<li>Buy in/out: 15x tire flip</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-52" class="section level2">
+<h2>2022-01-05</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds Of:<ul>
+<li>225lbs back squat x5</li>
+<li>70lbs DB Snatch x8 (from floor)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-53" class="section level2">
+<h2>2022-01-04</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x20 Minutes:<ul>
+<li>10x DB Hang Clean + Press</li>
+<li>6x DB Suitcase Lunges</li>
+<li>Buy in/out: 15x tire flip</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-54" class="section level2">
+<h2>2022-01-03</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x10 Minutes:<ul>
+<li>3x Power Snatches</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+6x Rounds Of:<ul>
+<li>12x KB Swings</li>
+<li>25x Double Unders</li>
+<li>25x Sledge Hammer</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-55" class="section level2">
+<h2>2022-01-02</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x24 Minutes<ul>
+<li>8x Burpees</li>
+<li>10x DB Bench Press</li>
+<li>12x DB Rows</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-56" class="section level2">
+<h2>2022-01-01</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+100x Reps of<ul>
+<li>Single Arms DB Devil’s Presses</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+---
+title: "In Development"
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    css: styles.css
+    toc: true
+    toc_float: yes
+---
+
+## Untested workouts
+
+***
+
+## YYYY-MM-DD
+
+- [ ] *workout*
+
+  - 15x DB Snatches
+  - 20x Single Arm Overhead Lunge
+  - 60x Double-Unders
+
+  - 12x DB Snatches
+  - 15x Single Arm Overhead Lunge
+  - 50x Double-Unders
+
+  - 9x DB Snatches
+  - 10x Single Arm Overhead Lunge
+  - 40x Double-Unders
+
+  - 6x DB Snatches
+  - 5x Single Arm Overhead Lunge
+  - 30x Double-Unders
+
+
+## YYYY-MM-DD
+
+- [ ] Complex:
+  - 10x Reverse Lunges
+  - 8x Push-press
+  - 6x Devils-press
+
+## YYYY-MM-DD
+
+- [ ] Complex:
+  - 4x DB Devil's press
+  - 5x DB Strict Press
+  - 6x DB Swings
+  - 7x DB Thrusters
+
+## YYYY-MM-DD
+
+- [ ] Complex:
+  - 3x Single Arm Squat Clean
+  - 3x Single Arm Snatch
+  - 3x Single Arm Thruster

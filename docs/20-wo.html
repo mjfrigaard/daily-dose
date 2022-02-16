@@ -1,0 +1,2432 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>The Daily Dose (2020)</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">The Daily Dose</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">2022 Workouts</a>
+</li>
+<li>
+  <a href="21-wo.html">2021 Workouts</a>
+</li>
+<li>
+  <a href="20-wo.html">2020 Workouts</a>
+</li>
+<li>
+  <a href="notes.html">NOTES</a>
+</li>
+<li>
+  <a href="dev.html">DEV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">The Daily Dose (2020)</h1>
+
+</div>
+
+
+<div id="workouts-phase-2" class="section level1">
+<h1><strong>2020 Workouts (phase 2)</strong></h1>
+<p>This is the 2nd half of 2020 workouts (starting in late June). All
+prior workouts are stored as image files in the <a
+href="https://github.com/mjfrigaard/daily-dose/tree/gh-pages/images/2020">2020
+folder</a> (starting <a
+href="https://raw.githubusercontent.com/mjfrigaard/daily-dose/gh-pages/images/2020/2020-03-09.png">here</a>).</p>
+<div id="section" class="section level2">
+<h2>2020-12-31</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+20 Min EMOM<ul>
+<li>8x Devil’s Press</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-1" class="section level2">
+<h2>2020-12-30</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+6x Rounds<ul>
+<li>6x DB Snatch + Thruster</li>
+<li>10x Ab Rotation</li>
+<li>12x Push-ups</li>
+<li>10x Ball Slams</li>
+<li>6x Suitcase step-overs</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-2" class="section level2">
+<h2>2020-12-29</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+24 Min EMOM<ul>
+<li>10x DB Goblet Squat</li>
+<li>10x DB Push-Press</li>
+<li>10x DB Deadlift</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-3" class="section level2">
+<h2>2020-12-28</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+50x reps:<ul>
+<li>Bear complex (DL + CL + FS + PP + FS + PP)</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+50x Reps Of:<ul>
+<li>DB Power Clean + DB Snatch</li>
+</ul></li>
+</ul>
+<p>(both from floor)</p>
+</div>
+<div id="section-4" class="section level2">
+<h2>2020-12-27</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Thompson Bell (TB) Workout (5x Rounds):<ul>
+<li>TB Snatch: 10x</li>
+<li>TB Clean + curl: 10x</li>
+<li>TB Seesaw Overhead Presses: 8x</li>
+<li>TB Suitcase Step-Ups: 10x</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-5" class="section level2">
+<h2>2020-12-26</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x20 Min<ul>
+<li>12x KB Swings</li>
+<li>12x DB Single Arm Thruster (Alternating L &amp; R)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-6" class="section level2">
+<h2>2020-12-25</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8 Rounds:<ul>
+<li>10x DB Snatches</li>
+<li>6x D-Ball Tosses</li>
+<li>10x Ab Rotation</li>
+<li>10x KB Swings</li>
+<li>12x Push-ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-7" class="section level2">
+<h2>2020-12-24</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Thompson Bell (TB) 5x Rounds:<ul>
+<li>10x TB Power Clean and Press (from ground)</li>
+<li>10x TB Front Squat</li>
+<li>10x TB Power Snatch (from ground)</li>
+<li>10x TB Floor Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-8" class="section level2">
+<h2>2020-12-21</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+24 Min EMOM<ul>
+<li>20x Band Squats</li>
+<li>Single Arm Sprawl + Cluster (<span
+class="citation">@50</span>#)</li>
+<li>Scorpion Bag Work</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-9" class="section level2">
+<h2>2020-12-20</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5 Rounds (5 Each side)<ul>
+<li>DB Power Snatch x10</li>
+<li>DB Cluster x10</li>
+<li>DB Single-leg RDL x10</li>
+<li>KB Swings x10</li>
+<li>DB/KB Goblet Squats x10</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-10" class="section level2">
+<h2>2020-12-19</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds:<ul>
+<li>DB Hang Power Snatch, 4x Each Side</li>
+<li>DB Dumbbell Row, 4x Each Side</li>
+<li>DB Reverse Lunge, 4x Each Side</li>
+<li>DB Push Press, 4x Each Side</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-11" class="section level2">
+<h2>2020-12-18</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 24 Min 3-2-1 Reps Of:<ul>
+<li>DB Deadlift</li>
+<li>DB Cluster</li>
+<li>DB Ground-To-Overhead</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-12" class="section level2">
+<h2>2020-12-17</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 30 Min:<ul>
+<li>D-Ball Squat</li>
+<li>D-Ball Tosses</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-13" class="section level2">
+<h2>2020-12-16</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 25 Min<ul>
+<li>10x DB Deadlifts</li>
+<li>8x DB Hang Clean</li>
+<li>10x DB Push Press</li>
+<li>12x Sit-Ups</li>
+<li>15x Squats</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-14" class="section level2">
+<h2>2020-12-15</h2>
+<ul class="task-list">
+<li><p><input type="checkbox" disabled="" checked="" />
+6x Rounds:</p><ul>
+<li>8x Push Jerk</li>
+<li>8x Hang Power Clean</li>
+<li>8x Power Clean and Jerk</li>
+<li>8x Front Rack Carry</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-15" class="section level2">
+<h2>2020-12-14</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8x Rounds:<ul>
+<li>12x Split Jerk</li>
+<li>12x Power Clean and Jerk</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-16" class="section level2">
+<h2>2020-12-13</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds:<ul>
+<li>10x Farmers Carry</li>
+<li>10x Split Jerk</li>
+<li>10x Strict Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-17" class="section level2">
+<h2>2020-12-12</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+6x Rounds:<ul>
+<li>6x Hang Power Snatch</li>
+<li>6x Split Jerk</li>
+<li>6x Ground-to-Overhead</li>
+<li>6x Strict Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-18" class="section level2">
+<h2>2020-12-11</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 120 seconds x 11 Rounds:<ul>
+<li>12x Single Arm DB Snatch</li>
+<li>12x Push-ups</li>
+<li>12x Suitcase Lunge</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-19" class="section level2">
+<h2>2020-12-10</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+6x Rounds:<ul>
+<li>8x Hang Power Clean and Jerk</li>
+<li>8x Squat Clean</li>
+<li>8x Push Press</li>
+<li>8x Overhead Carry</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-20" class="section level2">
+<h2>2020-12-09</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+6x Rounds:<ul>
+<li>10x Push Press</li>
+<li>10x Front Rack Carry</li>
+<li>10x Renegade row</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-21" class="section level2">
+<h2>2020-12-08</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 2 Min x 12 Rounds:<ul>
+<li>8x Single Arm DB Clusters (<span class="citation">@50</span>#)</li>
+<li>12x Ab Rotation</li>
+<li>6x D-Ball Tosses (<span class="citation">@90</span>#)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-22" class="section level2">
+<h2>2020-12-07</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+6x Rounds:<ul>
+<li>8x Curl and Press</li>
+<li>8x Farmer Carry Lunge</li>
+<li>8x Push Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-23" class="section level2">
+<h2>2020-12-06</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 120 seconds x15 Rounds:<ul>
+<li>8x DB Single Arm Clusters</li>
+<li>8x DB Thrusters</li>
+<li>Heavy Bag (with remaining Time)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-24" class="section level2">
+<h2>2020-12-05</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds:<ul>
+<li>10x Floor Press</li>
+<li>10x Squat Clean</li>
+<li>10x Power Snatch + Thrusters</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-25" class="section level2">
+<h2>2020-12-04</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+4x Rounds<ul>
+<li>10x Bent Over Rows</li>
+<li>10x Power Clean and Jerk</li>
+<li>10x Front Rack Lunge</li>
+</ul></li>
+</ul>
+<p>Playing with combos</p>
+<p>487385236/b9b5273439</p>
+</div>
+<div id="section-26" class="section level2">
+<h2>2020-12-03</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+4x Rounds:<ul>
+<li>10x Overhead Carry</li>
+<li>10x Farmer Carry Lunge</li>
+<li>10x Push Jerk</li>
+</ul></li>
+</ul>
+<p>Thumb in or up?</p>
+<p><a href="https://youtu.be/0gtMKaCJ5I8"
+class="uri">https://youtu.be/0gtMKaCJ5I8</a></p>
+</div>
+<div id="section-27" class="section level2">
+<h2>2020-12-02</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+3x Rounds:<ul>
+<li>10x Bent Over Rows</li>
+<li>10x Double Arm Hang Snatch</li>
+<li>10x Hang Power Snatch</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-28" class="section level2">
+<h2>2020-12-01</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+DB Complex for 20 Min<ul>
+<li>2x Clean</li>
+<li>2x Hang Squat Clean</li>
+<li>2x Front Squat</li>
+<li>2x Jerk</li>
+</ul></li>
+</ul>
+<p>486233541</p>
+</div>
+<div id="section-29" class="section level2">
+<h2>2020-11-30</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8x Rounds<ul>
+<li>12x Ab Rotation</li>
+<li>10x Suitcase Lunge (Single Arm)</li>
+<li>8x Ground-to-Overhead (Single Arm)</li>
+<li>6x D-Ball Tosses</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-30" class="section level2">
+<h2>2020-11-29</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8x Rounds<ul>
+<li>10x Goblet Squats</li>
+<li>8x Devil’s Press</li>
+<li>15x Bodyweight Squats</li>
+<li>10x Push-ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-31" class="section level2">
+<h2>2020-11-28</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 20Min<ul>
+<li>10 KB Swings</li>
+<li>10 Single Arm Snatches (5x Each side)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-32" class="section level2">
+<h2>2020-11-27</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8 Rounds<ul>
+<li>6x Single Arm DB Clean</li>
+<li>6x Single Arm Push Press</li>
+<li>12x Push Ups</li>
+<li>12x Ab Rotation</li>
+<li>6x D-Balls</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-33" class="section level2">
+<h2>2020-11-26</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 20 Min<ul>
+<li>12x Devil’s Press</li>
+<li>20x Bodyweight Squats</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-34" class="section level2">
+<h2>2020-11-25</h2>
+<p>100x Burpees (in 20 Min)</p>
+</div>
+<div id="section-35" class="section level2">
+<h2>2020-11-24</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8 Rounds<ul>
+<li>8x Weighted step-overs</li>
+<li>8x KB Swings</li>
+<li>8x Weighted Sit-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-36" class="section level2">
+<h2>2020-11-23</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10 Rounds<ul>
+<li>10x Snatches</li>
+<li>6x D-Ball Tosses</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-37" class="section level2">
+<h2>2020-11-22</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 24 Min<ul>
+<li>10x KB Swing</li>
+<li>12x devils Press</li>
+<li>15x Push-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-38" class="section level2">
+<h2>2020-11-21</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8 Rounds<ul>
+<li>10x Single Arm Overhead Walking Lunge</li>
+<li>10x Single Arm Cluster</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-39" class="section level2">
+<h2>2020-11-20</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10 Rounds<ul>
+<li>6x BAMF</li>
+<li>12x KB Swing</li>
+<li>10x Overhead Sit-up</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-40" class="section level2">
+<h2>2020-11-19</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 20 Min<ul>
+<li>DB Complex (4x Front Squat, 4x G2OH)</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-41" class="section level2">
+<h2>2020-11-18</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 18 Min<ul>
+<li>[DB Snatch * 2 Overhead Lunges] x 4</li>
+<li>20x Squats</li>
+<li>15x Push-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-42" class="section level2">
+<h2>2020-11-17</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+6 Rounds<ul>
+<li>12x KB Snatch/Switch-hand-Swing</li>
+<li>10x Goblet Squats</li>
+<li>12x Clean + Push Press (Double KB/DB)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-43" class="section level2">
+<h2>2020-11-16</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8 Rounds<ul>
+<li>8x DB Clusters</li>
+<li>8x DB Suitcase Lunge</li>
+<li>8x DB Deadlifts/D-Ball Tosses</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-44" class="section level2">
+<h2>2020-11-15</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+20 Min EMOM<ul>
+<li>5x DB Clusters (R)</li>
+<li>10x Box Jumps</li>
+<li>5x DB Clusters (L)</li>
+<li>10x Burpees</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-45" class="section level2">
+<h2>2020-11-14</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+20 Min EMOM<ul>
+<li>5x Single Arm DB Snatch + Thruster</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-46" class="section level2">
+<h2>2020-11-13</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8 Rounds<ul>
+<li>12x KB Alternating Swings</li>
+<li>12x KB Single Arm Front Rack Lunge (6x Each side)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-47" class="section level2">
+<h2>2020-11-12</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5 Rounds:<ul>
+<li>8x DB Alternating Push Press</li>
+<li>6x D-Ball Tosses</li>
+<li>8x DB Alternating Pendlay row</li>
+<li>6x DB pull through</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-48" class="section level2">
+<h2>2020-11-11</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+6 Rounds<ul>
+<li>25x Double-Unders</li>
+<li>12x Overhead Weighted sit ups</li>
+<li>6x Single-Arm Devil’s Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-49" class="section level2">
+<h2>2020-11-10</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5 Rounds<ul>
+<li>4-8-12-16-20 DB Hang Clean and Press</li>
+<li>4-4-4-4-4 Goblet mantis get ups* (hold DB Unders chin, Reverse Lunge
+x2 = 1 Rep)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-50" class="section level2">
+<h2>2020-11-09</h2>
+<p>(Slow and long) - [x] 8 Rounds - 10x Overhead Carry - 10x Hang Power
+Clean - 10x Renegade row</p>
+</div>
+<div id="section-51" class="section level2">
+<h2>2020-11-08</h2>
+<p>(Slow and long) - [x] 8 Rounds - 10x Push Jerk - 10x Power Clean -
+10x Man maker</p>
+</div>
+<div id="section-52" class="section level2">
+<h2>2020-11-07</h2>
+<p>(Slow and long) - [x] 10 Rounds - 10x Thruster - 10x Hammer Curls -
+10x Deadlift</p>
+</div>
+<div id="section-53" class="section level2">
+<h2>2020-11-06</h2>
+<p>(Slow and long) - [x] 10 Rounds - 10x Push Jerk - 10x Farmer Carry
+Lunge - 10x Power Clean and Jerk - 10x Bear crawls - 10x Renegade
+row</p>
+</div>
+<div id="section-54" class="section level2">
+<h2>2020-11-05</h2>
+<p>(Slow and long) - [x] 10 Rounds - 10x Hang Power Clean and Jerk - 10x
+Double Arm Hang Snatch - 10x Push Jerk - 10x Ground-to-Overhead - 10x
+Front Rack Lunge</p>
+</div>
+<div id="section-55" class="section level2">
+<h2>2020-11-04</h2>
+<p>(Slow and long) - [x] 10 Rounds - 10x Front Rack Carry - 10x Goblet
+Squat - 10x Farmer Carry - 10x Thruster - 10x Push Jerk</p>
+</div>
+<div id="section-56" class="section level2">
+<h2>2020-11-03</h2>
+<p>(Slow and long) - [x] 10 Rounds - 10x Push Press - 10x Overhead Carry
+- 10x Front Rack Lunge - 10x Curl and Press - 10x Man maker</p>
+</div>
+<div id="section-57" class="section level2">
+<h2>2020-11-02</h2>
+<p>(Slow and long) - [x] 10 Rounds - 10x Goblet Squat - 10x Strict Press
+- 10x Overhead Lunge - 10x Z-Press - 10x Curl and Press</p>
+</div>
+<div id="section-58" class="section level2">
+<h2>2020-11-01</h2>
+<p>(Slow and long) - [x] 10 Rounds - 10x Curl and Press - 10x Front
+Squat - 10x Hang Power Clean and Jerk - 10x Squat Clean - 10x Power
+Clean</p>
+</div>
+<div id="section-59" class="section level2">
+<h2>2020-10-31</h2>
+<p>(Slow and long) - [x] 10 Rounds - 10x Push Press - 10x Front Rack
+Lunge - 10x Overhead Carry - 10x Strict Press - 10x Bent Over Rows</p>
+</div>
+<div id="section-60" class="section level2">
+<h2>2020-10-30</h2>
+<p>(Slow and long) - [x] 10 Rounds - 10x Ground-to-Overhead - 10x Squat
+Clean - 10x Curl and Press - 10x Hang Power Snatch - 10x Devil’s
+Press</p>
+</div>
+<div id="section-61" class="section level2">
+<h2>2020-10-29</h2>
+<p>(Slow and long) - [x] 10 Rounds - 10x Power Clean and Jerk - 10x
+Overhead Carry - 10x Split Jerk - 10x Renegade row - 10x Burpee</p>
+</div>
+<div id="section-62" class="section level2">
+<h2>2020-10-28</h2>
+<p>(Slow and long) - [x] 10 Rounds - Squat Clean - Farmer Carry Lunge -
+Push Jerk - Double Arm Hang Snatch - Power Snatch + Thrusters</p>
+</div>
+<div id="section-63" class="section level2">
+<h2>2020-10-27</h2>
+<p>(Slow and long) - [x] 10 Rounds * 12x Suitcase Lunge * 8x DB Burpees
+* 12x Floor Press</p>
+</div>
+<div id="section-64" class="section level2">
+<h2>2020-10-26</h2>
+<p>(Slow and long) - [x] 10 Rounds * 10x Step ups * 10x DB Deadlift *
+10x DB Rows</p>
+</div>
+<div id="section-65" class="section level2">
+<h2>2020-10-25</h2>
+<p>(Slow and long) - [x] 10 Rounds * 12x Goblet Squats * 12x KB Swings *
+12x DB Push Press</p>
+</div>
+<div id="section-66" class="section level2">
+<h2>2020-10-24</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+11 Rounds:<ul>
+<li>9x Burpees</li>
+<li>15x Squats</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-67" class="section level2">
+<h2>2020-10-23</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM for 20 Min<ul>
+<li>Even: 10x Burpees</li>
+<li>Odd: 12x Sit ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-68" class="section level2">
+<h2>2020-10-22</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+With a weight vest:<ul>
+<li>10-9-8-7-6-5-4-3-2-1x Push-Ups</li>
+<li>20-18-16-14-12-10-8-6-4-2x Lunges</li>
+<li>30-27-24-21-18-15-12-9-6-3x Squats</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-69" class="section level2">
+<h2>2020-10-21</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM for 21 Min<ul>
+<li>2x Burpees</li>
+<li>4x Squats</li>
+<li>6x Step up and over</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-70" class="section level2">
+<h2>2020-10-20</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10 Rounds:<ul>
+<li>10x Burpees</li>
+<li>10x Squats</li>
+<li>10x Push-Ups</li>
+<li>10x Sit-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-71" class="section level2">
+<h2>2020-10-19</h2>
+<ul>
+<li><input type="checkbox" disabled="" checked="" />
+100 Reps of:</li>
+<li>Single Arm DB Clusters</li>
+<li>Single Arm DB Row</li>
+<li>Reverse Crunches</li>
+</ul>
+</div>
+<div id="section-72" class="section level2">
+<h2>2020-10-18</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5 Rounds For Time<ul>
+<li>25x Air Squats</li>
+<li>25x Push-Ups</li>
+<li>25x Walking Lunges</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-73" class="section level2">
+<h2>2020-10-17</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+30 Min cardio<ul>
+<li>30 Seconds Each:</li>
+<li>Double jab, Round kick, cross, Round kick,</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+60 Seconds of:<ul>
+<li>jab + cross + Round kick</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+1 Min Each:<ul>
+<li>rope</li>
+<li>up and over</li>
+<li>abs</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-74" class="section level2">
+<h2>2020-10-16</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Snatch-tastic + ARMageddon (100x Snatches)<ul>
+<li>100x DB Snatches (broken up however you want)</li>
+<li>100x Hammer Curls</li>
+<li>100x Tricep Extensions</li>
+</ul></li>
+</ul>
+<p>469335001</p>
+</div>
+<div id="section-75" class="section level2">
+<h2>2020-10-15</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10 Rounds Of<ul>
+<li>5x D-Ball Tosses</li>
+<li>5x Hang Power Clean (DB or KB)</li>
+<li>5x Thrusters (DB or KB)</li>
+<li>5x Goblet Squats</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-76" class="section level2">
+<h2>2020-10-14</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+For 25 Min:<ul>
+<li>Complex (2 DBs/KBs/TBs) x 3</li>
+<li>Front Squat x 1 -&gt; Suitcase Lunge x 2 -&gt; Ground-to-Overhead x
+3</li>
+<li>Double-Unders x 25</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-77" class="section level2">
+<h2>2020-10-13</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+7 Rounds Of:<ul>
+<li>12 DB/TB Single Arm Snatch</li>
+<li>6x D-Ball Tosses (<span class="citation">@90lbs</span>)</li>
+<li>12x Single Arm Overhead Sit-up</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-78" class="section level2">
+<h2>2020-10-12</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 90 Seconds x 15 Rounds<ul>
+<li>8x Single Arm Power Clean + Push Press (<span
+class="citation">@85lb</span>)</li>
+<li>8x 100lb sandBag box step over</li>
+<li>10x TB Floor Press (<span class="citation">@53lb</span>)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-79" class="section level2">
+<h2>2020-10-11</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+100x Reps Of<ul>
+<li>DB Deadlifts</li>
+<li>DB Push-Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-80" class="section level2">
+<h2>2020-10-10</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8 rounds:<ul>
+<li>8x Ground-2-Overhead</li>
+<li>DB Rows</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-81" class="section level2">
+<h2>2020-10-09</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+21 Min EMOM<ul>
+<li>12x TD/DB Snatches</li>
+<li>12x DB Goblet Squats</li>
+<li>12x KB Swings</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-82" class="section level2">
+<h2>2020-10-08</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+6x Rounds Of:<ul>
+<li>10x DB Thrusters</li>
+<li>20x KB Swings</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-83" class="section level2">
+<h2>2020-10-07</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+20 Min of:<ul>
+<li>13x Squats</li>
+<li>13x Push-ups</li>
+<li>13x Reverse Crunches</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-84" class="section level2">
+<h2>2020-10-06</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8x Rounds Of:<ul>
+<li>12x DB Snatches</li>
+<li>25x Double-Unders</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+10x Rounds Of:<ul>
+<li>4x DB Full Clean + Split Jerk</li>
+<li>10x Push-ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-85" class="section level2">
+<h2>2020-10-05</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+6x Rounds in 15 Min or less<ul>
+<li>12x KB Swings</li>
+<li>10x D-Ball Tosses</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-86" class="section level2">
+<h2>2020-10-04</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 3 Min for 30 Min<ul>
+<li>6x DB Thrusters</li>
+<li>6x DB Hang Clean + Press</li>
+<li>6x DB Burpees</li>
+<li>6x DB Weighted Step-ups/Lunges</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-87" class="section level2">
+<h2>2020-10-03</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+7x Rounds<ul>
+<li>3x Heavy D-Ball Tosses</li>
+<li>6x Push-ups</li>
+<li>9x Squats</li>
+<li>12x DB/TB/SandBag Deadlifts</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-88" class="section level2">
+<h2>2020-10-02</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5 Rounds Of:<ul>
+<li>10x Thrusters</li>
+<li>10x KB Swings</li>
+<li>10x D-Ball Tosses</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-89" class="section level2">
+<h2>2020-10-01</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+25 Min of:<ul>
+<li>Single Arm DB Hang Snatch -&gt;</li>
+<li>Single Arm DB Front Squat -&gt;
+<ul>
+<li>Single Arm DB Hang Power Clean -&gt;
+<ul>
+<li>Single Arm DB Push Press</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+7x Rounds<ul>
+<li>10x Butterfly Sit-Ups</li>
+<li>8x Jump Squats</li>
+<li>12x Push-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-90" class="section level2">
+<h2>2020-09-30</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10 Rounds<ul>
+<li>6x Floor Press</li>
+<li>4x Deadlifts (sandBag)</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+5 Rounds<ul>
+<li>15x Push-Ups</li>
+<li>10x Reverse Crunches</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-91" class="section level2">
+<h2>2020-09-29</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Do 5 Reps Of Each Exercise for 23 Min<ul>
+<li>Single Arm Hang Power Snatch</li>
+<li>Double Arm T-Bell Thrusters</li>
+<li>D-Ball Tosses (#60 or #90)</li>
+<li>Single Arm Bent-Over Row</li>
+<li>Single Arm DB Hammer Curls</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-92" class="section level2">
+<h2>2020-09-28</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Do 30x Reps Of the Following:<ul>
+<li>Single Arm DB Snatches -&gt;</li>
+<li>Single Arm DB Thrusters -&gt;</li>
+<li>Single Arm Front Rack Lunges</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-93" class="section level2">
+<h2>2020-09-27</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Do 5 Reps Of Each Exercise for 23 Min<ul>
+<li>Single Arm Hang Power Snatch -&gt;</li>
+<li>DB Clean and Press -&gt;</li>
+<li>Front-Rack Reverse Lunge -&gt;</li>
+<li>Single Arm Bent-Over Row -&gt;</li>
+<li>Single Arm DB Hammer Curls -&gt;</li>
+<li>DB Goblet Squats</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-94" class="section level2">
+<h2>2020-09-26</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Add 2 reps Each set (2x, 4x, 6x, 8x, 10x)<ul>
+<li>DB Burpees</li>
+<li>DB Overhead Lunges</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-95" class="section level2">
+<h2>2020-09-25</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Add 2 reps Each set (2x, 4x, 6x, 8x, 10x)<ul>
+<li>DB Man Makers</li>
+<li>DB Push Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-96" class="section level2">
+<h2>2020-09-24</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8x Rounds<ul>
+<li>Single Arm DB High-pull -&gt;</li>
+<li>Single Arm DB Hang Snatch -&gt;</li>
+<li>Single Arm DB Thruster = 1 Rep. Do 6 (3x Each side)</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-97" class="section level2">
+<h2>2020-09-23</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Workout 1:<ul>
+<li>75x Burpees</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+Workout 2:<ul>
+<li>50 D-Ball Tosses <span class="citation">@150</span>#</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-98" class="section level2">
+<h2>2020-09-22</h2>
+<p>Workout 1: - [x] 5 Rounds: * 20x Push-Ups * 20x Squats * 20x
+Sit-Ups</p>
+<p>Workout 2: - [x] 8 Rounds: * 8x DB Deadlift -&gt; DB Hang Squat Clean
+* 8x DB rows * 8x Burpees</p>
+</div>
+<div id="section-99" class="section level2">
+<h2>2020-09-21</h2>
+<p>Workout 1: - [x] 6 Rounds * 10x Single Arm high-pull + Snatch * 8x
+Single Arm Floor Press</p>
+<p>Workout 2: - [x] 6 Rounds * 10x Reverse Crunches * 15x Squats * 25x
+Double-Unders</p>
+</div>
+<div id="section-100" class="section level2">
+<h2>2020-09-20</h2>
+<ol style="list-style-type: decimal">
+<li>50x DB Death Drops (with 2 45# DBs)</li>
+</ol>
+<ul>
+<li>Sprawl -&gt; DB Deadlift -&gt; DB Hang Clean -&gt; DB Thruster = 1
+Rep!</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>50x D-Ball Tosses</li>
+</ol>
+</div>
+<div id="section-101" class="section level2">
+<h2>2020-09-19</h2>
+<ul class="task-list">
+<li><p><input type="checkbox" disabled="" checked="" />
+1 Round</p><ul>
+<li>100x KBx Switch Hand Snatches</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-102" class="section level2">
+<h2>2020-09-18</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds<ul>
+<li>6x D-Ball Tosses</li>
+<li>10x DB Clusters</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-103" class="section level2">
+<h2>2020-09-17</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds<ul>
+<li>8x Single Arm DB Cluster</li>
+<li>6x D-Ball Tosses</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds<ul>
+<li>10x T-bell Snatches</li>
+<li>10x Push-Ups</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds<ul>
+<li>10x SLunges</li>
+<li>10x Reverse Crunches</li>
+<li>10x Push-ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-104" class="section level2">
+<h2>2020-09-16</h2>
+<ul>
+<li>25x Weighted Slurpees (2x Squats, 2 Lunges, 1 Burpees)</li>
+<li>20x Double-Unders</li>
+</ul>
+</div>
+<div id="section-105" class="section level2">
+<h2>2020-09-15</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+16 Min EMOM<ul>
+<li>10x KB Swings</li>
+<li>8x D-Ball/KB Lunge 90# D-Ball on shoulder, 53# KB in Suitcase Carry
+in opposite hand</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-106" class="section level2">
+<h2>2020-09-14</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+6 Rounds:<ul>
+<li>6x D-Ball Tosses</li>
+<li>8x DB Clusters</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-107" class="section level2">
+<h2>2020-09-13</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5 Rounds Of:<ul>
+<li>6x 90# D-Ball Tosses</li>
+<li>8x 85# DB rows</li>
+<li>10x 50# DB Snatches</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-108" class="section level2">
+<h2>2020-09-12</h2>
+<p>Workout 1: - [x] 5x Rounds * 10x DB Deadlift * 10x KB Switch Hand
+Snatch/Swing</p>
+<p>Workout 2: - [x] 6x Rounds * 10x SSLL (Squat x 2 + Lunge x 2 = 1 Rep)
+* 10x Reverse Crunches * 15x Push-Ups</p>
+</div>
+<div id="section-109" class="section level2">
+<h2>2020-09-11</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Workout 1 “Old Scratch” …with a Single DB/KB:<ul>
+<li>2x Goblet Squat -&gt;</li>
+<li>2x Single Arm Suitcase Lunges -&gt;</li>
+<li>2x Ground-To-Overhead = 1 …do 25 reps.</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+Workout 2 (5x Rounds)<ul>
+<li>25x Double-Unders</li>
+<li>15x Reverse-Crunches</li>
+<li>15x Push-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-110" class="section level2">
+<h2>2020-09-10</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Workout 1 (5x Rounds Of)<ul>
+<li>8x Single Arm Clusters</li>
+<li>100 meter fArmer Carry (2x 53#)</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+Workout 2<ul>
+<li>50x Slurpees (Squat + 2x Lunges + 1 Burpees)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-111" class="section level2">
+<h2>2020-09-09</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Workout 1 (5x Rounds Of)<ul>
+<li>8x DB rows</li>
+<li>8x Goblet Squats</li>
+<li>8x D-Ball Floor Press</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+Workout 2 (5x Rounds Of)<ul>
+<li>6x Overhead Sit-Ups</li>
+<li>12x Step-Ups</li>
+<li>15x Push-ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-112" class="section level2">
+<h2>2020-09-08</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Workout 1 (5x Rounds or 18 Min Time cap):<ul>
+<li>12x KB Swings</li>
+<li>10x DB Deadlift + shrug</li>
+<li>8x Hammer Curls</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+Workout 2 (5x Rounds or 20 Min Time cap):<ul>
+<li>5x sLunges (2x Squats, Lunge + Lunge)</li>
+<li>10x Burpees</li>
+<li>15x Push-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-113" class="section level2">
+<h2>2020-09-07</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 90 seconds x 6 Rounds<ul>
+<li>10x DB Single Arm Thruster</li>
+<li>6x D-Ball Tosses</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-114" class="section level2">
+<h2>2020-09-06</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 90 seconds x 12 Rounds<ul>
+<li>6x D-Ball Tosses</li>
+<li>10x DB Snatch (Alternating)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-115" class="section level2">
+<h2>2020-09-05</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 2 Min x 10 Rounds<ul>
+<li>10x Ground-To-Overhead (DB, KB or TB)</li>
+<li>15x Squats</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-116" class="section level2">
+<h2>2020-09-04</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 90 seconds x 15 Rounds<ul>
+<li>6x DB Deadlift</li>
+<li>6x hammer curl + Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-117" class="section level2">
+<h2>2020-09-03</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 3 Min cycle x 21 Min<ul>
+<li>8x Single Arm Thruster</li>
+<li>6x D-Ball Tosses</li>
+<li>20x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-118" class="section level2">
+<h2>2020-09-02</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 2 Min x 11 cycles<ul>
+<li>12x KB Swing</li>
+<li>12x Push-ups</li>
+<li>20x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-119" class="section level2">
+<h2>2020-09-01</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 2 Min x 12 cycles<ul>
+<li>10 Snatches (Switch Hand)</li>
+<li>8x Single Arm Front Squats</li>
+<li>6x Single Arm Clean + Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-120" class="section level2">
+<h2>2020-08-31</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 3 Min x 21 Min<ul>
+<li>10x Goblet Squats</li>
+<li>6x Devil’s Press</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-121" class="section level2">
+<h2>2020-08-30</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 3 Min x 24 Min<ul>
+<li>10x Single Arm Overhead Walking Lunge</li>
+<li>6x D-Ball Tosses (90#)</li>
+<li>10x Sit-Ups Wear a weight vest</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-122" class="section level2">
+<h2>2020-08-29</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5 Rounds<ul>
+<li>25x Double-Unders</li>
+<li>5x Single Arm Clean + Press (Each side)</li>
+<li>50 meter fArmer Carry (1/2 bodyweight)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-123" class="section level2">
+<h2>2020-08-28</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 25 Min<ul>
+<li>12x pushups</li>
+<li>20x Squats</li>
+<li>12x Snatches</li>
+<li>12x Suitcase Lunges</li>
+<li>8x Single Arm Clusters</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-124" class="section level2">
+<h2>2020-08-27</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 21 Min<ul>
+<li>8x Goblet Squats</li>
+<li>10x DB curl and Press</li>
+<li>12x DB Floor Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-125" class="section level2">
+<h2>2020-08-26</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+8 Rounds<ul>
+<li>12x KB Snatches</li>
+<li>4x 150# D-Ball Tosses</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-126" class="section level2">
+<h2>2020-08-25</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5 Rounds:<ul>
+<li>sprint 100m</li>
+<li>5x 90# D-Ball Tosses (Overhead)</li>
+<li>8x Thrusters</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-127" class="section level2">
+<h2>2020-08-24</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 24 Min<ul>
+<li>16x Switch Hand Swings</li>
+<li>8x DB Clusters</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-128" class="section level2">
+<h2>2020-08-23</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+1x Round<ul>
+<li>100x KB Swings</li>
+<li>100x Goblet Squats</li>
+<li>100x Overhead Lunges</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-129" class="section level2">
+<h2>2020-08-22</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10x Rounds</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>8x pull-ups</li>
+<li>16x Push-Ups</li>
+<li>20x Squats</li>
+<li>5x 150# B-ball Tosses</li>
+</ol>
+</div>
+<div id="section-130" class="section level2">
+<h2>2020-08-21</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+5x Rounds (20 Min Time cap)<ul>
+<li>12x DB Snatch</li>
+<li>10x TB Snatch</li>
+<li>6x DB Snatch (Heavy) Finisher: 4x 50m bodyweight fArmers walk</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-131" class="section level2">
+<h2>2020-08-20</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 20 Min<ul>
+<li>15x KB Swings</li>
+<li>12x Goblet Squats</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-132" class="section level2">
+<h2>2020-08-19</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 21 Min<ul>
+<li>12x DB Deadlifts</li>
+<li>10x DB push-Press</li>
+<li>8x Single Arm DB Overhead Sit-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-133" class="section level2">
+<h2>2020-08-18</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x24 Min<ul>
+<li>12x KB Swings</li>
+<li>6x Single Arm, Switch Hand Devil’s Press</li>
+<li>25x Double-Unders</li>
+<li>6x D-Ball Lunges</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-134" class="section level2">
+<h2>2020-08-17</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 2 Min for 20 Min<ul>
+<li>30x Double-Unders</li>
+<li>3x DB Clusters</li>
+<li>8x Burpees</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-135" class="section level2">
+<h2>2020-08-16</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 21 Min<ul>
+<li>12x KB Swings</li>
+<li>10x DB Thrusters</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-136" class="section level2">
+<h2>2020-08-15</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+2 Rounds:<ul>
+<li>40x KB switch-hand Swings</li>
+<li>30x KB Push Press</li>
+<li>20x KB Single Arm Snatch</li>
+<li>10x Push-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-137" class="section level2">
+<h2>2020-08-14</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+21 Minute EMOM<ul>
+<li>10x Snatches (DB/KB)</li>
+<li>10x Renegade Rows (DB/KB)</li>
+<li>30x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-138" class="section level2">
+<h2>2020-08-13</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10 Rounds (30 seconds rest between sets)<ul>
+<li>5x DB Deadlifts</li>
+<li>5x DB rows</li>
+<li>5x DB Cleans</li>
+<li>5x DB Push Press</li>
+<li>5x DB Overhead Reverse Lunges</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-139" class="section level2">
+<h2>2020-08-12</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+21 Min EMOM<ul>
+<li>15x Push-Ups</li>
+<li>8x DB/KB full Clean</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-140" class="section level2">
+<h2>2020-08-11</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+24 Min EMOM<ul>
+<li>12x switch-hand KB Snatches</li>
+<li>6x 150# D-Ball Tosses</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-141" class="section level2">
+<h2>2020-08-10</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+21 Min EMOM<ul>
+<li>15x bodyweight Squats</li>
+<li>12x DB Alternating Snatches</li>
+<li>4x Heavy Clean and Press (Single Arm Thompson Bell 88#)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-142" class="section level2">
+<h2>2020-08-09</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+4 Rounds:<ul>
+<li>Farmer Carry x400m (2x 53# Thompson bells)</li>
+<li>4 x 12x Thrusters (45# DBs) do 100m, do 12 Thrusters, repeat 4
+Times</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-143" class="section level2">
+<h2>2020-08-08</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 24 Min *<ul>
+<li>15 Push-Ups</li>
+<li>5x Single Arm devils Press</li>
+<li>12 KB Swings (American) with weight-vest (25#)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-144" class="section level2">
+<h2>2020-08-07</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+20 Min Time cap<ul>
+<li>50x 150# D-Ball Tosses</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-145" class="section level2">
+<h2>2020-08-06</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 90 Seconds x 20 Rounds<ul>
+<li>10x KB Snatch</li>
+<li>6x SA Thruster</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-146" class="section level2">
+<h2>2020-08-05</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 90 Seconds x 15 Rounds<ul>
+<li>8x DB devils Press</li>
+<li>20x Double Underss</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-147" class="section level2">
+<h2>2020-08-04</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 90 Seconds x 10 Rounds<ul>
+<li>10x KB Swing</li>
+<li>6x D-Ball Tosses</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-148" class="section level2">
+<h2>2020-08-03</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 3 Minutes x 8 Rounds<ul>
+<li>8x DB Ground To Overhead</li>
+<li>8x KB Snatches</li>
+<li>30x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-149" class="section level2">
+<h2>2020-08-02</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 3 Minutes x 7 Rounds<ul>
+<li>12x DB/KB Snatches</li>
+<li>10x Overhead Lunges</li>
+<li>30x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-150" class="section level2">
+<h2>2020-08-01</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 3 Minutes x 6 Rounds<ul>
+<li>10x DB Thrusters</li>
+<li>8x KB Swings</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-151" class="section level2">
+<h2>2020-07-31</h2>
+<ul>
+<li>Min 1: 21 Kettlebell Swings</li>
+<li>Min 2: 15 Kettlebell Swings</li>
+<li>Min 3: 9 Kettlebell Swings</li>
+<li>Min 4: 15x Push-Ups</li>
+<li>Min 5: 21x KB/DB Snatches</li>
+<li>Min 6: 15x KB/DB Snatches</li>
+<li>Min 7: 9x KB/DB Snatches</li>
+<li>Min 8: 15x Push-Ups</li>
+<li>Min 9: 6x D-Ball Tosses + 5 Russian Kettlebell Swings</li>
+<li>Min 10: 6x D-Ball Tosses + 10 Russian Kettlebell Swings</li>
+<li>Min 11: 6x D-Ball Tosses + 15 Russian Kettlebell Swings</li>
+</ul>
+</div>
+<div id="section-152" class="section level2">
+<h2>2020-07-30</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 2 Min for 24 Min:<ul>
+<li>5x Single Arm DB Thrusters</li>
+<li>4x Single Arm DB Front Squats</li>
+<li>3x Single Arm DB Ground To Overhead</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-153" class="section level2">
+<h2>2020-07-29</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Every 3 Minutes x 5 Rounds<ul>
+<li>10x DB Thrusters</li>
+<li>8x KB Swings</li>
+<li>25x Double-Unders</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-154" class="section level2">
+<h2>2020-07-28</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+In 10 Min: 100x D-Ball Tosses <span class="citation">@90</span>#</li>
+</ul>
+</div>
+<div id="section-155" class="section level2">
+<h2>2020-07-19</h2>
+<p>10-9–8–7-6-5-4-3-2-1 - D-Ball Tosses <span
+class="citation">@90</span>#</p>
+<p>20-18-16-14-12-10-8-6-4-2 - Suitcase Lunges</p>
+</div>
+<div id="section-156" class="section level2">
+<h2>2020-07-18</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 20 Min<ul>
+<li>9x DB/KB Deadlifts</li>
+<li>8x DB/KB Push Press</li>
+<li>7x DB/KB Goblet Squats</li>
+<li>7x DB/KB DB Clusters</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-157" class="section level2">
+<h2>2020-07-16</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 21 Min<ul>
+<li>10 DB Snatch (<span class="citation">@50</span>#)</li>
+<li>5 D-Ball Tosses (<span class="citation">@90</span>#)</li>
+<li>15 Push-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-158" class="section level2">
+<h2>2020-07-17</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+20 Min EMOM<ul>
+<li>4x D-Ball Tosses <span class="citation">@150</span>#</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-159" class="section level2">
+<h2>2020-07-15</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+7 Rounds: 45# DB<ul>
+<li>7x Cleans</li>
+<li>7x Thrusters</li>
+<li>7x Burpee over weights</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-160" class="section level2">
+<h2>2020-07-14</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+9x Min EMOM</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>12x Shoulder-2-Overhead</li>
+<li>12x Suitcase Lunge</li>
+<li>30x Double-Unders</li>
+</ol>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+9x Min EMOM</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>8x DB/KB Hang Power Cleans</li>
+<li>8x Front Rack Lunge</li>
+<li>30x Double-Unders</li>
+</ol>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+9x Min EMOM</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>6x DB Devil’s Press</li>
+<li>6x DB Overhead Lunge</li>
+<li>30x Double-Unders</li>
+</ol>
+</div>
+<div id="section-161" class="section level2">
+<h2>2020-07-13</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10 Min EMOM<ul>
+<li>20x Squats</li>
+<li>2x of 2x DB/KB Squat Cleans + 1x DB/KB Push Press</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+10 Min EMOM<ul>
+<li>12x Sit-Ups</li>
+<li>2x of Sprawl + DB Snatch + 2x DB Overhead Lunge</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-162" class="section level2">
+<h2>2020-07-12</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+10 Min EMOM<ul>
+<li>10x 90# D-Ball Tosses</li>
+<li>12x TB Hang Power Snatches</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+10Min EMOM<ul>
+<li>12x KB Swings</li>
+<li>8x Overhead Lunge (DB or KB)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-163" class="section level2">
+<h2>2020-07-10</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+20 Min Time cap:<ul>
+<li>100x D-Ball Tosses at 150#</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-164" class="section level2">
+<h2>2020-07-09</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+6 Minute EMOM<ul>
+<li>8x 2-Arm DB/KB Ground To Overhead</li>
+<li>5x deck Squats</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+6 Minute EMOM<ul>
+<li>10x 2-Arm DB/KB Ground To Overhead</li>
+<li>10x Push-ups</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+6 Minute EMOM<ul>
+<li>12x 2-Arm DB/KB Ground To Overhead</li>
+<li>15x Sit-Ups</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+4 Minute EMOM<ul>
+<li>8x Single Arm Thrusters</li>
+<li>8x Renegade Rows</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-165" class="section level2">
+<h2>2020-07-07</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+6 Minute EMOM<ul>
+<li>15x KB Swings</li>
+<li>15x Squats</li>
+<li>15x Push-ups</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+6 Minute EMOM<ul>
+<li>12x DB Snatches</li>
+<li>12x Sit-Ups</li>
+<li>12x Lunges</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+6 Minute EMOM<ul>
+<li>9x Thrusters</li>
+<li>9x Squat Jumps</li>
+<li>9x plyo Push-Ups</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-166" class="section level2">
+<h2>2020-07-06</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 6 Min:<ul>
+<li>4x DB/KB Goblet Squat + 4x Goblet Lunges</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 6 Min:<ul>
+<li>8x DB/KB Clean + Push Press</li>
+<li>from the ground each time</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 6 Min:<ul>
+<li>3x DB/KB Thrusters + 4x Overhead Lunges</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-167" class="section level2">
+<h2>2020-07-05</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 14 Min<ul>
+<li>6x DB/KB Burpees (with Push-Ups)</li>
+<li>5x Devil’s Press</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-168" class="section level2">
+<h2>2020-07-04</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM x 21 Min<ul>
+<li>8x DB Thruster</li>
+<li>10x KB Alternating Snatch</li>
+<li>6x D-Ball Tosses (<span class="citation">@150</span>)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-169" class="section level2">
+<h2>2020-07-03</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM 1: 18 Min<ul>
+<li>8x KB Snatch</li>
+<li>10x Suitcase Reverse Lunge</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+EMOM 2: 20 Min<ul>
+<li>6x D-Ball Tosses</li>
+<li>2x DB complex (DB Burpees + DB Hang Clean + DB Push Press)</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-170" class="section level2">
+<h2>2020-07-02</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM 1: x 16 Min:</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>8x TB Thruster</li>
+<li>12x Alternating KB Snatches</li>
+</ol>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM 2: 24 Min:</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>4-6x D-Ball Tosses</li>
+<li>6x TB Suitcase Lunge + hammer curl</li>
+<li>12x Overhead Reverse Lunges</li>
+</ol>
+</div>
+<div id="section-171" class="section level2">
+<h2>2020-07-01</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM 1: 15 Min<ul>
+<li>10x DB Deadlifts</li>
+<li>8x Single Arm Z Press</li>
+<li>12x Goblet Reverse Lunge</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+EMOM 2: 20 Min<ul>
+<li>10x DB/KB Snatch (from dead stop)</li>
+<li>5x Single Arm DB Sprawl + Thrusters</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-172" class="section level2">
+<h2>2020-06-30</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM 2: 20 Min<ul>
+<li>8x DB Power Clean</li>
+<li>8x DB Front Squat</li>
+<li>8x DB push Jerk</li>
+<li>8x DB Front Rack Lunge</li>
+<li>8x DB Hammer Curls</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-173" class="section level2">
+<h2>2020-06-29</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM 1: 18 Min<ul>
+<li>8x DB Squat Cleans</li>
+<li>15x Push-ups</li>
+<li>10x Alternating KB/DB Snatch</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-174" class="section level2">
+<h2>2020-06-28</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+1 Round of:<ul>
+<li>50x Single Arm DB Hang Clean &amp; Jerk</li>
+<li>50x Alternating Snatches</li>
+<li>50x Single Arm DB Clusters</li>
+</ul></li>
+</ul>
+<p>…straight into 50x Paces with KB/DB in Suitcase Carry Position</p>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM: x 15 Min (HEAVY)<ul>
+<li>5x 150# D-Ball Tosses</li>
+<li>4x DB Burpees + Renegade Rows</li>
+<li>Sprawl + Push-Ups + Row(L) + Push-Ups + Row(R) + Stand Up = 1</li>
+<li>2x KB TGU</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-175" class="section level2">
+<h2>2020-06-27</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+EMOM 1: x 18 Min<ul>
+<li>10x Push-up</li>
+<li>10x DB Single Arm Thrusters</li>
+<li>5x D-Ball Tosses (<span class="citation">@90</span>#)</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="" />
+EMOM 2: x 21 Min<ol style="list-style-type: decimal">
+<li>8x DB Hang Clean + Front Squat</li>
+<li>6x DB Hang Power Clean + 2 Lunges (Rack Position)</li>
+<li>10x Overhead Weighted Sit-Up</li>
+</ol></li>
+</ul>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

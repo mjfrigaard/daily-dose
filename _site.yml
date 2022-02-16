@@ -1,0 +1,16 @@
+name: "daily-dose"
+output_dir: "docs"
+navbar:
+  title: "The Daily Dose"
+  left:
+    - text: "2022 Workouts"
+      href: index.html
+    - text: "2021 Workouts"
+      href: 21-wo.html
+    - text: "2020 Workouts"
+      href: 20-wo.html
+    - text: "NOTES"
+      href: notes.html
+    - text: "DEV"
+      href: dev.html
+      
