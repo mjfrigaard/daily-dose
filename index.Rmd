@@ -13,12 +13,12 @@ output:
 
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
-## 2022-02-17
+## 2022-02-27
 
-- [ ] 6x Rounds Of:
-  - 8x Lateral Burpees
-  - 8x DB Box Step-Up
-  - 16x DB Hang Clean + Jerk
+- [ ] 20x Rounds Of:
+  - 3x DB Power Snatch (each side)
+  - 6x Push-Ups
+  - 9x Squat
 
 ## 2022-02-26
 
@@ -75,17 +75,17 @@ output:
   - 10x Sprawl-to-DB Power Clean + Press
 
 ## 2022-02-18
-
-- [ ] 20x Rounds Of:
-  - 3x DB Power Snatch (each side)
-  - 6x Push-Ups
-  - 9x Squat
+  
+- [x] 8x Rounds: 
+  - 5x Back Squat (225 lbs)
+  - 20x Double-Unders
 
 ## 2022-02-17
 
-- [x] 8x Rounds: 
-  - 5x Back Squat (225 lbs)
-  - 20x Double-Unders 
+- [x] 6x Rounds Of:
+  - 8x Lateral Burpees
+  - 8x DB Box Step-Up
+  - 16x DB Hang Clean + Jerk
 
 ## 2022-02-16
 
