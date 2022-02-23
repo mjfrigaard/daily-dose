@@ -14,6 +14,12 @@ output:
 
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
+## 2022-03-03 
+
+- [ ] 6x Rounds Of:
+  - 6x Devil's Press
+  - 6x Burpees Over DBs
+  - 6x Dumbbell Thrusters
 
 ## 2022-03-02
 
@@ -63,14 +69,14 @@ output:
 
 ## 2022-02-23
 
-- [ ] 6x Rounds Of:
-  - 6x Devil's Press
-  - 6x Burpees Over DBs
-  - 6x Dumbbell Thrusters
+- [x] 8x Rounds Of:
+  - 8x Ground-to-overhead 
+  - 8x Reverse Lunges 
+  - 25x Double-Unders
 
 ## 2022-02-22
 
-- [ ] EMOM x24 Minutes:
+- [x] EMOM x24 Minutes:
   - 10x DB Hang Power Snatch (R)
   - 8x Front Squat (barbell)
   - 8x Reverse Suitcase DB Lunge
