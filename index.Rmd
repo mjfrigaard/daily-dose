@@ -14,48 +14,83 @@ output:
 
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
+## 2022-03-08
+
+- [ ] For Time:
+  - 75x DB Snatch (75 lbs) 
+  - 30x DB Hang Clean + Jerk (75 lbs)
+  - *3 burpees EMOM*
+
+## 2022-03-07
+
+- [x] EMOM x20 Minutes: 
+  - Power Snatch + Overhead Squat 
+
+## 2022-03-06
+
+- [x] AMRAP x20 Minutes 
+  - 5x Back-squat
+  - Tire flip (20 meters) 
+
+## 2022-03-05
+
+- [x] 6x Rounds Of: 
+  - 25x Double Unders 
+  - 12x DB Thrusters
+
+## 2022-03-04
+
+- [x] 6x Rounds Of:
+  - 8x Lateral Burpees
+  - 8x DB Box Step-Up
+  - 16x DB Hang Clean + Jerk
+
 ## 2022-03-03 
 
-- [ ] 6x Rounds Of:
-  - 6x Devil's Press
-  - 6x Burpees Over DBs
-  - 6x Dumbbell Thrusters
+- [x] 8x Rounds Of:
+  - 10x DB Deadlift 
+  - 4x D-Ball Clean (90 lbs)
+  - 10x DB Bench 
 
 ## 2022-03-02
 
-- [ ] EMOM x20 Minutes
-  - 10x Sprawl-to-DB Power Snatch
-  - 10x Sprawl-to-DB Power Clean + Press
+- [x] 6x Rounds Of:
+  - 10x DB Alt Snatches (55-75 lbs)
+  - 10x DB Curl + Press (45 lbs)
   
 ## 2022-03-01
 
-- [ ] 50x Reps Of:
-  - 1x DB Deadlift
-  - 1x DB Power Clean
-  - 1x DB Push-Press
+- [x] 10x Rounds Of: 
+  - 10x DB Clean + Press 
+  - 10x DB Deadlift 
 
 ## 2022-02-28
 
-- [ ] 6x Rounds:
-  - 3x Devil's Press
-  - 6x DB Shoulder to Overhead
-  - 9x DB Front Squat
+- [x] 10x Rounds:
+  - 6x DB Snusters (snatch + thruster)
+  - 6x DB Step-Overs 
+  - 12x Ab Rotation 
 
 ## 2022-02-27
 
-- [ ] 20x Rounds Of:
+- [x] 20x Rounds Of:
   - 3x DB Power Snatch (each side)
   - 6x Push-Ups
   - 9x Squat
 
 ## 2022-02-26
 
-- [ ] 50x Reps Of:
-  - 2x Renegade Rows + Push-Up + Devils Press + Thruster
+- [x] 8x Rounds Of:
+  - 8x DB Bench Press 
+  - 8x DB Hang Power Clean/Snatch/Goblet Squat**
+  - 8x DB Flies 
+  - 8x DB Rows (each arm)
+
+**choose your own adventure 
 
 ## 2022-02-25
 
-- [ ] 1x Round Of:
+- [x] 1x Round Of:
   - 50x DB Deadlifts
   - 40x DB Hang Power Clean & Jerks
   - 30x DB Front Squats
@@ -64,8 +99,10 @@ output:
 
 ## 2022-02-24
 
-- [ ] EMOM x22 Minutes:
-  - 4x DB Ground-to-Shoulder + Ground-to-Overhead
+- [x] 10x Rounds Of:
+  - 6x DB H Clean + Press (45 lbs)
+  - 6x DB Deadlift (55 lbs)
+  - 4-6x D-Ball Toss (90-150 lbs)
 
 ## 2022-02-23
 
