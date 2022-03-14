@@ -14,6 +14,41 @@ output:
 
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
+## 2022-03-14
+
+- [x] 5x5 Squats 
+  - Barbell Front Squat 
+  - Barbell Back Squat 
+- [x] 5x Rounds Of:
+  - 10x DB Burpees (55 lbs)
+  - 10x DB Hang Clean + Press (55 lbs)
+
+## 2022-03-13
+
+- [x] 50x Reps Of:
+  - KB TGU (53 lbs) 
+  - Goblet Lunge (53 lbs)
+
+## 2022-03-12
+
+- [x] 6x Rounds Of: 
+  - 12x DB Bench Press 
+  - 20x Squats 
+  - 25x Double-Unders
+
+## 2022-03-11
+
+- [x] 8x Rounds Of: 
+  - 25x Double Unders 
+  - 12x KB Swings (70 lbs)
+  - 20x Push Ups 
+
+## 2022-03-10
+
+- [x] 10x Rounds Of:
+  - 8x Single Arm Cluster (55 lbs)
+  - 5x Deadlift (225 lbs) 
+
 ## 2022-03-09
 
 - [x] Every 90 Seconds x10 Rounds:
