@@ -14,6 +14,116 @@ output:
 
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
+
+## 2022-03-26
+
+- [ ] 4x Rounds Of: 
+  - 15x Ground-to-Overhead
+  - 25x Double-Unders
+  - 15x DB Lunges
+  - 20x Push-Ups
+
+## 2022-03-25
+
+- [ ] EMOM x15 Minutes: 
+  - Deadlift 
+  - Hang Clean 
+  - Deadlift  
+  - Hang Cluster
+
+## 2022-03-24
+
+- [ ] EMOM x10 Minutes: 
+  - 12x DB Alternating Hang Snatch  
+  - 8x Alternating DB Hang Clean + Press
+
+## 2022-03-23
+
+- [x] Clean Complex
+  - 1x Power Clean 
+  - 2x Front Squat 
+  - 3x Push-Press/Jerk
+    - (155, 185, 205, 215 lbs)
+    
+- (…then)  
+  - 5x heavy single clean + jerk
+    - (235 lbs)
+  - 3x(8x) DB Devil’s Clean 
+    - (55 lbs)
+
+## 2022-03-22
+
+- [x] AMARP (20 min)
+  - 20x Squats 
+  - 10x DB Push-Press 
+    - (55 lbs)
+  - 5x Deadlift
+    - (225 lbs)
+
+## 2022-03-21
+
+- [x] 6x Rounds Of: 
+  - 5x Back Squat
+   - (255 lbs)
+  - 12x DB Snatch 
+    - (55 lbs) 
+  - 10x Barbell Walking Lunge 
+    - (135 lbs) 
+
+## 2022-03-20
+
+- [x] 10x Rounds Of: 
+  - 10x KB Snatches (each side)  
+  - 15x KB Goblet Squats 
+  - 20x KB Swings 
+
+## 2022-03-19
+
+- [x] 5x Rounds Of: 
+  - 8x Devil's Press 
+  - 10x DB Lunge (1 suitcase, 1 overhead)  
+  - 50x Double-Unders
+
+## 2022-03-18
+
+- [x] 4x Rounds Of:
+  - 20x DB Hang Snatch 
+  - 20x DB Hang Clean + Jerk 
+  - 20x Push-Ups
+
+## 2022-03-17
+
+- [x] 100x Reps Of: 
+  - Weighted Burpees (25 lb vest)
+- [x] 50x Reps Of: 
+  - D-Ball Lunges (90 lbs)
+
+## 2022-03-16
+
+- [x] 50x Reps Of:
+  + Sprawl 
+    + DB Deadlift 
+      + DB Hang Clean 
+        + DB Cluster = 1 rep! 
+        
+  - 10x Ab rotation 
+
+## 2022-03-15
+
+- [x] 5x Rounds Of:
+  - 10x DB Hang Power Snatch
+    - (55 lbs) 
+  - 8x D-Ball Squat 
+    - (60 lbs) 
+  - 8x DB Hang Power Snatch
+    - (65 lbs) 
+  - 6x D-Ball Squat 
+    - (90 lbs) 
+  - 6x DB Hang Power Snatch
+    - (75 lbs) 
+  - 2x D-Ball Squat 
+    - (150 lbs) 
+
 ## 2022-03-14
 
 - [x] 5x5 Squats 
@@ -545,3 +655,4 @@ output:
 
 - [x] 100x Reps of
   - Single Arms DB Devil's Presses
+
