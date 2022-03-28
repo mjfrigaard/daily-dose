@@ -604,11 +604,10 @@ https://youtu.be/0gtMKaCJ5I8
 
 ## 2020-10-19
 
-- [x] 100 Reps of:
-- Single Arm DB Clusters
-- Single Arm DB Row
-- Reverse Crunches
-
+- [x] 100 Reps of:   
+  - Single Arm DB Clusters   
+  - Single Arm DB Row   
+  - Reverse Crunches   
 
 
 ## 2020-10-18
@@ -825,44 +824,37 @@ https://youtu.be/0gtMKaCJ5I8
 
 ## 2020-09-22
 
-Workout 1:
-- [x] 5 Rounds:
-  * 20x Push-Ups
-  * 20x Squats
-  * 20x Sit-Ups
+- [x] Workout 1: 5x Rounds    
+  * 20x Push-Ups    
+  * 20x Squats    
+  * 20x Sit-Ups  
 
-Workout 2:
-- [x] 8 Rounds:
-  * 8x DB Deadlift -> DB Hang Squat Clean
-  * 8x DB rows
-  * 8x Burpees
+- [x] Workout 2: 8x Rounds   
+  * 8x DB Deadlift -> DB Hang Squat Clean    
+  * 8x DB rows    
+  * 8x Burpees    
 
 ## 2020-09-21
 
-Workout 1:
-- [x] 6 Rounds
-  * 10x Single Arm high-pull + Snatch
-  * 8x Single Arm Floor Press
+- [x] Workout 1: 6x Rounds     
+  * 10x Single Arm high-pull + Snatch    
+  * 8x Single Arm Floor Press   
 
-Workout 2:
-- [x] 6 Rounds
-  * 10x Reverse Crunches
-  * 15x Squats
-  * 25x Double-Unders
+- [x] Workout 2: 6x Rounds   
+  * 10x Reverse Crunches   
+  * 15x Squats  
+  * 25x Double-Unders    
 
 ## 2020-09-20
 
-1. 50x DB Death Drops (with 2 45# DBs)
-
-  * Sprawl -> DB Deadlift -> DB Hang Clean -> DB Thruster = 1 Rep!
-
-2. 50x D-Ball Tosses
+- [x] 50x DB Death Drops (with 2 45# DBs)  
+  (Sprawl -> DB Deadlift -> DB Hang Clean -> DB Thruster = 1 Rep!)  
+- [x] 50x D-Ball Tosses   
 
 ## 2020-09-19
 
-- [x] 1 Round
-
-  * 100x KBx Switch Hand Snatches
+- [x] 1 Round   
+  * 100x KBx Switch Hand Snatches   
 
 ## 2020-09-18
 
@@ -888,15 +880,17 @@ Workout 2:
 
 ## 2020-09-16
 
-  * 25x Weighted Slurpees (2x Squats, 2 Lunges, 1 Burpees)
-  * 20x Double-Unders
+- [x] 1x Round Of:  
+  - 25x Weighted Slurpees (2x Squats, 2 Lunges, 1 Burpees)  
+  - 20x Double-Unders  
 
 ## 2020-09-15
 
 - [x] 16 Min EMOM
   - 10x KB Swings
   - 8x D-Ball/KB Lunge
-90# D-Ball on shoulder, 53# KB in Suitcase Carry in opposite hand
+  
+*90# D-Ball on shoulder, 53# KB in Suitcase Carry in opposite hand*
 
 ## 2020-09-14
 
@@ -913,16 +907,14 @@ Workout 2:
 
 ## 2020-09-12
 
-Workout 1:
-- [x] 5x Rounds
-  * 10x DB Deadlift
-  * 10x KB Switch Hand Snatch/Swing
+- [x] Workout 1: 5x Rounds   
+  - 10x DB Deadlift    
+  - 10x KB Switch Hand Snatch/Swing   
 
-Workout 2:
-- [x] 6x Rounds
-  * 10x SSLL (Squat x 2 + Lunge x 2 = 1 Rep)
-  * 10x Reverse Crunches
-  * 15x Push-Ups
+- [x] Workout 2: 6x Rounds   
+  - 10x SSLL (Squat x 2 + Lunge x 2 = 1 Rep)   
+  - 10x Reverse Crunches  
+  - 15x Push-Ups
 
 ## 2020-09-11
 
@@ -1081,11 +1073,11 @@ Wear a weight vest
 
 ## 2020-08-22
 
-- [x] 10x Rounds
-1. 8x pull-ups
-2. 16x Push-Ups
-3. 20x Squats
-4. 5x 150# B-ball Tosses
+- [x] 10x Rounds:  
+  - 8x Pull-ups    
+  - 16x Push-Ups   
+  - 20x Squats   
+  - 5x 150# B-ball Tosses  
 
 ## 2020-08-21
 
@@ -1236,17 +1228,18 @@ with weight-vest (25#)
 
 ## 2020-07-31
 
-  - Min 1: 21 Kettlebell Swings
-  - Min 2: 15 Kettlebell Swings
-  - Min 3: 9 Kettlebell Swings
-  - Min 4: 15x Push-Ups
-  - Min 5: 21x KB/DB Snatches
-  - Min 6: 15x KB/DB Snatches
-  - Min 7: 9x KB/DB Snatches
-  - Min 8: 15x Push-Ups
-  - Min 9: 6x D-Ball Tosses + 5 Russian Kettlebell Swings
-  - Min 10: 6x D-Ball Tosses + 10 Russian Kettlebell Swings
-  - Min 11: 6x D-Ball Tosses + 15 Russian Kettlebell Swings
+- [x] 1x Round Of:   
+  - Min 1: 21 Kettlebell Swings    
+  - Min 2: 15 Kettlebell Swings    
+  - Min 3: 9 Kettlebell Swings    
+  - Min 4: 15x Push-Ups    
+  - Min 5: 21x KB/DB Snatches    
+  - Min 6: 15x KB/DB Snatches    
+  - Min 7: 9x KB/DB Snatches    
+  - Min 8: 15x Push-Ups    
+  - Min 9: 6x D-Ball Tosses + 5 Russian Kettlebell Swings    
+  - Min 10: 6x D-Ball Tosses + 10 Russian Kettlebell Swings    
+  - Min 11: 6x D-Ball Tosses + 15 Russian Kettlebell Swings    
 
 ## 2020-07-30
 
@@ -1269,10 +1262,10 @@ with weight-vest (25#)
 
 ## 2020-07-19
 
-10-9–8–7-6-5-4-3-2-1
+- [x] 10-9–8–7-6-5-4-3-2-1
   - D-Ball Tosses @90#
 
-20-18-16-14-12-10-8-6-4-2
+- [x] 20-18-16-14-12-10-8-6-4-2
   - Suitcase Lunges
 
 
@@ -1305,27 +1298,30 @@ with weight-vest (25#)
 
 ## 2020-07-14
 
-- [x] 9x Min EMOM
-1. 12x Shoulder-2-Overhead
-2. 12x Suitcase Lunge
-3. 30x Double-Unders
-- [x] 9x Min EMOM
-1. 8x DB/KB Hang Power Cleans
-2. 8x Front Rack Lunge
-3. 30x Double-Unders
-- [x] 9x Min EMOM
-1. 6x DB Devil’s Press
-2. 6x DB Overhead Lunge
-3. 30x Double-Unders
+- [x] 9x Min EMOM  
+  - 12x Shoulder-2-Overhead  
+  - 12x Suitcase Lunge  
+  - 30x Double-Unders  
+  
+- [x] 9x Min EMOM  
+  - 8x DB/KB Hang Power Cleans  
+  - 8x Front Rack Lunge   
+  - 30x Double-Unders  
+  
+- [x] 9x Min EMOM  
+  - 6x DB Devil’s Press  
+  - 6x DB Overhead Lunge  
+  - 30x Double-Unders  
 
 ## 2020-07-13
 
-- [x] 10 Min EMOM
-  * 20x Squats
-  * 2x of 2x DB/KB Squat Cleans + 1x DB/KB Push Press
-- [x] 10 Min EMOM
-  * 12x Sit-Ups
-  * 2x of Sprawl + DB Snatch + 2x DB Overhead Lunge
+- [x] 10 Min EMOM    
+  - 20x Squats  
+  - 2x of 2x DB/KB Squat Cleans + 1x DB/KB Push Press  
+  
+- [x] 10 Min EMOM    
+  - 12x Sit-Ups   
+  - 2x of Sprawl + DB Snatch + 2x DB Overhead Lunge   
 
 ## 2020-07-12
 
@@ -1405,13 +1401,14 @@ with weight-vest (25#)
 
 ## 2020-07-02
 
-- [x] EMOM 1: x 16 Min:
-1. 8x TB Thruster
-2. 12x Alternating KB Snatches
-- [x] EMOM  2: 24 Min:
-1. 4-6x D-Ball Tosses
-2. 6x TB Suitcase Lunge + hammer curl
-3. 12x Overhead Reverse Lunges
+- [x] EMOM 1: x 16 Min:  
+  - 8x TB Thruster
+  - 12x Alternating KB Snatches
+  
+- [x] EMOM  2: 24 Min:  
+  - 4-6x D-Ball Tosses  
+  - 6x TB Suitcase Lunge + hammer curl   
+  - 12x Overhead Reverse Lunges   
 
 ## 2020-07-01
 

@@ -1996,13 +1996,15 @@ Then 4x Rounds Of:
 ## 2021-05-03
 
 Warm Up:
+
 - [x] perfect your jump shot!
 
-Workout:
-- [x] EMOM x 21 Min
-  - 25x Double-Unders
-  - 10x DB Split Squat
-  - 12x DB Bench Press
+Workout:  
+
+- [x] EMOM x 21 Min   
+  - 25x Double-Unders   
+  - 10x DB Split Squat   
+  - 12x DB Bench Press   
 
 ## 2021-05-02
 
@@ -2369,12 +2371,11 @@ Workout:
 
 ## 2021-03-22
 
-- [x] Gym Workout
-  - 50 KB Swings
-  - 50 Sling Shot Squats
-
-  - Front Squats (135 x 5, 185 x 5, 195 x 5, 225 x 4 x 2)
-  - Power Clean + Hang Full Clean (185 x 5, 195 x 5)
+- [x] Gym Workout   
+  - 50 KB Swings  
+  - 50 Sling Shot Squats    
+  - Front Squats (135 x 5, 185 x 5, 195 x 5, 225 x 4 x 2)  
+  - Power Clean + Hang Full Clean (185 x 5, 195 x 5)  
 
 ## 2021-03-21
 
@@ -2533,14 +2534,13 @@ For as many Rounds as possible\*:
   - 1 Set/5 Reps Barbell Front Squat @ 225 lbs  
   - 12 KB Swing @ 53 lbs  
   - 3 Sets/5 Reps Of Barbell Power Snatch @ 135 lbs  
-  - 40 meter sled drag @ ~250 lbss (4 Reps)  
+  - 40 meter sled drag @ ~250 lbs (4 Reps)   
 
-**PM Workout:**
-- [x] 24 Min EMOM
-  - 15x Squats
-  - 6x D-Ball Tosses
-  - 15x Push-Ups
-  - 12x DB Push-Press
+- [x] **PM Workout:** 24 Min EMOM     
+  - 15x Squats   
+  - 6x D-Ball Tosses   
+  - 15x Push-Ups   
+  - 12x DB Push-Press   
 
 
 ## 2021-03-03

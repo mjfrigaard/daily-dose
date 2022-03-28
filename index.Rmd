@@ -15,9 +15,39 @@ output:
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
 
+## 2022-03-30
+
+- [ ] Every 3:00 x 5 sets
+  - 4 Deadlifts  
+  - 3 Hang Power Clean 
+  - 2 Front Squats 
+  - 1 Jerk 
+
+## 2022-03-29
+
+- [ ] 5x Rounds Of: 
+  - 15x Double DB Hang Snatch  
+  - 15x Double DB Squats 
+
+## 2022-03-28
+
+- [ ] 20x Rounds Of: 
+  - 1x Power Clean  
+  - 2x Box Jumps 
+  - 3x Pull-Ups  
+
+## 2022-03-27
+
+- [x] 45 Minutes Active Rest: 
+  (2 min on/1 min off)
+  - Heavy bag
+  - Tire flip/jump 
+  - Sledge hammer 
+
+
 ## 2022-03-26
 
-- [ ] 4x Rounds Of: 
+- [x] 4x Rounds Of: 
   - 15x Ground-to-Overhead
   - 25x Double-Unders
   - 15x DB Lunges
@@ -25,7 +55,7 @@ output:
 
 ## 2022-03-25
 
-- [ ] EMOM x15 Minutes: 
+- [x] EMOM x15 Minutes: 
   - Deadlift 
   - Hang Clean 
   - Deadlift  
@@ -33,9 +63,11 @@ output:
 
 ## 2022-03-24
 
-- [ ] EMOM x10 Minutes: 
-  - 12x DB Alternating Hang Snatch  
-  - 8x Alternating DB Hang Clean + Press
+- [x] EMOM x12 Minutes:
+  - 12x DB Alt Hang Power Snatch 
+    - (65, 75 lbs) 
+  - 8x DB Alt Hang Power Clean + Press
+    - (65, 75 lbs) 
 
 ## 2022-03-23
 
