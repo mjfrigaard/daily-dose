@@ -2,7 +2,7 @@
 title: "In Development"
 output:
   html_document:
-    theme: cosmo
+    theme: darkly
     highlight: textmate
     css: styles.css
     toc: true
@@ -55,3 +55,86 @@ output:
   - 3x Single Arm Squat Clean
   - 3x Single Arm Snatch
   - 3x Single Arm Thruster
+
+## YYYY-MM-DD
+
+5 Rounds
+400 Meter Run
+5 DB Power Cleans
+5 DB Front Squats
+5 DB Push Press
+5 DB Devil Press
+
+## YYYY-MM-DD
+
+5 Front squats 50kg/35kg
+5 Push Jerks 50kg/35kg
+5 Push-ups
+5 Barbell rows 50kg/35kg
+
+## YYYY-MM-DD
+
+7 rounds for time
+7 power cleans
+7 thruster
+7 bar facing burpees
+
+## YYYY-MM-DD
+
+5 rounds for time:
+9-6-3
+overhead souats
+bar facing burpees
+1' rest between rounds
+
+## YYYY-MM-DD
+
+5x
+8 devil press
+50' DB lunge - 1 DB OH - 1 DB on FR
+75 DU
+
+## YYYY-MM-DD
+
+Dumbbell Double "DT"
+10 Rds:
+12 Deadlifts
+9 Hang Cleans
+6 Shoulder to Overhead
+
+## YYYY-MM-DD
+
+3 DB Hang Clean & Jerks 50's
+6 Pull Uos
+9 DB Deadlifts 50's
+
+## YYYY-MM-DD
+
+5 DB Thrusters 45/30#
+7 Burpee Facing DB's
+30 Double Unders
+
+
+## YYYY-MM-DD
+
+10 Rounds:
+- 10 DB Hang Cleans
+- 8 Burpees
+
+## YYYY-MM-DD
+
+5 Rds:
+15 Double Dumbbell Hang Snatch
+15 Dumbbell Squats
+
+## YYYY-MM-DD
+
+20 Single Arm DB Thrusters
+20 Pushups
+20 DB Deadlifts
+
+## YYYY-MM-DD
+
+Every Minute for 10 Minutes:
+- 5 Right Arm DB Hang C&J
+- 5 Left Arm DB Hang C&J

@@ -2,7 +2,7 @@
 title: "The Daily Dose"
 output:
   html_document:
-    theme: cosmo
+    theme: darkly
     highlight: textmate
     css: styles.css
     toc: true
@@ -14,14 +14,92 @@ output:
 
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
+## 2022-04-10
+
+- [ ] 6x Rounds Of:
+  - 9x DB Deadlifts 
+  - 6x DB Hang Clean  
+  - 3x Shoulder to Overhead  
+  - 5x Burpee Pull ups
+
+## 2022-04-09
+
+- [ ] EMOM x24 Minutes:
+  - 3x Deadlift (315 lbs)   
+  - 7x Push-press (135 lbs)  
+
+## 2022-04-08
+
+- [ ] 7x Rounds Of: 
+  - 10x DB Hang Power Clean & Jerk (55 lbs)  
+  - 10x DB Hang Power Snatch (55 lbs)  
+  - 10x Burpee Box Jump Overs (24/20")  
+
+## 2022-04-07
+  
+- [ ] 7 Rounds Of:
+  - 11x Back Squats (185 lbs)
+  - 10x Jerks (135 lbs)
+
+## 2022-04-06
+  
+- [ ] 8x Rounds Of: 
+  - 6x DB Overhead Lunge (55 lbs)     
+  - 6x DB Deadlift  (55 lbs)   
+  - 6 DB Hang clean  (55 lbs)   
+
+## 2022-04-05
+
+- [ ] 5x Rounds Of:  
+  - 5x Power Snatches (135 lbs)
+  - 3x Power Snatches (155 lbs)
+  - 2x Power Cleans (185 lbs)
+  - 1x Power Clean (205 lbs)
+
+## 2022-04-04
+  
+- [ ] 6x Rounds Of:  
+  - 10 DB Burpee Deadlift (55 lbs)  
+  - 10 DB Step Ups (55 lbs)  
+  - 10 DB Shoulder to Overhead (55 lbs)  
+
+## 2022-04-03
+
+- [x] 3 Rounds Of:
+  - 9-7-5 Reps/Side
+    - Single Arm DB Power Snatch  
+    - 50 Double Unders
+
+## 2022-04-02
+
+- [x] 6x Rounds Of:
+  - 12x DB Deadlifts (55 lbs)
+  - 8x Barbell Bench Press 
+    (185 lbs) 
+  - 10x DB Reverse Lunge (55 lbs)
+
+## 2022-04-01
+
+- [x] EMOM x22 Minutes 
+  - 8x thruster (115 lbs)
+  - 10x KB swing (70 lbs)
+
+## 2022-03-31
+
+- [x] 7x Rounds Of:
+  - 5x Deadlift (225 lbs)
+  - 10x DB Alt Hang Power Snatch 
+    (55 lbs)
+  - 8x DB Alt Hang Power Clean + Press
+    (65 lbs) 
 
 ## 2022-03-30
 
-- [ ] Every 3:00 x 5 sets
-  - 4 Deadlifts  
-  - 3 Hang Power Clean 
-  - 2 Front Squats 
-  - 1 Jerk 
+- [x] Snatches 
+  - Work up to 70% power snatch 
+  - 10x Singles 
+- [x] 5x5 Front Squat 
+  - Buy out: 20x Burpee + pull-up
 
 ## 2022-03-29
 

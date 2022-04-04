@@ -13,3 +13,5 @@ generate_md_dates <- function(start_from, end_with) {
   
 }
 
+generate_md_dates(start_from = "2022-03-31", end_with = "2022-04-10")
+

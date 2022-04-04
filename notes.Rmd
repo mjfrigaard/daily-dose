@@ -2,7 +2,7 @@
 title: "NOTES"
 output:
   html_document:
-    theme: cosmo
+    theme: darkly
     highlight: textmate
     css: styles.css
     toc: true
