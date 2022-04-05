@@ -31,9 +31,11 @@ output:
 
 ## 2022-04-09
 
-- [ ] EMOM x24 Minutes:
-  - 3x Deadlift (315 lbs)   
-  - 7x Push-press (135 lbs)  
+- [ ] 5x Rounds Of:  
+  - 5x Power Snatches (135 lbs)
+  - 3x Power Snatches (155 lbs)
+  - 2x Power Cleans (185 lbs)
+  - 1x Power Clean (205 lbs)
 
 ## 2022-04-08
 
@@ -57,11 +59,10 @@ output:
 
 ## 2022-04-05
 
-- [ ] 5x Rounds Of:  
-  - 5x Power Snatches (135 lbs)
-  - 3x Power Snatches (155 lbs)
-  - 2x Power Cleans (185 lbs)
-  - 1x Power Clean (205 lbs)
+- [ ] EMOM x24 Minutes:
+  - 3x Deadlift (315 lbs)   
+  - 10x DB Alternating Power Snatch (60 lbs)
+  - 7x Push-press (135 lbs)
 
 ## 2022-04-04
 
