@@ -14,6 +14,13 @@ output:
 
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
+## 2022-04-11
+
+- [ ] 6x Rounds Of:  
+  - 10 DB Burpee Deadlift (55 lbs)  
+  - 10 DB Step Ups (55 lbs)  
+  - 10 DB Shoulder to Overhead (55 lbs) 
+
 ## 2022-04-10
 
 - [ ] 6x Rounds Of:
@@ -57,11 +64,13 @@ output:
   - 1x Power Clean (205 lbs)
 
 ## 2022-04-04
-  
-- [ ] 6x Rounds Of:  
-  - 10 DB Burpee Deadlift (55 lbs)  
-  - 10 DB Step Ups (55 lbs)  
-  - 10 DB Shoulder to Overhead (55 lbs)  
+
+- [x] EMOM x18 minutes 
+  - Power Clean
+  - 2x Lunge  
+  - Split Jerk 
+    (185 lbs) 
+*heavy bag warm up
 
 ## 2022-04-03
 
