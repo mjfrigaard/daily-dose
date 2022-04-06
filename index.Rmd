@@ -59,10 +59,10 @@ output:
 
 ## 2022-04-05
 
-- [ ] EMOM x24 Minutes:
-  - 3x Deadlift (315 lbs)   
-  - 10x DB Alternating Power Snatch (60 lbs)
-  - 7x Push-press (135 lbs)
+- [x] 7x Rounds:   
+  - 3x Deadlift (315 lbs)  
+  - 10x DB Alt Power Snatch (60 lbs)  
+  - 7x Barbell Push Press (135 lbs)  
 
 ## 2022-04-04
 
@@ -183,12 +183,12 @@ output:
 ## 2022-03-21
 
 - [x] 6x Rounds Of: 
-  - 5x Back Squat
-   - (255 lbs)
-  - 12x DB Snatch 
+  - 5x Back Squat  
+    - (255 lbs)
+  - 12x DB Snatch   
     - (55 lbs) 
-  - 10x Barbell Walking Lunge 
-    - (135 lbs) 
+  - 10x Barbell Walking Lunge  
+    - (135 lbs)  
 
 ## 2022-03-20
 
@@ -288,9 +288,11 @@ output:
 ## 2022-03-08
 
 - [ ] For Time:
-  - 75x DB Snatch (75 lbs) 
-  - 30x DB Hang Clean + Jerk (75 lbs)
-  - *3 burpees EMOM*
+  - 75x DB Snatch   
+    (75 lbs)   
+  - 30x DB Hang Clean + Jerk   
+    (75 lbs)  
+  - *3 burpees EMOM*  
 
 ## 2022-03-07
 
@@ -451,10 +453,10 @@ output:
 
 ## 2022-02-13
 
-- [x] 10x Rounds: 
-  - 10x DB Snatch 
-  (2x 55, 65, 75, 85 lbs)
-  - 25x Double-Unders
+- [x] 10x Rounds:   
+  - 10x DB Snatch   
+    (2x 55, 65, 75, 85 lbs)
+  - 25x Double-Unders   
 
 ## 2022-02-12
 
@@ -489,12 +491,12 @@ output:
 ## 2022-02-08
 
 - [x] EMOM x 20 Minutes:
-  - 1st 10:
-    - Clean + 3x Front Squat
-     (185, 205, 215 lbs)
-  - 2nd 10:
-    - 10x Plate Devil’s Press
-    - 40x Double-Unders
+  - 1st 10 Minutes:  
+    - Clean + 3x Front Squat   
+       (185, 205, 215 lbs)
+  - 2nd 10:  
+    - 10x Plate Devil’s Press  
+    - 40x Double-Unders  
 
 ## 2022-02-07
 
@@ -540,13 +542,14 @@ output:
    (50 lbs)
   - 8x Single Arm DB Power Snatch
    (70 lbs)
+   
   *waiters walk x20 meters*
 
 ## 2022-02-01
 
 - [x] Every 45 seconds x9 cycles
-  - Power Clean/Front Squat/Hang Power Clean/Thruster
-  (155, 185, 205 lbs)
+  - Power Clean/Front Squat/Hang Power Clean/Thruster   
+    (155, 185, 205 lbs)
 - [x] 6x Rounds
   - 15x Push-Ups
   - 15x Squats
