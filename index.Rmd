@@ -14,12 +14,19 @@ output:
 
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
-## 2022-04-11
 
-- [ ] 6x Rounds Of:  
-  - 10 DB Burpee Deadlift (55 lbs)  
-  - 10 DB Step Ups (55 lbs)  
-  - 10 DB Shoulder to Overhead (55 lbs) 
+## 2022-04-12
+
+- [ ] 8x Rounds Of: 
+  - 6x DB Overhead Lunge (55 lbs)     
+  - 6x DB Deadlift (55 lbs)   
+  - 6 DB Hang clean (55 lbs) 
+  
+## 2022-04-11
+  
+- [ ] 7 Rounds Of:
+  - 11x Back Squats (185 lbs)
+  - 10x Jerks (135 lbs)
 
 ## 2022-04-10
 
@@ -45,17 +52,17 @@ output:
   - 10x Burpee Box Jump Overs (24/20")  
 
 ## 2022-04-07
-  
-- [ ] 7 Rounds Of:
-  - 11x Back Squats (185 lbs)
-  - 10x Jerks (135 lbs)
+
+- [x] 6x Rounds Of:  
+  - 10 DB Burpee Deadlift (55 lbs)  
+  - 10 DB Step Ups (55 lbs)  
+  - 10 DB Shoulder to Overhead (55 lbs) 
 
 ## 2022-04-06
-  
-- [ ] 8x Rounds Of: 
-  - 6x DB Overhead Lunge (55 lbs)     
-  - 6x DB Deadlift  (55 lbs)   
-  - 6 DB Hang clean  (55 lbs)   
+
+- [x] 25 Minute Time-cap:
+  - Work up to heavy clean  
+  - 12 cal assault bike every 2 min 
 
 ## 2022-04-05
 
@@ -71,7 +78,7 @@ output:
   - 2x Lunge  
   - Split Jerk 
     (185 lbs) 
-*heavy bag warm up
+*heavy bag warm up*
 
 ## 2022-04-03
 
