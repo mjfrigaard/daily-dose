@@ -1197,7 +1197,7 @@ with weight-vest (25#)
 
 - [x] Every 90 Seconds x 15 Rounds
   * 8x DB devils Press
-  * 20x Double Underss
+  * 20x Double Unders
 
 ## 2020-08-04
 

@@ -15,28 +15,7 @@ output:
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
 
-## 2022-04-12
-
-- [ ] 8x Rounds Of: 
-  - 6x DB Overhead Lunge (55 lbs)     
-  - 6x DB Deadlift (55 lbs)   
-  - 6 DB Hang clean (55 lbs) 
-  
-## 2022-04-11
-  
-- [ ] 7 Rounds Of:
-  - 11x Back Squats (185 lbs)
-  - 10x Jerks (135 lbs)
-
-## 2022-04-10
-
-- [ ] 6x Rounds Of:
-  - 9x DB Deadlifts 
-  - 6x DB Hang Clean  
-  - 3x Shoulder to Overhead  
-  - 5x Burpee Pull ups
-
-## 2022-04-09
+## 2022-04-18
 
 - [ ] 5x Rounds Of:  
   - 5x Power Snatches (135 lbs)
@@ -44,12 +23,82 @@ output:
   - 2x Power Cleans (185 lbs)
   - 1x Power Clean (205 lbs)
 
-## 2022-04-08
+## 2022-04-17
+
+- [ ] 8x Rounds Of: 
+  - 6x DB Overhead Lunge (55 lbs)     
+  - 6x DB Deadlift (55 lbs)   
+  - 6 DB Hang clean (55 lbs) 
+
+## 2022-04-16
+
+- [ ] 7 Rounds Of:
+  - 11x Front Squats (185 lbs)
+  - 10x Jerks (135 lbs)
+
+## 2022-04-15
 
 - [ ] 7x Rounds Of: 
   - 10x DB Hang Power Clean & Jerk (55 lbs)  
   - 10x DB Hang Power Snatch (55 lbs)  
-  - 10x Burpee Box Jump Overs (24/20")  
+  - 10x Burpee Box Jump Overs (24/20") 
+
+## 2022-04-14
+
+- [x] Every 90 Seconds x 15 Rounds
+  * 8x DB devils Press
+  * 20x Double Unders
+
+## 2022-04-13
+
+- [x] 5x5 Pause Squats 
+  - (225 lbs)
+- [x] Heavy Double Back Squat 
+  - (315 lbs) 
+- [x] Seated box jumps 
+  - 3x3 (increasing height) 
+
+## 2022-04-12
+
+- [x] Clean Complex 
+  - Power Clean + 
+     Hang Power Clean + 
+     Split Jerk 
+  - 4x Rounds Of: 
+    - 15x KB Switch Hand Snatch 
+      (55 lbs)
+  
+## 2022-04-11
+  
+- [x] 5x Rounds Of: 
+  - 12x SA DB Clusters (60 lbs)
+  - 6x DB Step-ups (60 lbs)
+  - 12x DB SA DB Snatches (70 lbs)
+  - 6x DB Step-ups (70 lbs)
+
+## 2022-04-10
+
+- [x] 6x Rounds Of:
+  - 9x DB Deadlifts 
+  - 6x DB Hang Clean  
+  - 3x Shoulder to Overhead  
+  - 5x Burpee Pull ups
+
+## 2022-04-09
+
+- [x] AMRAP x 20min:
+  - 3x Power Snatch (135 lbs) 
+  - 20x Push-Ups 
+
+## 2022-04-08
+  
+- [x] 7x Rounds Of: 
+  - 8x DB SA Alt Hang Power Clean 
+    (60 lbs)
+  - 6x Back Squat 
+    (225 - 275lbs)
+  - 4x Pull-Ups 
+*buy out = 10x seated box jumps
 
 ## 2022-04-07
 
