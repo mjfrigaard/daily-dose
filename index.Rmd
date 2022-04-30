@@ -14,10 +14,113 @@ output:
 
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
+## 2020-05-01
+
+- [x] EMOM x21 Min
+	- 16x Switch Hand Swings 
+	- 8x DB Ground-to-Overhead 
+	- 25x Double-Unders 
+
+## 2020-04-30
+
+- [x] 5x Rounds Of: 
+  - 5x Back Squat 
+  - 5x Box Jump 
+  - 8x Ground-to-Overhead
+
+## 2022-04-29
+
+- [x] EMOM x25 Min
+  - 12x Push-Ups 
+  - 14x Squats 
+  - 12x DB Snatches 
+  - 10x DB Suitcase Lunges 
+  - 8x Single Arm DB Clusters 
+
+##  2022-04-28
+
+
+- [x] 9x Rounds Of: 
+  - 3x Hang Clean 
+    (185, 205, 225 lbs) 
+  - 2x Split Jerks 
+    (185, 195, 205 lbs)
+
+*15x Curls (in the squat rack)*
+
+## 2022-04-27
+
+- [x] EMOM x25 Min
+	* 12x Push-Ups 
+	* 14x Squats 
+	* 12x DB Snatches 
+	* 10x DB Suitcase Lunges 
+	* 8x Single Arm DB Clusters 
+
+## 2022-04-26
+
+- [x] EMOM x10 Min
+	- 10x DB Push Press 
+	- 10x DB Front Squats 
+- [x] EMOM x10 Min
+	* 12x Push-ups
+	* 12x KB Swings 
+- [x] EMOM x10 Min 
+	* 14x DB Thrusters 
+	* 14x DB Overhead Lunge 
+
+## 2022-04-25
+
+- [x] 5x Rounds Of: 
+  - Weighted Sled Push 
+  - 6x Single Arm DB Snatch + 
+     Power Clean + 
+     Press
+  - 20x Double Unders  
+
+## 2022-04-24
+
+- [x] 7x Rounds Of: 
+  - Weighted Sled Push 
+  - DB Snatch + Power Clean + Press
+  - Double Unders  
+
+## 2022-04-23
+
+- [x] 8x Rounds Of: 
+  - 10x DB Burpee (55 lbs) 
+  - 3x Front Squat (225 lbs)
+
+## 2022-04-22
+
+- [x] Heavy Double OHS 
+  - 135, 155, 185, 205 lbs 
+  - 50x DB Devils Clean 
+
+## 2022-04-21
+
+- [x] 8x Rounds Of: 
+  - 20x Squats
+  - 20x Push Ups 
+
+## 2022-04-20
+
+- [x] 10x Rounds Of: 
+  - 12x DB SA Power Snatch 
+  - 12x DB Reverse Lunges 
+  - 12x DB SA Power Snatch 
+  - 12x DB Bulgarian Split Squat
+
+## 2022-04-19
+
+- [x] 10x Rounds Of: 
+  - 10x SA DB Power Clean + Press 
+  - 10x Goblet Squat 
+
 
 ## 2022-04-18
 
-- [ ] 5x Rounds Of:  
+- [x] 5x Rounds Of:  
   - 5x Power Snatches (135 lbs)
   - 3x Power Snatches (155 lbs)
   - 2x Power Cleans (185 lbs)
@@ -25,20 +128,20 @@ output:
 
 ## 2022-04-17
 
-- [ ] 8x Rounds Of: 
+- [x] 8x Rounds Of: 
   - 6x DB Overhead Lunge (55 lbs)     
   - 6x DB Deadlift (55 lbs)   
   - 6 DB Hang clean (55 lbs) 
 
 ## 2022-04-16
 
-- [ ] 7 Rounds Of:
+- [x] 7 Rounds Of:
   - 11x Front Squats (185 lbs)
   - 10x Jerks (135 lbs)
 
 ## 2022-04-15
 
-- [ ] 7x Rounds Of: 
+- [x] 7x Rounds Of: 
   - 10x DB Hang Power Clean & Jerk (55 lbs)  
   - 10x DB Hang Power Snatch (55 lbs)  
   - 10x Burpee Box Jump Overs (24/20") 
