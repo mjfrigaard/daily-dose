@@ -12,7 +12,17 @@ output:
 
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
-## 2020-05-05
+## 2022-05-06
+
+- [x] EMOM x 20 Min:
+  - Clean Complex 
+    - Front Squat + 
+       Hang Power Clean + 
+       2x Push Jerk 
+
+- [x] 3x5 Box Jumps 
+
+## 2022-05-05
 
 - [x] 7x Rounds (20 min time-cap):  
   - 1x Clean (barbell)  
@@ -21,14 +31,14 @@ output:
   - 10x Push-Ups   
   - 15x Squats   
 
-## 2020-05-04
+## 2022-05-04
 
 - [x] AMRAP in 20 Min: 
   - 5x Back Squat 
     - (225, 275, 315* lbs)
   - 10x Alt DB Hang Power Snatch 
 
-## 2020-05-03
+## 2022-05-03
 
 - [x] 8x Rounds Of: 
   - 6x Barbell Front Rack Reverse Lunges   
@@ -37,7 +47,7 @@ output:
    - (60 lbs)     
   - 20x Double-Unders   
 
-## 2020-05-02
+## 2022-05-02
 
 - [x] 5x Rounds Of:   
   - 12x KB Snatches   
@@ -47,7 +57,7 @@ output:
   - 6x Overhead Press   
     - (115, 135 lbs) 
 
-## 2020-05-01
+## 2022-05-01
 
 - [x] Active Rest: 
   - 30 sec work:rest 
@@ -56,7 +66,7 @@ output:
     - Heavy Bag 
     
 
-## 2020-04-30
+## 2022-04-30
 
 - [x] 5x Rounds Of: 
   - 5x Back Squat 
