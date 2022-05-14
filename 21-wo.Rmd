@@ -1714,8 +1714,6 @@ Then 4x Rounds Of:
   - 20x Double-Unders
   - 8x D-Ball
 
-
-
 ## 2021-06-04
 
 - [x] 10x Rounds Of:
