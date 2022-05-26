@@ -12,19 +12,47 @@ output:
 
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
+## 2022-05-26
+
+- [x] 10x Rounds Of: 
+  - 12x DB Hammer Curls 
+  - 10x DB Bench  
+  - 8x DB Rows  
+
+## 2022-05-25
+
+- [x] 8x Rounds Of: 
+  - 8x Back Squat (with bands)
+    - (185-225 lbs)
+  - 8x DB Hang Power Clean + Press
+    - (65 - 80 lbs)
+
+## 2022-05-24
+
+- [x] 6x Rounds Of: 
+  - 5x Front Squat 
+    - (185-225 lbs)
+  - 10x DB Snatch (alternating)
+    - (60 lbs)
+  - 5x Box Jumps 
+
 ## 2022-05-23
 
 - [x] 8x Rounds Of:
-  - Barbell Power Clean + Hang Clean 2x (155 - 225 lbs)
-  - 5x5 Back Squat (225 lbs)
+  - Barbell Power Clean + Hang Clean 2x 
+    - (155 - 225 lbs)
+  - 5x5 Back Squat 
+    - (225 lbs)
   - 20x Double-Unders 
   
 ## 2022-05-22
 
 - [x] 6x Rounds Of:   
-  - 10x KB swings (70 lbs)    
+  - 10x KB swings 
+    - (70 lbs)    
   - 8x DB Hang Clean + Press   
-  - Deadlift x5 (225 lbs)  
+  - Deadlift x5 
+    - (225 lbs)  
 
 ## 2022-05-21
 
