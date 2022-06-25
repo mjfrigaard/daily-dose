@@ -12,6 +12,49 @@ output:
 
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
+
+<!--
+
+## 2022-06-30
+
+## 2022-06-29
+
+## 2022-06-28
+
+## 2022-06-27
+
+## 2022-06-26
+
+## 2022-06-25
+
+-->
+
+## 2022-06-24
+
+- [x] 8x Rounds:  
+  - 16x DB Hang Power Snatch 
+  - 8x Box Jumps   
+  - 4x Front Squat  
+
+## 2022-06-23
+
+- [x] 6x Rounds: 
+  - 8x DB Thrusters  
+  - 8x Burpees  
+  - 20x Double-Unders  
+
+## 2022-06-22
+
+- [x] EMOM for ALAP: 
+  - 3x Power Clean   
+  - 2x Front Squat   
+  - 1x Split Jerk   
+    - *Rounds 1-5: 135 lbs*  
+    - *Rounds 6-10: 155 lbs*    
+    - *Rounds 11-15: 185 lbs*   
+    - *Rounds 16-20: 205 lbs*    
+    - *Rounds 21-25: 225 lbs*    
+
 ## 2022-06-21
 
 - [x] 20x EMOM  
