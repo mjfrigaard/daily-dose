@@ -108,17 +108,17 @@ This is the 2nd half of 2020 workouts (starting in late June). All prior workout
 
 ## 2020-12-18
 
-- [x] EMOM x 24 Min
-3-2-1 Reps Of:
-  - DB Deadlift
-  - DB Cluster
-  - DB Ground-To-Overhead
+- [x] EMOM x 24 Min  
+  - 3-2-1 Reps Of:  
+    - DB Deadlift  
+    - DB Cluster  
+    - DB Ground-To-Overhead  
 
 ## 2020-12-17
 
 - [x] EMOM x 30 Min:
-  - D-Ball Squat
-  - D-Ball Tosses
+  - 5x D-Ball Squat
+  - 5x D-Ball Tosses
 
 ## 2020-12-16
 
@@ -648,7 +648,6 @@ https://youtu.be/0gtMKaCJ5I8
   * Double-Unders x 25
 
 
-
 ## 2020-10-13
 
 - [x] 7 Rounds Of:
@@ -657,15 +656,12 @@ https://youtu.be/0gtMKaCJ5I8
   * 12x Single Arm Overhead Sit-up
 
 
-
 ## 2020-10-12
 
 - [x] Every 90 Seconds x 15 Rounds
   - 8x Single Arm Power Clean + Push Press (@85lb)
   - 8x 100lb sandBag box step over
   - 10x TB Floor Press (@53lb)
-
-
 
 ## 2020-10-11
 
@@ -680,16 +676,12 @@ https://youtu.be/0gtMKaCJ5I8
   * DB Rows
   * 25x Double-Unders
 
-
-
 ## 2020-10-09
 
 - [x] 21 Min EMOM
   * 12x TD/DB Snatches
   * 12x DB Goblet Squats
   * 12x KB Swings
-
-
 
 ## 2020-10-08
 
@@ -758,7 +750,7 @@ https://youtu.be/0gtMKaCJ5I8
 
 - [x] 10 Rounds
   - 6x Floor Press
-  - 4x Deadlifts (sandBag)
+  - 4x Deadlifts (sandbag)
 
 - [x] 5 Rounds
   - 15x Push-Ups
@@ -767,7 +759,7 @@ https://youtu.be/0gtMKaCJ5I8
 
 ## 2020-09-29
 
-- [x] Do 5 Reps Of Each Exercise for 23 Min
+- [x] Do 5x Reps Of Each Exercise for 23 Min
   - Single Arm Hang Power Snatch
   - Double Arm T-Bell Thrusters
   - D-Ball Tosses (#60 or #90)
@@ -930,7 +922,7 @@ https://youtu.be/0gtMKaCJ5I8
 
 - [x] Workout 1 (5x Rounds Of)
   - 8x Single Arm Clusters
-  - 100 meter fArmer Carry (2x 53#)
+  - 100 meter farmer Carry (2x 53#)
 
 - [x] Workout 2
   - 50x Slurpees (Squat + 2x Lunges + 1 Burpees)
@@ -1120,8 +1112,8 @@ Finisher: 4x 50m bodyweight fArmers walk
 
 ## 2020-08-15
 
-- [x] 2 Rounds:
-  * 40x KB switch-hand Swings
+- [x] 2x Rounds:
+  * 40x KB Switch-Hand Swings
   * 30x KB Push Press
   * 20x KB Single Arm Snatch
   * 10x Push-Ups
@@ -1137,7 +1129,7 @@ Finisher: 4x 50m bodyweight fArmers walk
 
 - [x] 10 Rounds (30 seconds rest between sets)
   * 5x DB Deadlifts
-  * 5x DB rows
+  * 5x DB Rows
   * 5x DB Cleans
   * 5x DB Push Press
   * 5x DB Overhead Reverse Lunges
@@ -1192,7 +1184,7 @@ with weight-vest (25#)
 ## 2020-08-05
 
 - [x] Every 90 Seconds x 15 Rounds
-  * 8x DB devils Press
+  * 8x DB Devils Press
   * 20x Double Unders
 
 ## 2020-08-04
@@ -1253,8 +1245,8 @@ with weight-vest (25#)
 
 ## 2020-07-28
 
-- [x] In 10 Min:
-100x D-Ball Tosses @90#
+- [x] In 10 Min:  
+  - 100x D-Ball Tosses @90#
 
 ## 2020-07-19
 
