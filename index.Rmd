@@ -21,6 +21,13 @@ output:
 
 -->
 
+## 2022-08-04
+
+- [x] Every 2 Min x 20 min:
+  - 5x Back-squat
+  - 1x Front-squat 
+    (@ 225 lbs)
+
 ## 2022-08-03
 
 - [x] EMOM x15 Min  
