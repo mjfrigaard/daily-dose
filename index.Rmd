@@ -21,6 +21,20 @@ output:
 
 -->
 
+## 2022-08-06
+
+- [x] 6x Rounds Of:  
+  - 4x Deadlifts  
+  - 4x Hang Cleans   
+  - 4x Front Rack Lunges 
+
+## 2022-08-05
+
+- [x] 10x Rounds: 
+  - 100 total reps of:   
+    - DB Snatch + Thruster + Single Arm Overhead Lunge    
+    - Double-Unders 
+
 ## 2022-08-04
 
 - [x] Every 2 Min x 20 min:
