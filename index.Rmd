@@ -21,19 +21,28 @@ output:
 
 -->
 
+## 2022-08-07
+
+- [x] EMOM x20 Min:  
+  - 10x DB Power Snatch   
+  - 15x Push-ups   
+  - 10x DB Hang Clean + Press   
+  - 15x Sit-Ups  
+
 ## 2022-08-06
 
-- [x] 6x Rounds Of:  
-  - 4x Deadlifts  
-  - 4x Hang Cleans   
-  - 4x Front Rack Lunges 
+- [x] For Time: 
+  - Clean Complex:
+    - front squat, hang clean, split jerk
+      - (135x2-185x2-205x4-185x2-135x2)
+    - 4x6 reps:
+      - front rack lunge (135 lbs)
 
 ## 2022-08-05
 
-- [x] 10x Rounds: 
-  - 100 total reps of:   
-    - DB Snatch + Thruster + Single Arm Overhead Lunge    
-    - Double-Unders 
+- [x] 100 total reps of:  
+  - DB Snatch + Thruster + Single Arm Overhead Lunge    
+  - Double-Unders 
 
 ## 2022-08-04
 
