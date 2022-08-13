@@ -21,6 +21,58 @@ output:
 
 -->
 
+## 2022-08-13
+
+- [x] Every 2 Min for 24 Min:
+  * 5x DB Thrusters
+  * 4x DB Front Squats
+  * 3x DB Ground-To-Overhead
+
+## 2022-08-12
+
+- [x] Every 3 Minutes x 8 Rounds
+  * 8x DB Ground To Overhead
+  * 8x KB Snatches
+  * 30x Double-Unders
+
+## 2022-08-11
+
+- [x] 1x Round
+  * 100x KB Swings
+  * 100x Goblet Squats
+  * 100x Overhead Lunges
+
+## 2022-08-10
+
+- [x] 5x Rounds:
+  - PC & J + HC & J 
+  - 10x DB Snatch 
+  - 20x Double-Unders  
+
+## 2022-08-09
+
+- [x] For Time:
+  - 3x Front Squats (with pause)
+    (2@ 185, 205, 225 lbs)
+  - 12x KB Snatch 
+  - 3x5 Back Squat (@ 225lbs)
+  - 3x5 Push-Press (@ 135lbs)
+
+## 2022-08-08
+
+- [x] 5x Rounds
+  * 8x Single Arm DB Cluster
+  * 6x Deadlifts
+
+- [x] 5x Rounds
+  * 10x DB Snatches
+  * 10x Push-Ups
+
+- [x] 5x Rounds
+  * 10x SLunges
+  * 10x Reverse Crunches
+  * 10x Push-ups
+
 ## 2022-08-07
 
 - [x] EMOM x20 Min:  
