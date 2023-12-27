@@ -2,14 +2,12 @@
 title: "The Daily Dose (2020)"
 output:
   html_document:
-    theme: darkly
+    theme: default
     highlight: textmate
     css: styles.css
     toc: true
     toc_float: yes
 ---
-
-# **2020 Workouts (phase 2)**
 
 This is the 2nd half of 2020 workouts (starting in late June). All prior workouts are stored as image files in the [2020 folder](https://github.com/mjfrigaard/daily-dose/tree/gh-pages/images/2020) (starting [here](https://raw.githubusercontent.com/mjfrigaard/daily-dose/gh-pages/images/2020/2020-03-09.png)).
 
