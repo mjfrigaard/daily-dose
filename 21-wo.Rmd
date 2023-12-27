@@ -9,8 +9,6 @@ output:
     toc_float: yes
 ---
 
-# **2021 Workouts**
-
 ## 2021-12-31
 
 - [x] EMOM x20 Minutes

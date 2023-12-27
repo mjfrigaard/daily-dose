@@ -8,8 +8,6 @@ output:
 
 ---
 
-# **2024 Workouts**
-
 [*View the project on Github*](https://github.com/mjfrigaard/daily-dose)
 
 

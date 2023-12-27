@@ -9,8 +9,6 @@ output:
     toc_float: yes
 ---
 
-# **2023 Workouts**
-
 All 2023 workouts are all on [Vimeo](https://vimeo.com/user124837051).
 
 # 2023-01-14

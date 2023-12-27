@@ -9,8 +9,6 @@ output:
     toc_float: yes
 ---
 
-# **2022 Workouts**
-
 ## 2022-08-13
 
 - [x] Every 2 Min for 24 Min:
