@@ -1,0 +1,1739 @@
+---
+title: "The Daily Dose (2022)"
+output:
+  html_document:
+    theme: default
+    highlight: textmate
+    css: styles.css
+    toc: true
+    toc_float: yes
+---
+
+# **2022 Workouts**
+
+## 2022-08-13
+
+- [x] Every 2 Min for 24 Min:
+  * 5x DB Thrusters
+  * 4x DB Front Squats
+  * 3x DB Ground-To-Overhead
+
+## 2022-08-12
+
+- [x] Every 3 Minutes x 8 Rounds
+  * 8x DB Ground To Overhead
+  * 8x KB Snatches
+  * 30x Double-Unders
+
+## 2022-08-11
+
+- [x] 1x Round
+  * 100x KB Swings
+  * 100x Goblet Squats
+  * 100x Overhead Lunges
+
+## 2022-08-10
+
+- [x] 5x Rounds:
+  - PC & J + HC & J 
+  - 10x DB Snatch 
+  - 20x Double-Unders  
+
+## 2022-08-09
+
+- [x] For Time:
+  - 3x Front Squats (with pause)
+    (2@ 185, 205, 225 lbs)
+  - 12x KB Snatch 
+  - 3x5 Back Squat (@ 225lbs)
+  - 3x5 Push-Press (@ 135lbs)
+
+## 2022-08-08
+
+- [x] 5x Rounds
+  * 8x Single Arm DB Cluster
+  * 6x Deadlifts
+
+- [x] 5x Rounds
+  * 10x DB Snatches
+  * 10x Push-Ups
+
+- [x] 5x Rounds
+  * 10x SLunges
+  * 10x Reverse Crunches
+  * 10x Push-ups
+
+## 2022-08-07
+
+- [x] EMOM x20 Min:  
+  - 10x DB Power Snatch   
+  - 15x Push-ups   
+  - 10x DB Hang Clean + Press   
+  - 15x Sit-Ups  
+
+## 2022-08-06
+
+- [x] For Time: 
+  - Clean Complex:
+    - front squat, hang clean, split jerk
+      - (135x2-185x2-205x4-185x2-135x2)
+    - 4x6 reps:
+      - front rack lunge (135 lbs)
+
+## 2022-08-05
+
+- [x] 100 total reps of:  
+  - DB Snatch + Thruster + Single Arm Overhead Lunge    
+  - Double-Unders 
+
+## 2022-08-04
+
+- [x] Every 2 Min x 20 min:
+  - 5x Back-squat
+  - 1x Front-squat   
+    (@ 225 lbs)
+
+## 2022-08-03
+
+- [x] EMOM x15 Min  
+  - 10x Double DB Snatch  
+  - 15x Squats  
+  - 20x Double Unders  
+
+## 2022-08-02
+
+- [x] 8x Rounds Of:
+  - 10x KB Snatch (55 lbs)
+    (5x each side)
+  - 5x Deadlift (225 lbs) 
+
+## 2022-08-01
+
+- [x] Clean Complex:
+  - 1x Power Clean 
+  - 2x Front Squat 
+  - 3x Push Jerk 
+    (3x 155, 185, 205 lbs)
+  - [x] 4x Rounds Of:
+    - 10x DB Power Snatch 
+      (2x 65, 2x 75 lbs)
+
+## 2022-07-31
+
+- [x] EMOM x 6 Min:
+  * 4x DB/KB Goblet Squat + 4x Goblet Lunges
+- [x] EMOM x 6 Min:
+  * 8x DB/KB Clean + Push Press
+  *from the ground*  
+- [x] EMOM x 6 Min:
+  * 3x DB/KB Thrusters + 4x Overhead Lunges
+
+## 2022-07-30
+
+- [x] 5x Rounds Of:  
+  - 5x Back Squat  
+    - (185, 205, 225, 275, 295 lbs)   
+  - 30x DB Hang Power Clean & Press   
+    - (50 lbs, switch after 5x each side)  
+
+## 2022-07-29
+
+- [x] In 15 min:
+  - Work up to heavy thruster 
+    (115 - 225 lbs)
+- [x] 4x Rounds Of:
+  - 6x Devils Press 
+  - 8x DB Burpees 
+    (55 lbs) 
+
+## 2022-07-28
+
+- [x] 100x DB Death Drops (with 2 50# DBs)   
+  - (Sprawl -> Deadlift -> Hang Clean -> Thruster = 1 Rep!)   
+
+## 2022-07-27
+
+- [x] EMOM x 24 Min  
+  - 3-2-1 Reps Of:  
+    - DB Deadlift  
+    - DB Cluster  
+    - DB Ground-To-Overhead  
+
+## 2022-07-26
+
+- [x] For Time:   
+  - 5-4-3-2-3-4-5x power cleans:  
+    (135, 185, 205, 225lbs)  
+  - 12x KB Swings (70 lbs)  
+
+## 2022-07-25
+
+- [x] AMRAP 14x Min:
+  - 6x DB Front Rack Reverse Lunge  
+  - 6x DB Hang Clean and Press  
+  - 6x DB Deadlifts  
+
+## 2022-07-24
+
+- [x] AMRAP x20 Min:  
+  - 10x DB Snatch  
+    - (65 lbs from floor)  
+  - 20x Barbell Lunge  
+    - (115lbs, 10x back/10x front)  
+
+## 2022-07-23
+
+- [x] For Time: 
+  - 10-9-8-7-6-5-4-3-2-1x Reps Of:  
+    - Lungsters (2x Reverse Lunge + Squats)  
+  - 1-2-3-4-5-6-7-8-9-10x Reps Of:  
+    - DB Hang Power Snatches  
+
+## 2022-07-22
+
+- [x] 5x Rounds Of:  
+  - 75x Double Unders  
+  - 25 Cals Assault Bike   
+  - 12x Barbell Thrusters (125 lbs)
+
+## 2022-07-21
+
+- 4x Rounds Of: 
+  - 10x DB Burpees  
+  - 15x Sit-Ups  
+  - 20x Single-Leg V-ups  
+  - 15x Sit-Ups  
+  - 10x DB Burpees  
+
+## 2022-07-20
+
+- [x] 5x Rounds Of:  
+  - Clean Complex:  
+    - 2x Front Squat, 2x Hang Clean  
+  - 5x Box-jump   
+  - 10x Double DB Snatches  
+
+## 2022-07-19
+
+- [x] 6x Rounds Of:  
+  - Clean Complex   
+    - (HPC + J + HC + J)  
+    - 135x2, 185x2, 205x2  
+  - 12x DB/KB Snatches   
+
+## 2022-07-18
+
+- [x] 5x Rounds Of:
+  - 5x Back Squat (225 lbs)
+  - 16x DB Hang Power Clean + Press
+    (8x each side)
+
+## 2022-07-17
+
+- [x] Every 2x Min x 10x Cycles
+  * 10x Clusters
+  * 8x Box Jumps
+
+## 2022-07-16
+
+- [x] 7x Rounds Of:
+  - 2x Split Cleans 
+  - 15x KB Swings 
+  - 20x Double-Unders
+
+## 2022-07-15
+
+- [x] 1 Round   
+  * 100x KBx Switch Hand Snatches  
+
+## 2022-07-14
+
+- [x] 6x Rounds Of: 
+  - 3x Power Snatch (155 lbs)
+  - 10x Alt DB Snatch (55lbs)
+  - 10x Alt DB Clean + Press (55 lbs)
+
+*finish with 3x5 Back Squat (225 lbs)
+
+## 2022-07-13
+
+- [x] Every 2 Min x 10 Min:
+  - 12x DB Step-Ups  
+  - 10x DB Front Rack Squats  
+
+## 2022-07-12
+
+- [x] For Time: 
+  - 3x Power Clean (155 lbs)
+  - 12x KB Swings 
+  - 3x Power Clean (185 lbs)
+  - 12x KB Swings 
+  - 3x Power Clean (205 lbs)
+  - 12x KB Swings 
+  - 3x Power Clean (205 lbs)
+  - 12x KB Swings 
+  - 3x Power Clean (185 lbs)
+  - 12x KB Swings 
+  - 3x Power Clean (155 lbs)
+
+## 2022-07-11
+
+- [x] EMOM x12 Min  
+  - 25x Double-Unders  
+  - 8x Thrusters (115 lbs)
+
+## 2022-07-10
+
+- [x] Every 2 Min x 20 Min:
+  - 5x Back Squat  
+  - 1x Front Squat  
+    (225 lbs)
+
+## 2022-07-09
+
+- [x] 20-15-10-5x Reps Of:
+  - Alternating DB Snatches
+
+- [x] 5-10-15-20x Reps Of:
+  - Push-Ups
+
+## 2022-07-08
+
+- [x] 6x Rounds Of:
+  - 5x Barbell Thruster 
+  - 10x Dumbell Deadlift 
+  - 10x DB Snatch 
+
+## 2022-07-07
+
+- [x] 2x Rounds:
+  * 40x KB Switch-Hand Swings
+  * 30x KB Push Press
+  * 20x KB Single Arm Snatch
+  * 10x Push-Ups
+
+## 2022-07-06
+
+***AJF***
+
+## 2022-07-05
+
+***AJF***
+
+## 2022-07-04
+
+- [x] Snatch-tastic + ARMageddon (100x Snatches)
+  - 100x DB Snatches (broken up however you want)
+  - 100x Hammer Curls
+  - 100x Tricep Extensions
+
+## 2022-07-03
+
+- [x] 3x Rounds Of:
+  - 30x Squats
+  - 20x DB Hang Clean & Press
+  - 10x DB Single Arm Devils' Press
+
+## 2022-07-02
+
+- [x] 50x Reps For Time:
+  - 50x DB Slurpees  
+    - (1x DB Squat + 2x DB Lunges (suitcase) + 3x DB Burpee)  
+
+## 2022-07-01
+
+- [x] Every 30 Seconds for 3 Min
+  * 8x Heavy Goblet Squats
+- [x] Every 45 Seconds for 6 Cycles
+  * 10 Single Arm Thrusters (5 Each Side)
+- [x] EMOM x 5 Min
+  * 12 Single Arm Overhead Walking Lunges
+
+## 2022-06-30
+
+- [x] EMOM x 20 Min
+  * 15x KB Swings
+  * 12x Goblet Squats
+
+## 2022-06-29
+
+- [x] 4 Rounds:
+  * 10x Double-DB Snatch
+  * 25x Double-Unders
+
+## 2022-06-28
+
+- [x] EMOM x 24 Min 
+  * 15 Push-Ups
+  * 5x Single Arm devils Press
+  * 12 KB Swings (American)
+
+## 2022-06-27
+
+- [x] 50x reps:
+  - Bear complex (DL + CL + FS + PP + FS + PP)
+- [x] 50x Reps Of:
+  - DB Power Clean + DB Snatch
+
+## 2022-06-26
+
+- [x] 4x Rounds
+  * 15x Goblet Squats
+  * 20x Single Arm DB Thruster (R)
+  * 25x Double-Unders
+  * 15x Goblet Squats
+  * 20x Single Arm DB Thruster (L)
+  * 25x Double-Unders
+
+## 2022-06-25
+
+- [x] EMOM x 25 Min
+  * 10x DB Deadlifts
+  * 8x DB Hang Clean
+  * 10x DB Push Press
+  * 12x Sit-Ups
+  * 15x Squats
+
+## 2022-06-24
+
+- [x] 8x Rounds:  
+  - 16x DB Hang Power Snatch 
+  - 8x Box Jumps   
+  - 4x Front Squat  
+
+## 2022-06-23
+
+- [x] 6x Rounds: 
+  - 8x DB Thrusters  
+  - 8x Burpees  
+  - 20x Double-Unders  
+
+## 2022-06-22
+
+- [x] EMOM for ALAP: 
+  - 3x Power Clean   
+  - 2x Front Squat   
+  - 1x Split Jerk   
+    - *Rounds 1-5: 135 lbs*  
+    - *Rounds 6-10: 155 lbs*    
+    - *Rounds 11-15: 185 lbs*   
+    - *Rounds 16-20: 205 lbs*    
+    - *Rounds 21-25: 225 lbs*    
+
+## 2022-06-21
+
+- [x] 20x EMOM  
+  - 12x Deadlifts  
+  - 9x Hang Power Cleans  
+  - 6x Push-Press  
+
+## 2022-06-20
+
+- [x] 12x EMOM
+  - 3x Power Clean
+  - 3x Front Squat  
+  - 3x Push-Press
+  
+- [x] 8x EMOM   
+  - 16x Single Arm DB Power Clean + Press  
+    - 8x each arm   
+
+## 2022-06-19
+
+- [x] 20x Min Heavy Bag  
+  - 100x DB Thrusters  
+
+## 2022-06-18
+
+- [x] 15x EMOM  
+  - 10x Ground-to-Overhead  
+  - 15x Body-weight Squats  
+  
+
+## 2022-06-17
+
+- [x] 18x EMOM  
+  - 12x DB Snatches  
+  - 8x Goblet Squats  
+  - 12x DB Clean + Jerk  
+
+## 2022-06-16
+
+- [x] 15x Rounds (heavy)  
+  - 3x DB Single Right Arm Thruster 
+  - 3x DB Single Right Arm Snatch 
+  - 3x DB Single Left Arm Thruster 
+  - 3x DB Single Left Arm Snatch  
+  
+
+## 2022-06-15
+
+- [x] 6x Rounds  
+  - 12x KB Swings   
+  - 8x Goblet Squats  
+  - 10x KB Clean + Press  
+  - 12 Cals (assault bike)
+
+## 2022-06-14
+
+- [x] 20x EMOM  
+  - Min 1: 10x KB Swings + 5x Thrusters  
+  - Min 2: 8x Alt DB Snatches + 10x Push-ups  
+
+## 2022-06-13
+
+- [x] 7x Rounds   
+  - 7x DB Power Cleans   
+  - 7x DB Thrusters    
+  - 7x DB Burpees  
+
+## 2022-06-12
+
+- [x] 15x EMOM  
+  - 8x DB Snatches    
+  - 12x Goblet Squats  
+  - 12 Cal (assault bike)
+
+## 2022-06-11
+
+- [x] 6x Rounds  
+  - 15x Deadlifts  
+  - 12x Alternating DB Lunges  
+  - 9x DB Front Squats   
+  - 6x Thrusters  
+
+## 2022-06-10
+
+- [x] 20x EMOM Min  
+  - 4x DB Power Cleans  
+  - 3x DB Push-Press  
+  - 2x DB Squat Cleans  
+  - 1x DB Thruster  
+
+## 2022-06-09
+
+- [x] 10x Rounds  
+  - 5x Devil's Press 
+  - 10x Alternating Snatches  
+  - 10x DB Burpees  
+
+## 2022-06-08
+
+- [x] 20x Rounds Of:
+  - 5x DB Snatch
+  - 4x DB Overhead Lunge
+  - 3x SA DB Push-Press
+  - 2x SA DB Front Squat
+  - 1x SA DB Thruster
+
+## 2022-06-07
+
+- [x] 5x Rounds Of:  
+  - 5x Weighted Slurpees 
+    - (2x DB Front Squats, 2x DB Lunges, 1x DB Burpee = 1 rep)  
+  - 20x Double-Unders  
+
+## 2022-06-06
+
+- [x] 50 Reps Of (55 lbs):
+  - DB Snatch + Reverse Lunge
+  - DB Snatch + Reverse Lunge + Press
+  - DB Split Snatch (Catch in Reverse Lunge)
+
+- [x] 25 Reps Of:
+  - heavy DB Snatch (85 lbs)
+
+## 2022-06-05
+
+- [x] Every 45 Seconds x 50 Cycles
+  - DB Renegade Rows (2x)
+  - DB Push-Up
+  - DB Devil's Press
+  - DB Thruster
+
+## 2022-06-04
+
+- [x] 25 Min of:
+  * Single Arm DB Hang Snatch ->
+    * Single Arm DB Front Squat ->
+	    * Single Arm DB Hang Power Clean ->
+		    * Single Arm DB Push Press
+
+## 2022-06-03
+
+- [x] EMOM x 21 Min   
+  - 25x Double-Unders   
+  - 10x DB Split Squat   
+  - 12x DB Bench Press   
+
+## 2022-06-02
+
+- [x] 10 Rounds
+    * 12x Goblet Squats
+    * 12x KB Swings
+    * 12x DB Push Press
+
+## 2022-06-01
+
+- [x] EMOM x20 Minutes
+  - 5x Single Arm DB Snatch + 5x Single Arm DB Overhead Lunge (R)
+  - 5x Single Arm DB Snatch + 5x Single Arm DB Overhead Lunge (L)
+
+## 2022-05-31
+
+- [x] 8x Rounds Of:
+  - 12x Double DB Deadlifts 
+  - 9x Double DB Hang Clean 
+  - 6x Double DB S20H
+
+## 2022-05-30
+
+- [x] 25-20-15-10-5x reps of 
+  - DB Devil's Press
+  - Squats 
+
+## 2022-05-29
+
+- [x] 100x Reps Of
+  * DB Deadlifts
+  * DB Push-Press
+
+## 2022-05-28
+
+- [x] Every 90 seconds x 6 Rounds
+  * 10x DB Single Arm Thruster
+  * 6x D-Ball Tosses
+
+## 2022-05-27
+
+- [x] 1 Round   
+  * 100x KBx Switch Hand Snatches 
+
+## 2022-05-26
+
+- [x] 10x Rounds Of: 
+  - 12x DB Hammer Curls 
+  - 10x DB Bench  
+  - 8x DB Rows  
+
+## 2022-05-25
+
+- [x] 8x Rounds Of: 
+  - 8x Back Squat (with bands)
+    - (185-225 lbs)
+  - 8x DB Hang Power Clean + Press
+    - (65 - 80 lbs)
+
+## 2022-05-24
+
+- [x] 6x Rounds Of: 
+  - 5x Front Squat 
+    - (185-225 lbs)
+  - 10x DB Snatch (alternating)
+    - (60 lbs)
+  - 5x Box Jumps 
+
+## 2022-05-23
+
+- [x] 8x Rounds Of:
+  - Barbell Power Clean + Hang Clean 2x 
+    - (155 - 225 lbs)
+  - 5x5 Back Squat 
+    - (225 lbs)
+  - 20x Double-Unders 
+  
+## 2022-05-22
+
+- [x] 6x Rounds Of:   
+  - 10x KB swings 
+    - (70 lbs)    
+  - 8x DB Hang Clean + Press   
+  - Deadlift x5 
+    - (225 lbs)  
+
+## 2022-05-21
+
+ - [x] 10 Rounds:
+   - 10x Burpees
+   - 10x Squats
+   - 10x Push-Ups
+   - 10x Sit-Ups
+
+## 2022-05-20
+
+- [x] 6x Rounds Of:    
+  - 4x Front Squat   
+  - 12x KB Snatch   
+  - 20x Double-Unders   
+
+## 2022-05-19
+
+- [x] 5x Rounds Of:  
+  - 6x Reverse Lunge (barbell)   
+  - DB Power Clean + Press   
+  - 6x Box Jumps  
+
+## 2022-05-18
+
+- [x] EMOM x 20 Min 
+  - 5x Back Squat 
+  - DB Clean + DB Hang Power Snatch
+
+## 2022-05-17
+
+- [x] EMOM x20 Min:  
+  - DB Clean +  
+  - DB Ground to Overhead  
+
+## 2022-05-16
+
+- [x] EMOM x24 Min:  
+  - DB Snatch +  
+  - DB Thruster +   
+  - DB Devil's Press 
+
+## 2022-05-15
+  
+- [x] AMRAP 15 Min: 
+  - Power Clean +
+  - Hang Clean +
+  - Split Jerk 
+
+## 2022-05-14
+
+- [x] Every 3 Min for 18 Min:
+  - 4x Deadlift 
+    (225 lbs) 
+  - 5x Pull-ups 
+  - 6x Box-Jumps 
+  - 7x Devils Press 
+    (50 lbs) 
+
+## 2022-05-13
+
+- [x] 6x Rounds Of: 
+  - 5x Back Squat (heavy-ish)
+  - 20m Farmer Walk 
+    (100 lbs) 
+  - 12x DB Power Snatch 
+    (55 lbs) 
+
+## 2022-05-12
+
+- [x] EMOM x20 Min:  
+	* 5 Push-Ups  
+	* 10 Toe-Touches  
+	* 15 Squats
+ 
+## 2022-05-11
+
+- [x] 5x Rounds Of:  
+  - 12x KB Swings   
+    (70 lbs)   
+  - 10x Barbell Walking Lunges   
+    (135 lbs)  
+- [x] 4x3 Burpee Box Jumps   
+
+## 2022-05-10
+
+- [x] "*pick yourself up*"
+  - Power Clean   
+    - Weight = body weight   
+     - Reps = age   
+
+*200 lbs x 39 reps 
+
+## 2022-05-09
+
+- [x] 5x Rounds Of:   
+  - 10x DB Deadlift   
+  - 8x DB Hang Clean + Press   
+  - 6x DB Clean   
+
+*Abs 
+
+## 2022-05-08
+
+- [x] 6x Rounds  
+  - 15x Squat  
+  - 12x Push-Ups  
+  - 9x Sit Ups  
+  - 6x Lunges  
+  - 3x Pull Ups  
+
+## 2022-05-07
+
+- [x] Every 90 Seconds x 15 Rounds
+  * 8x DB devils Press
+  * 20x Double Unders
+
+## 2022-05-06
+
+- [x] EMOM x 20 Min:
+  - Clean Complex 
+    - Front Squat + 
+       Hang Power Clean + 
+       2x Push Jerk 
+
+- [x] 3x5 Box Jumps 
+
+## 2022-05-05
+
+- [x] 7x Rounds (20 min time-cap):  
+  - 1x Clean (barbell)  
+    - (185 lbs) 
+  - 5x Pull-ups   
+  - 10x Push-Ups   
+  - 15x Squats   
+
+## 2022-05-04
+
+- [x] AMRAP in 20 Min: 
+  - 5x Back Squat 
+    - (225, 275, 315* lbs)
+  - 10x Alt DB Hang Power Snatch 
+
+## 2022-05-03
+
+- [x] 8x Rounds Of: 
+  - 6x Barbell Front Rack Reverse Lunges   
+   - (155, 185 lbs)   
+  - 10x Alt DB Hang Power Clean + Press   
+   - (60 lbs)     
+  - 20x Double-Unders   
+
+## 2022-05-02
+
+- [x] 5x Rounds Of:   
+  - 12x KB Snatches   
+    - (55, 70lbs)   
+  - 5x Deadlift   
+    - (225 lbs)   
+  - 6x Overhead Press   
+    - (115, 135 lbs) 
+
+## 2022-05-01
+
+- [x] Active Rest: 
+  - 30 sec work:rest 
+    - Sledge Hammer 
+    - Tire Flip 
+    - Heavy Bag 
+    
+
+## 2022-04-30
+
+- [x] 5x Rounds Of: 
+  - 5x Back Squat 
+  - 5x Box Jump 
+  - 8x Ground-to-Overhead
+
+## 2022-04-29
+
+- [x] EMOM x25 Min
+  - 12x Push-Ups 
+  - 14x Squats 
+  - 12x DB Snatches 
+  - 10x DB Suitcase Lunges 
+  - 8x Single Arm DB Clusters 
+
+##  2022-04-28
+
+- [x] 9x Rounds Of: 
+  - 3x Hang Clean 
+    (185, 205, 225 lbs) 
+  - 2x Split Jerks 
+    (185, 195, 205 lbs)
+
+*15x Curls (in the squat rack)*
+
+## 2022-04-27
+
+- [x] EMOM x25 Min
+	* 12x Push-Ups 
+	* 14x Squats 
+	* 12x DB Snatches 
+	* 10x DB Suitcase Lunges 
+	* 8x Single Arm DB Clusters 
+
+## 2022-04-26
+
+- [x] EMOM x10 Min
+	- 10x DB Push Press 
+	- 10x DB Front Squats 
+- [x] EMOM x10 Min
+	* 12x Push-ups
+	* 12x KB Swings 
+- [x] EMOM x10 Min 
+	* 14x DB Thrusters 
+	* 14x DB Overhead Lunge 
+
+## 2022-04-25
+
+- [x] 5x Rounds Of: 
+  - Weighted Sled Push 
+  - 6x Single Arm DB Snatch + 
+     Power Clean + 
+     Press
+  - 20x Double Unders  
+
+## 2022-04-24
+
+- [x] 7x Rounds Of: 
+  - Weighted Sled Push 
+  - DB Snatch + Power Clean + Press
+  - Double Unders  
+
+## 2022-04-23
+
+- [x] 8x Rounds Of: 
+  - 10x DB Burpee (55 lbs) 
+  - 3x Front Squat (225 lbs)
+
+## 2022-04-22
+
+- [x] Heavy Double OHS 
+  - 135, 155, 185, 205 lbs 
+  - 50x DB Devils Clean 
+
+## 2022-04-21
+
+- [x] 8x Rounds Of: 
+  - 20x Squats
+  - 20x Push Ups 
+
+## 2022-04-20
+
+- [x] 10x Rounds Of: 
+  - 12x DB SA Power Snatch 
+  - 12x DB Reverse Lunges 
+  - 12x DB SA Power Snatch 
+  - 12x DB Bulgarian Split Squat
+
+## 2022-04-19
+
+- [x] 10x Rounds Of: 
+  - 10x SA DB Power Clean + Press 
+  - 10x Goblet Squat 
+
+
+## 2022-04-18
+
+- [x] 5x Rounds Of:  
+  - 5x Power Snatches (135 lbs)
+  - 3x Power Snatches (155 lbs)
+  - 2x Power Cleans (185 lbs)
+  - 1x Power Clean (205 lbs)
+
+## 2022-04-17
+
+- [x] 8x Rounds Of: 
+  - 6x DB Overhead Lunge (55 lbs)     
+  - 6x DB Deadlift (55 lbs)   
+  - 6 DB Hang clean (55 lbs) 
+
+## 2022-04-16
+
+- [x] 7 Rounds Of:
+  - 11x Front Squats (185 lbs)
+  - 10x Jerks (135 lbs)
+
+## 2022-04-15
+
+- [x] 7x Rounds Of: 
+  - 10x DB Hang Power Clean & Jerk (55 lbs)  
+  - 10x DB Hang Power Snatch (55 lbs)  
+  - 10x Burpee Box Jump Overs (24/20") 
+
+## 2022-04-14
+
+- [x] Every 90 Seconds x 15 Rounds
+  * 8x DB devils Press
+  * 20x Double Unders
+
+## 2022-04-13
+
+- [x] 5x5 Pause Squats 
+  - (225 lbs)
+- [x] Heavy Double Back Squat 
+  - (315 lbs) 
+- [x] Seated box jumps 
+  - 3x3 (increasing height) 
+
+## 2022-04-12
+
+- [x] Clean Complex 
+  - Power Clean + 
+     Hang Power Clean + 
+     Split Jerk 
+  - 4x Rounds Of: 
+    - 15x KB Switch Hand Snatch 
+      (55 lbs)
+  
+## 2022-04-11
+  
+- [x] 5x Rounds Of: 
+  - 12x SA DB Clusters (60 lbs)
+  - 6x DB Step-ups (60 lbs)
+  - 12x DB SA DB Snatches (70 lbs)
+  - 6x DB Step-ups (70 lbs)
+
+## 2022-04-10
+
+- [x] 6x Rounds Of:
+  - 9x DB Deadlifts 
+  - 6x DB Hang Clean  
+  - 3x Shoulder to Overhead  
+  - 5x Burpee Pull ups
+
+## 2022-04-09
+
+- [x] AMRAP x 20min:
+  - 3x Power Snatch (135 lbs) 
+  - 20x Push-Ups 
+
+## 2022-04-08
+  
+- [x] 7x Rounds Of: 
+  - 8x DB SA Alt Hang Power Clean 
+    (60 lbs)
+  - 6x Back Squat 
+    (225 - 275lbs)
+  - 4x Pull-Ups 
+*buy out = 10x seated box jumps
+
+## 2022-04-07
+
+- [x] 6x Rounds Of:  
+  - 10 DB Burpee Deadlift (55 lbs)  
+  - 10 DB Step Ups (55 lbs)  
+  - 10 DB Shoulder to Overhead (55 lbs) 
+
+## 2022-04-06
+
+- [x] 25 Minute Time-cap:
+  - Work up to heavy clean  
+  - 12 cal assault bike every 2 min 
+
+## 2022-04-05
+
+- [x] 7x Rounds:   
+  - 3x Deadlift (315 lbs)  
+  - 10x DB Alt Power Snatch (60 lbs)  
+  - 7x Barbell Push Press (135 lbs)  
+
+## 2022-04-04
+
+- [x] EMOM x18 minutes 
+  - Power Clean
+  - 2x Lunge  
+  - Split Jerk 
+    (185 lbs) 
+*heavy bag warm up*
+
+## 2022-04-03
+
+- [x] 3 Rounds Of:
+  - 9-7-5 Reps/Side
+    - Single Arm DB Power Snatch  
+    - 50 Double Unders
+
+## 2022-04-02
+
+- [x] 6x Rounds Of:
+  - 12x DB Deadlifts (55 lbs)
+  - 8x Barbell Bench Press 
+    (185 lbs) 
+  - 10x DB Reverse Lunge (55 lbs)
+
+## 2022-04-01
+
+- [x] EMOM x22 Minutes 
+  - 8x thruster (115 lbs)
+  - 10x KB swing (70 lbs)
+
+## 2022-03-31
+
+- [x] 7x Rounds Of:
+  - 5x Deadlift (225 lbs)
+  - 10x DB Alt Hang Power Snatch 
+    (55 lbs)
+  - 8x DB Alt Hang Power Clean + Press
+    (65 lbs) 
+
+## 2022-03-30
+
+- [x] Snatches 
+  - Work up to 70% power snatch 
+  - 10x Singles 
+- [x] 5x5 Front Squat 
+  - Buy out: 20x Burpee + pull-up
+
+## 2022-03-29
+
+- [ ] 5x Rounds Of: 
+  - 15x Double DB Hang Snatch  
+  - 15x Double DB Squats 
+
+## 2022-03-28
+
+- [ ] 20x Rounds Of: 
+  - 1x Power Clean  
+  - 2x Box Jumps 
+  - 3x Pull-Ups  
+
+## 2022-03-27
+
+- [x] 45 Minutes Active Rest: 
+  (2 min on/1 min off)
+  - Heavy bag
+  - Tire flip/jump 
+  - Sledge hammer 
+
+
+## 2022-03-26
+
+- [x] 4x Rounds Of: 
+  - 15x Ground-to-Overhead
+  - 25x Double-Unders
+  - 15x DB Lunges
+  - 20x Push-Ups
+
+## 2022-03-25
+
+- [x] EMOM x15 Minutes: 
+  - Deadlift 
+  - Hang Clean 
+  - Deadlift  
+  - Hang Cluster
+
+## 2022-03-24
+
+- [x] EMOM x12 Minutes:
+  - 12x DB Alt Hang Power Snatch 
+    - (65, 75 lbs) 
+  - 8x DB Alt Hang Power Clean + Press
+    - (65, 75 lbs) 
+
+## 2022-03-23
+
+- [x] Clean Complex
+  - 1x Power Clean 
+  - 2x Front Squat 
+  - 3x Push-Press/Jerk
+    - (155, 185, 205, 215 lbs)
+    
+- (…then)  
+  - 5x heavy single clean + jerk
+    - (235 lbs)
+  - 3x(8x) DB Devil’s Clean 
+    - (55 lbs)
+
+## 2022-03-22
+
+- [x] AMARP (20 min)
+  - 20x Squats 
+  - 10x DB Push-Press 
+    - (55 lbs)
+  - 5x Deadlift
+    - (225 lbs)
+
+## 2022-03-21
+
+- [x] 6x Rounds Of: 
+  - 5x Back Squat  
+    - (255 lbs)
+  - 12x DB Snatch   
+    - (55 lbs) 
+  - 10x Barbell Walking Lunge  
+    - (135 lbs)  
+
+## 2022-03-20
+
+- [x] 10x Rounds Of: 
+  - 10x KB Snatches (each side)  
+  - 15x KB Goblet Squats 
+  - 20x KB Swings 
+
+## 2022-03-19
+
+- [x] 5x Rounds Of: 
+  - 8x Devil's Press 
+  - 10x DB Lunge (1 suitcase, 1 overhead)  
+  - 50x Double-Unders
+
+## 2022-03-18
+
+- [x] 4x Rounds Of:
+  - 20x DB Hang Snatch 
+  - 20x DB Hang Clean + Jerk 
+  - 20x Push-Ups
+
+## 2022-03-17
+
+- [x] 100x Reps Of: 
+  - Weighted Burpees (25 lb vest)
+- [x] 50x Reps Of: 
+  - D-Ball Lunges (90 lbs)
+
+## 2022-03-16
+
+- [x] 50x Reps Of:
+  + Sprawl 
+    + DB Deadlift 
+      + DB Hang Clean 
+        + DB Cluster = 1 rep! 
+        
+  - 10x Ab rotation 
+
+## 2022-03-15
+
+- [x] 5x Rounds Of:
+  - 10x DB Hang Power Snatch
+    - (55 lbs) 
+  - 8x D-Ball Squat 
+    - (60 lbs) 
+  - 8x DB Hang Power Snatch
+    - (65 lbs) 
+  - 6x D-Ball Squat 
+    - (90 lbs) 
+  - 6x DB Hang Power Snatch
+    - (75 lbs) 
+  - 2x D-Ball Squat 
+    - (150 lbs) 
+
+## 2022-03-14
+
+- [x] 5x5 Squats 
+  - Barbell Front Squat 
+  - Barbell Back Squat 
+- [x] 5x Rounds Of:
+  - 10x DB Burpees (55 lbs)
+  - 10x DB Hang Clean + Press (55 lbs)
+
+## 2022-03-13
+
+- [x] 50x Reps Of:
+  - KB TGU (53 lbs) 
+  - Goblet Lunge (53 lbs)
+
+## 2022-03-12
+
+- [x] 6x Rounds Of: 
+  - 12x DB Bench Press 
+  - 20x Squats 
+  - 25x Double-Unders
+
+## 2022-03-11
+
+- [x] 8x Rounds Of: 
+  - 25x Double Unders 
+  - 12x KB Swings (70 lbs)
+  - 20x Push Ups 
+
+## 2022-03-10
+
+- [x] 10x Rounds Of:
+  - 8x Single Arm Cluster (55 lbs)
+  - 5x Deadlift (225 lbs) 
+
+## 2022-03-09
+
+- [x] Every 90 Seconds x10 Rounds:
+  - Power Clean + 2x Front Squats 
+  - 25x Double Unders 
+
+## 2022-03-08
+
+- [ ] For Time:
+  - 75x DB Snatch   
+    (75 lbs)   
+  - 30x DB Hang Clean + Jerk   
+    (75 lbs)  
+  - *3 burpees EMOM*  
+
+## 2022-03-07
+
+- [x] EMOM x20 Minutes: 
+  - Power Snatch + Overhead Squat 
+
+## 2022-03-06
+
+- [x] AMRAP x20 Minutes 
+  - 5x Back-squat
+  - Tire flip (20 meters) 
+
+## 2022-03-05
+
+- [x] 6x Rounds Of: 
+  - 25x Double Unders 
+  - 12x DB Thrusters
+
+## 2022-03-04
+
+- [x] 6x Rounds Of:
+  - 8x Lateral Burpees
+  - 8x DB Box Step-Up
+  - 16x DB Hang Clean + Jerk
+
+## 2022-03-03 
+
+- [x] 8x Rounds Of:
+  - 10x DB Deadlift 
+  - 4x D-Ball Clean (90 lbs)
+  - 10x DB Bench 
+
+## 2022-03-02
+
+- [x] 6x Rounds Of:
+  - 10x DB Alt Snatches (55-75 lbs)
+  - 10x DB Curl + Press (45 lbs)
+  
+## 2022-03-01
+
+- [x] 10x Rounds Of: 
+  - 10x DB Clean + Press 
+  - 10x DB Deadlift 
+
+## 2022-02-28
+
+- [x] 10x Rounds:
+  - 6x DB Snusters (snatch + thruster)
+  - 6x DB Step-Overs 
+  - 12x Ab Rotation 
+
+## 2022-02-27
+
+- [x] 20x Rounds Of:
+  - 3x DB Power Snatch (each side)
+  - 6x Push-Ups
+  - 9x Squat
+
+## 2022-02-26
+
+- [x] 8x Rounds Of:
+  - 8x DB Bench Press 
+  - 8x DB Hang Power Clean/Snatch/Goblet Squat**
+  - 8x DB Flies 
+  - 8x DB Rows (each arm)
+
+**choose your own adventure 
+
+## 2022-02-25
+
+- [x] 1x Round Of:
+  - 50x DB Deadlifts
+  - 40x DB Hang Power Clean & Jerks
+  - 30x DB Front Squats
+  - 20x Devil's Presses
+  - 10x Clusters
+
+## 2022-02-24
+
+- [x] 10x Rounds Of:
+  - 6x DB H Clean + Press (45 lbs)
+  - 6x DB Deadlift (55 lbs)
+  - 4-6x D-Ball Toss (90-150 lbs)
+
+## 2022-02-23
+
+- [x] 8x Rounds Of:
+  - 8x Ground-to-overhead 
+  - 8x Reverse Lunges 
+  - 25x Double-Unders
+
+## 2022-02-22
+
+- [x] EMOM x24 Minutes:
+  - 10x DB Hang Power Snatch (R)
+  - 8x Front Squat (barbell)
+  - 8x Reverse Suitcase DB Lunge
+  - 10x DB Hang Power Snatch (L)
+
+## 2022-02-21
+
+- [x] Every 75 seconds x 10 cycles 
+  - 5x Deadlifts 
+  - 4x Thrusters 
+  - 3x Overhead Squats 
+    - (@ 115 lbs) 
+
+## 2022-02-20
+
+- [x] 10x Rounds Of: 
+  - 10x DB Power Snatch 
+  - 8x DB Hang Power Clean + Jerk 
+  - 6x Box-Jump Burpees 
+
+## 2022-02-19
+
+- [x] Heavy Single P Clean + Jerk
+  - (165, 185, 215, 225, 245 lbs)
+
+## 2022-02-18
+  
+- [x] 8x Rounds: 
+  - 5x Back Squat (225 lbs)
+  - 20x Double-Unders
+
+## 2022-02-17
+
+- [x] 6x Rounds Of:
+  - 8x Lateral Burpees
+  - 8x DB Box Step-Up
+  - 16x DB Hang Clean + Jerk
+
+## 2022-02-16
+
+- [x] 5x Rounds Of:
+  - 12x KB Swing
+  - 12x Single Arm KB Front Squat (6x each side)
+  - 12x KB Clean + Press (6x each side)
+
+## 2022-02-15
+
+- [x] 4x Rounds: 
+  - 20x DB Hang Snatch 
+  - 20x DB Hang Clean + Jerk 
+  - 20x Push-Ups 
+
+## 2022-02-14
+
+- [x] EMOM x24 Minutes:
+  - 5x Deadlift (225 lbs)
+  - 20m Single Arm Rack Carry (R)
+  - 20m Single Arm Rack Carry (L)
+  - 5x Deadlift (225 lbs)
+  - 20m Single Arm Overhead Carry (R)
+  - 20m Single Arm Overhead Carry (L)
+  - 5x Deadlift (225 lbs)
+  - Farmer Carry
+
+## 2022-02-13
+
+- [x] 10x Rounds:   
+  - 10x DB Snatch   
+    (2x 55, 65, 75, 85 lbs)
+  - 25x Double-Unders   
+
+## 2022-02-12
+
+- [x] EMOM x20 Minutes: 
+  - 3x Power Cleans 
+- [x] 5x Rounds Of: 
+  - Tire Flip x20 meters 
+
+## 2022-02-11
+
+- [x] 30-20-10 Reps Of:
+  - Squats
+  - Hang DB Clean & Jerks
+  - Single Arm Devil's Press
+  
+  *50x double-unders buy-in/out*
+
+## 2022-02-10
+
+- [x] 5x Rounds Of:
+  - 10x Burpees
+  - 10x Alternating DB Snatches
+  - 10x Alternating DB Hang Clean & Jerk
+
+## 2022-02-09
+
+- [x] Heavy Double (15 min time-cap)
+  - Back Squat (with pause)
+    - 135, 185, 205, 225, 275 lbs
+  - 50x DB Hang Clean + Reverse Lunge + Snatch
+
+## 2022-02-08
+
+- [x] EMOM x 20 Minutes:
+  - 1st 10 Minutes:  
+    - Clean + 3x Front Squat   
+       (185, 205, 215 lbs)
+  - 2nd 10:  
+    - 10x Plate Devil’s Press  
+    - 40x Double-Unders  
+
+## 2022-02-07
+
+- [x] 7x Rounds:
+  - 10x DB Snatch
+  - 10x DB Step-Ups
+  - 10x DB Reverse Lunge
+  - 10x DB Burpee
+
+## 2022-02-06
+
+- [x] 5x Rounds Of:
+  - 25x Double-Unders
+  - 20x Squats
+  - 15x Push-Ups
+
+## 2022-02-05
+
+- [x] EMOM x 18 Minutes
+  - 20x Double-Unders
+  - 4x DB Power Clean + Jerk + Snatch (from floor)
+
+## 2022-02-04
+
+- [x] Back/Overhead Squat (1:1)
+  - 5x 135 lbs (x2)
+  - 4x 155 lbs (x2)
+  - 3x 185 lbs (x2)
+  - 2x 205 lbs (x2)
+
+## 2022-02-03
+
+- [x] 8x Rounds:
+  - 10x Deadlifts
+  - 8x Alt DB Lunges
+  - 6x DB Front Squats
+  - 4x Thrusters
+
+## 2022-02-02
+
+- [x] 10x Rounds Of:
+  - 10x Double DB H Clean + Press
+   (50 lbs)
+  - 8x Single Arm DB Power Snatch
+   (70 lbs)
+   
+  *waiters walk x20 meters*
+
+## 2022-02-01
+
+- [x] Every 45 seconds x9 cycles
+  - Power Clean/Front Squat/Hang Power Clean/Thruster   
+    (155, 185, 205 lbs)
+- [x] 6x Rounds
+  - 15x Push-Ups
+  - 15x Squats
+
+## 2022-01-31
+
+- [x] 7x Rounds Of:
+  - 10x KB Swings (70 lbs)
+  - 10x KB Snatches (55 lbs)
+  - 10x DB Hang Clean + Press (60 lbs)
+
+## 2022-01-30
+
+- [x] 4x Rounds Of:
+  - 25x Push-Ups
+  - 25x Squats
+  - 25x Double-Unders
+
+  ## 2022-01-29
+
+  - [x] work up to heavy power snatch
+  - [x] 5x Rounds Of:
+    - 5x Deadlifts
+    - 20x Double-Unders
+
+## 2022-01-28
+
+- [x] EMOM x20 Minutes
+  - 10x KB Swings
+  - 12x Thusters
+  - 8x Alternating DB Snatches
+  - 10x Push-Ups
+
+## 2022-01-27
+
+- [x] 20-18-16-14-12-10-8-6-4-2x Reps Of:
+  - Single Arm Devil's Press
+  - *20 Double-Unders between sets
+
+## 2022-01-26
+
+- [x] EMOM x20 Minutes
+  - 3x Power Clean
+  - 3x Front Squats
+  - 3x Jerks
+
+## 2022-01-25
+
+- [x] EMOM x24 Minutes:
+  - 10x DB Snatches
+  - 8x DB Deadlifts
+  - 20x Double-Unders
+
+
+## 2022-01-24
+
+- [x] 5x Rounds of:
+  - 7x Power Snatch (95 lbs)
+  - 5x Power Snatch (115 lbs)
+  - 3x Power Snatch (135 lbs)
+
+## 2022-01-23
+
+- [x] 30:30 work/rest x12 Minutes
+  - Sledge
+  - Box Jump
+- [x] 7x Rounds:
+  - 7x Curls
+  - 7x Tricep Extension
+  - 7x Reverse Overhead Lunge
+  - 7x Overhead Sit-Up
+
+## 2022-01-22
+
+- [x] 15 Minute Time-cap:
+  - Heavy double back squat
+    + (295 lbs)
+- [x] 5x rounds of:
+  - 5x Back Squat (225 lbs)
+  - 6x DB Power Snatch + DB Hang Power Clean + Press
+
+## 2022-01-21
+
+- [x] EMOM x21 Minutes
+  - 8x DB Burpees
+  - 10x DB Bench Press
+  - 20x Double-Unders
+
+## 2022-01-20
+
+- [x] 5x Rounds Of:
+  - P Clean + HP Clean + 2x Jerk
+  - 8x DB Ground-2-Overhead
+  - 12x Squats
+
+## 2022-01-19
+
+- [x] 4x Rounds Of:
+  - 6x KB Snatches (L, 70lbs)
+  - 5x Deadlift 225lbs
+  - 6x Snatches (R, 70lbs)
+  - 5x Deadlift 275 lbs
+
+## 2022-01-18
+
+- [x] 15-12-9-6-9-12-15x Reps:
+  - DB Front Rack Reverse Lunges
+  - Double-Unders
+  - DB Hang Power Clean & Press
+
+## 2022-01-17
+
+- [x] 7 Rounds:
+  - 7x Back Squats (185 lbs)
+  - 7x Push Press (135 lbs)
+
+
+## 2022-01-16
+
+- [x] 40-30-20-10x Reps Of:
+  - DB Alternating Snatches
+  - 12x Cal Assault Bike
+
+## 2022-01-15
+
+- [x] Every 90 seconds x 5x Rounds:
+  - 6x Deadlifts
+  - 4x Hang Power Clean
+  - 3x Push Press
+
+*DB or BB
+
+## 2022-01-14
+
+- [x] 1x Round:
+  - 15-14-13-12-11-10x DB Ground-to-Overhead
+  - 20-22-24-26-28-30x Double-Unders
+
+## 2022-01-13
+
+- [x] 7x Rounds Of:
+  - 13x DB Hang Power Snatch
+    (55 lbs)
+  - 10x DB Hang Power Clean + Press
+    (65 lbs)
+
+## 2022-01-12
+
+- [x] 10-9-8-7-6x reps of:
+  - Barbell Thrusters (@ 115lbs)
+- [x] 5-4-3-2-1x reps of:
+  Barbell Thrusters (@ 135lbs)
+
+*20x double-unders after each set
+
+## 2022-01-11
+
+- [x] 10x Rounds Of:
+  - 12x Cal Assault Bike
+  - 10x DB Snatches (@ 70lbs)
+
+## 2022-01-10
+
+- [x] 8x Rounds
+  - Prowler
+  - 6x Ball Toss (@ 50lbs)
+  - 5x Box Jumps
+
+## 2022-01-09
+
+- [x] EMOM x24 Minutes:
+  - 6x DB Sprawl + Power Clean + Press (55, 65, 75lbs)
+  - 4x DB Sprawl + Power Snatch + Reverse Lunge (55, 65lbs)
+
+## 2022-01-08
+
+- [x] 5x Rounds
+  - 25x Push-Ups
+  - 12x KB Swings (70lbs)
+
+## 2022-01-07
+
+- [x] 5x5
+  - Front Squats
+- [x] 7x Rounds Of:
+  - 30x Double Unders
+  - 15x Push-Ups
+
+## 2022-01-06
+
+- [x] EMOM x20 Minutes:
+  - 10x DB Hang Clean + Press
+  - 6x DB Suitcase Lunges
+  - Buy in/out: 15x tire flip
+
+## 2022-01-05
+
+- [x] 5x Rounds Of:
+  - 225lbs back squat x5
+  - 70lbs DB Snatch x8 (from floor)
+
+## 2022-01-04
+
+- [x] EMOM x20 Minutes:
+  - 10x DB Hang Clean + Press
+  - 6x DB Suitcase Lunges
+  - Buy in/out: 15x tire flip
+
+## 2022-01-03
+
+- [x] EMOM x10 Minutes:
+  - 3x Power Snatches
+- [x] 6x Rounds Of:
+  - 12x KB Swings
+  - 25x Double Unders
+  - 25x Sledge Hammer
+
+## 2022-01-02
+
+- [x] EMOM x24 Minutes
+  - 8x Burpees
+  - 10x DB Bench Press
+  - 12x DB Rows
+
+## 2022-01-01
+
+- [x] 100x Reps of
+  - Single Arms DB Devil's Presses
+

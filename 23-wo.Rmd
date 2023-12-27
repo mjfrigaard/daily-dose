@@ -1,0 +1,46 @@
+---
+title: "The Daily Dose (2023)"
+output:
+  html_document:
+    theme: default
+    highlight: textmate
+    css: styles.css
+    toc: true
+    toc_float: yes
+---
+
+# **2023 Workouts**
+
+All 2023 workouts are all on [Vimeo](https://vimeo.com/user124837051).
+
+# 2023-01-14
+
+[EMOM x 20 minutes:](https://vimeo.com/manage/videos/799298435)
+   
+  - Power clean   
+  - Push jerk    
+  - Front squat    
+  - Split jerk    
+
+*205 lbs
+
+# 2023-01-15 
+
+[For time:](https://vimeo.com/manage/videos/793668886)
+
+Work up to heavy 5x5 of:   
+
+  - Back squat    
+  - Front squat    
+
+Mix with:   
+
+  - 12x DB Hang Power Snatch    
+  - 10x DB Alternating bench press   
+  
+## 2023-01-16 
+
+[6 Rounds of:](https://vimeo.com/manage/videos/793638101)
+
+  - 5x Deadlifts (295lbs)    
+  - 8x Sandbag lunge (100lbs)    

@@ -2,7 +2,7 @@
 title: "In Development"
 output:
   html_document:
-    theme: darkly
+    theme: default
     highlight: textmate
     css: styles.css
     toc: true

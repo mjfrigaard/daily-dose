@@ -3,11 +3,13 @@ output_dir: "docs"
 navbar:
   title: "The Daily Dose"
   left:
-    - text: "2022 Workouts"
-      href: index.html
-    - text: "2021 Workouts"
+    - text: "2023"
+      href: 23-wo.html
+    - text: "2022"
+      href: 22-wo.html
+    - text: "2021"
       href: 21-wo.html
-    - text: "2020 Workouts"
+    - text: "2020"
       href: 20-wo.html
     - text: "NOTES"
       href: notes.html
