@@ -6,7 +6,7 @@ output:
     highlight: textmate
     css: styles.css
     toc: true
-    toc_depth: 2
+    toc_depth: 3
     toc_float: yes
 ---
 
@@ -186,7 +186,7 @@ The workouts below took place in the PDX home (office) gym:
 
 -   [x] [For time:](https://vimeo.com/886147611)
 
-    -   100x Devils press
+    -   100x Devils Press
 
 ### 2023-11-17
 
@@ -316,7 +316,7 @@ The workouts below took place in the PDX home (office) gym:
         -   (3x each side)
     -   8x DB Rev Lunge
 
-\*hold DB in front rack
+\*hold DB in Front rack
 
 ### 2023-10-21
 
@@ -338,7 +338,7 @@ The workouts below took place in the PDX home (office) gym:
 
 ### 2023-10-19
 
--   [x] [8x Rounds:](https://vimeo.com/manage/videos/876215964)
+-   [x] [8x Rounds:](https://vimeo.com/876215964)
 
     -   12x Push-Ups
 
@@ -346,7 +346,7 @@ The workouts below took place in the PDX home (office) gym:
 
 ### 2023-10-18
 
--   [x] [6x Rounds:](https://vimeo.com/manage/videos/875853123)
+-   [x] [6x Rounds:](https://vimeo.com/875853123)
 
     -   8x DB Power Clean + Press
 
@@ -354,7 +354,7 @@ The workouts below took place in the PDX home (office) gym:
 
 ### 2023-10-16
 
--   [x] [EMOM x15 Min:](https://vimeo.com/manage/videos/875016265)
+-   [x] [EMOM x15 Min:](https://vimeo.com/875016265)
 
     -   20x Squats
 
@@ -364,7 +364,7 @@ The workouts below took place in the PDX home (office) gym:
 
 ### 2023-10-15
 
--   [x] [EMOM x20 Min:](https://vimeo.com/manage/videos/874696006)
+-   [x] [EMOM x20 Min:](https://vimeo.com/874696006)
 
     -   2x Push-Up/Row + Push-Up
 
@@ -376,7 +376,7 @@ The workouts below took place in the PDX home (office) gym:
 
 ### 2023-10-14
 
--   [x] [AMRAP in 18 Min:](https://vimeo.com/manage/videos/874463313)
+-   [x] [AMRAP in 18 Min:](https://vimeo.com/874463313)
 
     -   DB Complex:
 
@@ -416,11 +416,10 @@ The workouts below took place in the PDX home (office) gym:
 
 -   [x] [EMOM x18 Min:](https://vimeo.com/872557208)
 
--   3 Sets Of:
-
-    -   DB Hang Power Clean
-    -   DB Hang Power Snatch
-    -   DB Front Squat
+    -   3 Sets Of:
+        -   DB Hang Power Clean
+        -   DB Hang Power Snatch
+        -   DB Front Squat
 
 ### 2023-10-07
 
@@ -459,103 +458,173 @@ The workouts below took place in the PDX home (office) gym:
 -   [x] [For time:](https://vimeo.com/871652457)
     -   50x DB Hang Clean + Press
 
-```{=html}
-<!--
-
 ## September
 
 ### 2023-09-30
 
+-   [x] [AMRAP x20 Min:](https://vimeo.com/869734460)
 
-### 2023-09-29
+    -   12 DB Alt Snatch 
+  
+    -   10x Rev DB Lunge
 
 
 ### 2023-09-28
 
+-   [x] [EMOM x20 Min:](https://vimeo.com/869379418)
 
-### 2023-09-27
+    -   5x DB Power Clean + Press
 
 
 ### 2023-09-26
 
+-   [x] [AMRAP x20 Min](https://vimeo.com/manage/videos/868557189)
+
+    -   5x DB Devils Press 
+    
+    -   12x DB Plank Press 
+    
+    -   12x DB Curl
+
 
 ### 2023-09-25
 
+-   [x] [8x Rounds Of:](https://vimeo.com/manage/videos/868523203)
 
-### 2023-09-24
+    -   10x DB Deadlifts  
+    
+    -   5x DB Hang Power Clean + Press
 
 
 ### 2023-09-23
 
+-   [x] [EMOM x18 Min:](https://vimeo.com/manage/videos/868522588)
+
+    -   15x DB Alt Snatch 
+    
+    -   20x Squats 
+  
+    -   15x Sit-Ups
+
 
 ### 2023-09-22
 
+-   [x] [10x Rounds Of:](https://vimeo.com/manage/videos/868522893)
 
-### 2023-09-21
-
-
-### 2023-09-20
-
-
-### 2023-09-19
-
-
-### 2023-09-18
-
-
-### 2023-09-17
-
-
-### 2023-09-16
-
-
-### 2023-09-15
-
+    -   5x Clusters 
+    
+    -   12x DB OH Sit-Up
 
 ### 2023-09-14
 
 
+-   [x] [1 Min On/1 Min Off:](https://vimeo.com/manage/videos/864685843)
+
+    -   Single Arm Snatch + Front Squat + Hang Power Clean + Push Press
+
+
 ### 2023-09-13
 
+-   [x] [EMOM x20 Minutes:](https://vimeo.com/manage/videos/864687099)
 
-### 2023-09-12
-
+    -   5x DB Deadlifts + Hang Clean
 
 ### 2023-09-11
 
+-   [x] [EMOM x20 Min:](https://vimeo.com/manage/videos/863392789)
+
+    -   2x DB Complex
+        -   Squat x 2
+        -   Suitcase Lunge x 2
+        -   Snatch x 2
+
+Throwback to: https://vimeo.com/466993599
+
+*4x8 reps DB Overhead Sit-up
 
 ### 2023-09-10
 
+-   [x] [50x reps:](https://vimeo.com/manage/videos/863062717)
+
+    -   Bear complex:
+        -   Deadlift + Clean + Front Squat + Push-Press + Front Squat + Push-Press 
+        
+    -   50x reps of: 
+        -   DB Power Clean + DB Snatch
+
+*Repeat of 2020-12-28
 
 ### 2023-09-09
 
+-   [x] [For time:](https://vimeo.com/manage/videos/862890065)
+      -   100x DB Hang Power Snatch   
+      -   75x DB Bridge Press   
 
 ### 2023-09-08
 
+-   [x] [8x Rounds:](https://vimeo.com/manage/videos/862887375)
 
-### 2023-09-07
-
+    -   8x DB Thrusters
 
 ### 2023-09-06
+
+-   [x] [8x Rounds Of:](https://vimeo.com/manage/videos/862137977)
+
+    -   5x Devils Press 
+    
+    -   8x DB Squat
 
 
 ### 2023-09-05
 
+-   [x] [7x Rounds Of:](https://vimeo.com/manage/videos/862196221)
+
+    -   10x DB Deadlifts 
+    
+    -   2x Ground-to-Overhead + 2x Overhead Reverse Lunge
+
 
 ### 2023-09-04
 
+-   [x] [10x Rounds Of:](https://vimeo.com/manage/videos/861058291)
 
-### 2023-09-03
+    -   5x Dbl DB Hang Clean + Press 
+    
+    -   5x Rev DB Lunge
 
 
 ### 2023-09-02
 
+-   [x] [5x Rounds Of:](https://vimeo.com/manage/videos/860656009)
+
+    -   16x DB Alt Snatch 
+    
+    -   15x Squats
+  
+    -   12x SA Overhead Sit-Ups
+
 
 ### 2023-09-01
 
+-   [x] [EMOM x20 Min:](https://vimeo.com/manage/videos/860475196)
+
+    -   3x of: 
+        -   DB Deadlift 
+        -   DB Pwr Clean 
+        -   DB Squat 
+        -   DB Push-Press
+        
 ## August
 
 ### 2023-08-31
+
+-   [x] [workout]()
+
+    -   Item
+    
+    -   Item
+  
+    -   Item
 
 
 ### 2023-08-30
@@ -646,6 +715,13 @@ The workouts below took place in the PDX home (office) gym:
 
 
 ### 2023-08-01
+
+```{=html}
+<!--
+
+
+
+
 
 ## July
 
@@ -1261,22 +1337,22 @@ The workouts below took place at CrossFit Primal Energy (in PDX):
 
 Work up to heavy 5x5 of:   
 
-  - Back squat    
-  - Front squat    
+  - Back Squat    
+  - Front Squat    
 
 Mix with:   
 
   - 12x DB Hang Power Snatch    
-  - 10x DB Alternating bench press  
+  - 10x DB Alternating bench Press  
   
 
 ### 2023-01-14
 
 [EMOM x 20 minutes:](https://vimeo.com/799298435)
    
-  - Power clean   
+  - Power Clean   
   - Push jerk    
-  - Front squat    
+  - Front Squat    
   - Split jerk    
 
 *205 lbs
