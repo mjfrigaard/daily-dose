@@ -9,9 +9,9 @@ generate_md_dates <- function(start_from, end_with) {
   
   sorted_dates <- sort(dates, decreasing = TRUE)
   
-  return(cat(paste0("## ", sorted_dates, "\n")))
+  return(cat(paste0("## ", sorted_dates, collapse = "\n\n\n")))
   
 }
 
-generate_md_dates(start_from = "2022-03-31", end_with = "2022-04-10")
+generate_md_dates(start_from = "2023-12-15", end_with = "2023-12-27")
 
