@@ -12,11 +12,9 @@ output:
 
 > *2023 was a big year (new wife, new baby, new house, etc.) so not all workouts were recorded. Those that were are all on [Vimeo](https://vimeo.com/user124837051).*
 
-# AZ
-
-The workouts below took place in the AZ garage gym:
-
 ## December
+
+Starting in December, the workouts took place in the AZ garage gym:
 
 ### 2023-12-26
 
@@ -170,11 +168,9 @@ The workouts below took place in the AZ garage gym:
 
     -   3 min DB Squats
 
-# PDX
+## November
 
 The workouts below took place in the PDX home (office) gym:
-
-## November
 
 ### 2023-11-21
 
@@ -478,7 +474,7 @@ The workouts below took place in the PDX home (office) gym:
 
 ### 2023-09-26
 
--   [x] [AMRAP x20 Min](https://vimeo.com/manage/videos/868557189)
+-   [x] [AMRAP x20 Min](https://vimeo.com/868557189)
 
     -   5x DB Devils Press 
     
@@ -489,7 +485,7 @@ The workouts below took place in the PDX home (office) gym:
 
 ### 2023-09-25
 
--   [x] [8x Rounds Of:](https://vimeo.com/manage/videos/868523203)
+-   [x] [8x Rounds Of:](https://vimeo.com/868523203)
 
     -   10x DB Deadlifts  
     
@@ -498,7 +494,7 @@ The workouts below took place in the PDX home (office) gym:
 
 ### 2023-09-23
 
--   [x] [EMOM x18 Min:](https://vimeo.com/manage/videos/868522588)
+-   [x] [EMOM x18 Min:](https://vimeo.com/868522588)
 
     -   15x DB Alt Snatch 
     
@@ -509,7 +505,7 @@ The workouts below took place in the PDX home (office) gym:
 
 ### 2023-09-22
 
--   [x] [10x Rounds Of:](https://vimeo.com/manage/videos/868522893)
+-   [x] [10x Rounds Of:](https://vimeo.com/868522893)
 
     -   5x Clusters 
     
@@ -518,20 +514,20 @@ The workouts below took place in the PDX home (office) gym:
 ### 2023-09-14
 
 
--   [x] [1 Min On/1 Min Off:](https://vimeo.com/manage/videos/864685843)
+-   [x] [1 Min On/1 Min Off:](https://vimeo.com/864685843)
 
     -   Single Arm Snatch + Front Squat + Hang Power Clean + Push Press
 
 
 ### 2023-09-13
 
--   [x] [EMOM x20 Minutes:](https://vimeo.com/manage/videos/864687099)
+-   [x] [EMOM x20 Minutes:](https://vimeo.com/864687099)
 
     -   5x DB Deadlifts + Hang Clean
 
 ### 2023-09-11
 
--   [x] [EMOM x20 Min:](https://vimeo.com/manage/videos/863392789)
+-   [x] [EMOM x20 Min:](https://vimeo.com/863392789)
 
     -   2x DB Complex
         -   Squat x 2
@@ -544,7 +540,7 @@ Throwback to: https://vimeo.com/466993599
 
 ### 2023-09-10
 
--   [x] [50x reps:](https://vimeo.com/manage/videos/863062717)
+-   [x] [50x reps:](https://vimeo.com/863062717)
 
     -   Bear complex:
         -   Deadlift + Clean + Front Squat + Push-Press + Front Squat + Push-Press 
@@ -556,19 +552,19 @@ Throwback to: https://vimeo.com/466993599
 
 ### 2023-09-09
 
--   [x] [For time:](https://vimeo.com/manage/videos/862890065)
+-   [x] [For time:](https://vimeo.com/862890065)
       -   100x DB Hang Power Snatch   
       -   75x DB Bridge Press   
 
 ### 2023-09-08
 
--   [x] [8x Rounds:](https://vimeo.com/manage/videos/862887375)
+-   [x] [8x Rounds:](https://vimeo.com/862887375)
 
     -   8x DB Thrusters
 
 ### 2023-09-06
 
--   [x] [8x Rounds Of:](https://vimeo.com/manage/videos/862137977)
+-   [x] [8x Rounds Of:](https://vimeo.com/862137977)
 
     -   5x Devils Press 
     
@@ -577,7 +573,7 @@ Throwback to: https://vimeo.com/466993599
 
 ### 2023-09-05
 
--   [x] [7x Rounds Of:](https://vimeo.com/manage/videos/862196221)
+-   [x] [7x Rounds Of:](https://vimeo.com/862196221)
 
     -   10x DB Deadlifts 
     
@@ -586,7 +582,7 @@ Throwback to: https://vimeo.com/466993599
 
 ### 2023-09-04
 
--   [x] [10x Rounds Of:](https://vimeo.com/manage/videos/861058291)
+-   [x] [10x Rounds Of:](https://vimeo.com/861058291)
 
     -   5x Dbl DB Hang Clean + Press 
     
@@ -595,7 +591,7 @@ Throwback to: https://vimeo.com/466993599
 
 ### 2023-09-02
 
--   [x] [5x Rounds Of:](https://vimeo.com/manage/videos/860656009)
+-   [x] [5x Rounds Of:](https://vimeo.com/860656009)
 
     -   16x DB Alt Snatch 
     
@@ -606,7 +602,7 @@ Throwback to: https://vimeo.com/466993599
 
 ### 2023-09-01
 
--   [x] [EMOM x20 Min:](https://vimeo.com/manage/videos/860475196)
+-   [x] [EMOM x20 Min:](https://vimeo.com/860475196)
 
     -   3x of: 
         -   DB Deadlift 
@@ -618,110 +614,189 @@ Throwback to: https://vimeo.com/466993599
 
 ### 2023-08-31
 
--   [x] [workout]()
-
-    -   Item
-    
-    -   Item
-  
-    -   Item
+-   [x] [100x Reps:](https://vimeo.com/860464538)
+    -   Squats  
+    -   DB Alt Hang Power Snatch   
+    -   Push-Ups  
 
 
 ### 2023-08-30
 
-
-### 2023-08-29
+-   [x] [EMOM x20 Min:](https://vimeo.com/860466824)
+    -   5x Devils Press   
+    -   10x DB Squat  
+    -   5x Devils Clean & Press  
+    -   10x DB Rev Lunge  
 
 
 ### 2023-08-28
 
+-   [x] [AMRAP in 15 Min:](https://vimeo.com/859150312) 
+    -   10x Dbl DB Hang Power Snatch  
+    -   15x Squats  
 
 ### 2023-08-27
 
+-   [x] [6x Rounds Of:](https://vimeo.com/858436972) 
+    -   6x DB Power Clean + Press   
+    -   6x DB Squat   
+    -   6x DB Over Head Sit-Up   
 
 ### 2023-08-26
 
-
-### 2023-08-25
-
+-   [x] [5x Round Of:](https://vimeo.com/858463148)
+    -   10x DB Deadlifts  
+    -   10x Push-Ups  
+    -   8x DB Hang Snatch   
+    -   8x Push-Ups   
+    -   6x Devils Press   
+    -   6x Push-Ups   
 
 ### 2023-08-24
 
-
-### 2023-08-23
-
+-   [x] [AMRAP in 20x Min:](https://vimeo.com/857692015)
+    -   5x Clusters 
+    -   10x DB Hang Clean + Press 
+    -   12x DB Rev Lunge
 
 ### 2023-08-22
+
+-   [x] [EMOM x12 Min:](https://vimeo.com/856982749)  
+    -   20x Squats 
+    -   14x DB Hang Power Snatch 
+    -   8x DB Over Head Sit-Up
 
 
 ### 2023-08-21
 
-
-### 2023-08-20
-
+-   [x] [EMOM x 20 min:](https://vimeo.com/856397643)
+    -   5x DB Deadlifts 
+    -   5x DB Push-Press
+    -   10x DB Front Rack Rev Lunge
 
 ### 2023-08-19
+
+-   [x] [30 sec on/30 sec off (until failure):](https://vimeo.com/856186810)
+    -   Dbl DB Devils Press + DB Squat
 
 
 ### 2023-08-18
 
+-   [x] [5x Rounds Of:](https://vimeo.com/856185149)
+    -   20x Squats
+    -   20x Push-Ups 
+    -   20x DB Alt Snatch*
 
-### 2023-08-17
+*10x from hang/10x from floor
 
 
 ### 2023-08-16
 
+-   [x] [5x Rounds Of:](https://vimeo.com/856166225)
+    -   12x DB Alt Snatch 
+    -   12x DB Goblet Rev Lunge
 
 ### 2023-08-15
 
+-   [x] [50x Reps For Time:](https://vimeo.com/856163598)
+    -   DB Devils Press
 
 ### 2023-08-14
+
+-   [x] [Every 90 sec x 18 min:](https://vimeo.com/854651049)
+    -   3x DB Deadlift 
+    -   3x DB Hang Power Clean 
+    -   6x DB Rev Lunge 
+    -   6x DB Curls
 
 
 ### 2023-08-13
 
+-   [x] [50 Reps of*:](https://vimeo.com/854344951)
+    -   Snatch
+    -   Clean + Press 
+    -   Overhead Rev Lunge (x2)
+    -   Thruster 
+
+*each side = 1 rep
 
 ### 2023-08-12
+
+-   [x] [AMRAP x 12 min:](https://vimeo.com/854052074)
+    -   10x DB Hang Clean + Press
 
 
 ### 2023-08-11
 
+-   [x] [12x Rounds:](https://vimeo.com/853887743)
+    -   3x Devils Press 
+    -   5x DB Squat 
+    -   7x Push-Ups
 
 ### 2023-08-10
+
+-   [x] [8x Rounds Of:](https://vimeo.com/853531149)   
+    -   12x DB Alt Snatch   
+    -   12x Sit-Ups   
 
 
 ### 2023-08-09
 
+-   [x] [AMRAP (15 min):](https://vimeo.com/853150340)
+    -   5x DB Deadlift  
+    -   5x DB Hang Power Clean   
+    -   5x DB Squat  
+    -   10x DB Bench/Plank Press  
+
 
 ### 2023-08-08
 
-
-### 2023-08-07
-
+-   [x] [EMOM x 15 Min:](https://vimeo.com/852855025)
+    -   5x DB Hang Clean + Press
 
 ### 2023-08-06
+
+-   [x] [Chipper:](https://vimeo.com/852660641)
+    -   100x Squats 
+    -   100x Push-ups 
+    -   50x Dbl DB Bulgarian Split Squat
+    -   75x DB Alt H Power Snatch
+    -   50x DB Alt H Power Clean + Press
 
 
 ### 2023-08-05
 
+-   [x] [8x Rounds Of:](https://vimeo.com/852007582) 
+    -   8x Dbl DB Snatch  
+    -   8x Dbl DB Rev Lunge  
+
+*4x sets of: 
+
+- DB Hammer Curl (til failure)
 
 ### 2023-08-04
+
+-   [x] [10x Rounds Of:](https://vimeo.com/851836307)
+    -   5x DB Deadlifts   
+    -   5x DB H P Clean + Press  
+    -   5x DB Squats  
 
 
 ### 2023-08-03
 
-
-### 2023-08-02
-
+-   [x] [6x Rounds For Time:](https://vimeo.com/851486582)
+    -   12x SA DB Alt Power Snatch    
+    -   12x DB Rev Goblet Lunge       
+    -   12x SA DB Alt Power Clean + Press   
+    -   12x DB Goblet Lunge   
 
 ### 2023-08-01
 
-```{=html}
+-   [x] [10x Rounds:](https://vimeo.com/850746847)
+    -   5x DB Deadlift 
+    -   5x DB Thruster
+    
 <!--
-
-
-
-
 
 ## July
 
@@ -816,6 +891,11 @@ Throwback to: https://vimeo.com/466993599
 
 
 ### 2023-07-01
+
+-->
+
+```{=html}
+<!--
 
 ## June
 
