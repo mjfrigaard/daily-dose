@@ -13,5 +13,5 @@ generate_md_dates <- function(start_from, end_with) {
   
 }
 
-generate_md_dates(start_from = "2023-12-15", end_with = "2023-12-27")
+generate_md_dates(start_from = "2024-01-01", end_with = "2024-01-15")
 

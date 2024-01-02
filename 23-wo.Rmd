@@ -10,11 +10,45 @@ output:
     toc_float: yes
 ---
 
+***Currently under development***
+
 > *2023 was a big year (new wife, new baby, new house, etc.) so not all workouts were recorded. Those that were are all on [Vimeo](https://vimeo.com/user124837051).*
 
 ## December
 
 Starting in December, the workouts took place in the AZ garage gym:
+
+### 2023-12-31
+
+-   [x] [50x Reps:](https://vimeo.com/manage/videos/899037372)
+
+    -   150lb D-Ball Tosses
+
+### 2023-12-30
+
+-   [x] [Heavy Bag + DB Complex:](https://vimeo.com/manage/videos/898829529)
+    -   1,2,1 
+    -   1,2,3,2
+    -   DB Alt Hang Clean + Snatch*
+    -   1,2,1 + 1,2,3,2 
+
+*65lbs
+
+### 2023-12-28
+
+-   [x] [Heavy bag (15x 90 sec rounds):](https://vimeo.com/manage/videos/898614814)
+
+    -   1, 2, 3 + low, high combos
+
+### 2023-12-27
+
+-   [x] [7x Rounds:](https://vimeo.com/manage/videos/898364749)
+
+    -   10x DB Deadlifts*
+    
+    -   10x DB Hang Power Snatch*
+
+*all with 65lbs
 
 ### 2023-12-26
 
@@ -796,103 +830,166 @@ Throwback to: https://vimeo.com/466993599
     -   5x DB Deadlift 
     -   5x DB Thruster
     
-<!--
+
 
 ## July
 
 ### 2023-07-31
 
 
+-   [x] [5x Rounds:](https://vimeo.com/850411896)
+    -   20x DB Alt SA Snatch
+    -   7x Dbl DB Clean + Jerk*
+
+*from floor
+
+
 ### 2023-07-30
+
+-   [x] [7x Rounds:](https://vimeo.com/849961475) 
+    -   10x DB Squats 
+    -   8x DB SA Press
 
 
 ### 2023-07-29
 
+-   [x] [AMRAP in 16 Min:](https://vimeo.com/849647825)
+    -   5x Dbl DB Snatch 
+    -   10x Dbl DB Rev Lunge*
 
-### 2023-07-28
-
-
-### 2023-07-27
+*in rack position
 
 
 ### 2023-07-26
 
+-   [x] [10x Rounds of:](https://vimeo.com/849639821)
+    -   3x Devils Press 
+    -   5x DB Squat 
+    -   7x Push-ups
+
 
 ### 2023-07-25
 
+-   [x] [7x Rounds:](https://vimeo.com/848852770) 
+    -   5x DB Ground-2-Overhead 
+    -   10x DB Deadlift
 
 ### 2023-07-24
 
+-   [x] [EMOM x12 Min:](https://vimeo.com/848254562)
+    -   16x DB Hang Power Snatch
+    -   12x DB Hang Power Clean + Press
 
 ### 2023-07-23
 
+ 
+-   [x] [5x Rounds:](https://vimeo.com/847780206) 
+    -   10x (push-ups, squats, sit-ups)
+    -   10x bridge DB press 
+    -   10x Dbl DB Clean*
+    -   10x Dbl DB Snatch*
+
+*don’t set it down
 
 ### 2023-07-22
 
-
-### 2023-07-21
-
-
-### 2023-07-20
-
+-   [x] [EMOM x20 Min:](https://vimeo.com/847646615)
+    -   1x DB Deadlift 
+    -   2x Reverse Lunges 
+    -   5x DB Hang Clean + Press
 
 ### 2023-07-19
 
+-   [x] [AMRAP x10 Minutes:](https://vimeo.com/846805386)
+    -   5x DB Snatch + DB Squat 
+    -   2x DB TGU
 
 ### 2023-07-18
 
+-   [x] [7x Rounds Of:](https://vimeo.com/846446397) 
+    -   5x Devils Press 
+    -   10x DB Rev Lunge 
+    -   8x DB H Power Clean + Press
 
 ### 2023-07-17
 
-
-### 2023-07-16
-
-
-### 2023-07-15
-
-
-### 2023-07-14
-
-
-### 2023-07-13
+-   [x] [EMOM x16 Min:](https://vimeo.com/846098215)
+    -   12x DB Snatch 
+    -   8x DB Squat
 
 
 ### 2023-07-12
 
+-   [x] [5x Rounds Of:](https://vimeo.com/844761609) 
+    -   10x DB Snatch 
+    -   10x DB Overhead Rev Lunge 
+    -   4x Dbl DB Rev Lunge*
 
-### 2023-07-11
+*one up/one rack
 
 
 ### 2023-07-10
 
+-   [x] [AMRAP x12 Min:](https://vimeo.com/844069774)
+    -   5x DB Snatch +  
+    -   5x DB Squat +  
+    -   5x DB Push-Press
+
 
 ### 2023-07-09
 
-
-### 2023-07-08
+-   [x] [6x Rounds:](https://vimeo.com/843677388) 
+    -   5x Devils Press 
+    -   5x DB Squat
 
 
 ### 2023-07-07
 
+-   [x] [AMRAP x 18 Min:](https://vimeo.com/843380694) 
+    -   6x Devils’ Rev Lunge 
+    -   6x DB Combo: 
+        -   Alt DB Snatch + Hang Power Clean & Press
+
 
 ### 2023-07-06
 
+-   [x] [5x Rounds:](https://vimeo.com/843069577)
+    -   12x DB Deadlift
+    -   9x DB Hang Power Clean
+    -   6x DB Shoulder-2-Overhead
 
 ### 2023-07-05
 
-
-### 2023-07-04
+-   [x] [4x Rounds:](https://vimeo.com/842870920)
+    -   20x DB Alt Snatch 
+    -   12x Goblet Squat 
+    -   8x Devils Clean & Press
 
 
 ### 2023-07-03
 
+-   [x] [6x Rounds:](https://vimeo.com/842034896) 
+    -   3x DB Clean 
+    -   3x DB Snatch 
+    -   3x Rev Lunge 
+    -   3x Lunge 
+
+*DB wood-choppers (3x8 reps)
+
 
 ### 2023-07-02
 
+-   [x] [EMOM x18 Min:](https://vimeo.com/841726360)
+    -   4x reps of: 
+        -   DB P Snatch (Double)
+        -   DB OH/Rack Rev Lunge
 
 ### 2023-07-01
 
--->
+-   [x] [EMOM x15 Min:](https://vimeo.com/841566150) 
+    -   5x DB Deadlift 
+    -   5x DB Thrusters
+
 
 ```{=html}
 <!--
