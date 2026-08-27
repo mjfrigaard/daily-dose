@@ -309,6 +309,11 @@ dynamic: true
 # File paths are relative to the user guide directory (no user_guide/ prefix).
 # When using explicit ordering, numeric filename prefixes are preserved as-is.
 # user_guide: null
+# daily-dose: disabled. The user_guide/ directory holds our Diataxis-structured
+# docs source (tutorials/, how-to/, explanation/, wired up via `sections:` below),
+# not great-docs' own User Guide feature — an empty list here stops it from
+# auto-discovering that directory itself and colliding with those sections.
+user_guide: []
 
 # Bibliography & Citations
 # ------------------------
@@ -731,14 +736,15 @@ reference:
 
 # --- daily-dose: Diataxis structure (https://diataxis.fr/) ---
 # Reference is auto-provided by great-docs (see `reference:` above); these three
-# sections are the other three Diataxis quadrants, each its own top-level nav item.
+# sections are the other three Diataxis quadrants, each its own top-level nav item
+# (built at /user-guide/<name>/ since that's where their source files live).
 sections:
   - title: Tutorials
-    dir: tutorials
+    dir: user_guide/tutorials
   - title: How-to Guides
-    dir: how-to
+    dir: user_guide/how-to
   - title: Explanation
-    dir: explanation
+    dir: user_guide/explanation
 
 navbar_order:
   - Tutorials

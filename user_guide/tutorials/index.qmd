@@ -54,4 +54,4 @@ empty page.
   [How-to Guides](../how-to/index.qmd).
 - Curious why the data is shaped the way it is? See [Explanation](../explanation/index.qmd).
 - Want the exact function signatures behind these two buttons? See
-  [Reference](../reference/index.qmd).
+  [Reference](../../reference/index.qmd).

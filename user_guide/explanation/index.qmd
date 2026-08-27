@@ -4,7 +4,7 @@ title: "Design Notes"
 
 Background on why `daily-dose` is shaped the way it is. For instructions, see the
 [Tutorials](../tutorials/index.qmd) or [How-to Guides](../how-to/index.qmd); for exact
-signatures, see [Reference](../reference/index.qmd).
+signatures, see [Reference](../../reference/index.qmd).
 
 ## Why just two features
 
