@@ -1,0 +1,57 @@
+---
+title: "Get Your First Workout"
+---
+
+This tutorial takes you from a clone of the repo to seeing a workout on screen. By the
+end you'll have the app running locally and will have used both of its features once.
+
+## 1. Install
+
+From the repo root:
+
+```bash
+uv venv
+uv pip install -e ".[dev]"
+```
+
+## 2. Launch the app
+
+```bash
+shiny run daily_dose.app:app --reload
+```
+
+Open the URL Shiny prints (typically `http://127.0.0.1:8000`). You'll see the title and
+two buttons, and nothing else yet:
+
+![The app on load](assets/app-initial.png)
+
+## 3. Get a random workout
+
+Click **Random Workout**. A card appears with a date and the workout logged that day —
+most days this is typed markdown, occasionally with a video link:
+
+![A text-logged workout](assets/random-workout-text.png)
+
+Click it a few more times. Sooner or later you'll land on a workout from early-to-mid
+2020, which was logged as a photograph of a whiteboard instead of typed notes — the app
+shows both kinds the same way:
+
+![A photo-logged workout](assets/random-workout-photo.png)
+
+## 4. See what happened on this day
+
+Click **On This Day**. The app scans every year in the history for a workout logged on
+today's month and day, and shows every match it finds, most recent year first:
+
+![Multiple years matching the same month/day](assets/on-this-day.png)
+
+If today has no match in the history, the app tells you that instead of showing an
+empty page.
+
+## Next steps
+
+- Need to add or re-derive the underlying workout data? See
+  [How-to Guides](../how-to/index.qmd).
+- Curious why the data is shaped the way it is? See [Explanation](../explanation/index.qmd).
+- Want the exact function signatures behind these two buttons? See
+  [Reference](../reference/index.qmd).

@@ -1,0 +1,61 @@
+---
+title: "Design Notes"
+---
+
+Background on why `daily-dose` is shaped the way it is. For instructions, see the
+[Tutorials](../tutorials/index.qmd) or [How-to Guides](../how-to/index.qmd); for exact
+signatures, see [Reference](../reference/index.qmd).
+
+## Why just two features
+
+The original site was a full R Markdown site: a page per year, a Notes page, a Dev
+page. Converting it kept exactly the two things that make a personal workout log worth
+opening day to day — a random pick, and "what did I do on this day before" — rather
+than rebuilding a year-by-year browser nobody was asking for. Notes (training
+principles) and Dev (untested workout drafts, never real dated entries) were dropped
+for the same reason: neither is a *workout*, so neither belongs in a random pick or an
+on-this-day match.
+
+## Why one record shape for two very different sources
+
+Roughly 4 years of the history is typed markdown; a stretch of 2020 is photos of a
+whiteboard. Rather than model these as two separate collections, every workout is one
+record with a `date`, a `kind` (`"text"` or `"image"`), and whichever fields apply to
+that kind. This lets both features — `random_workout()` and `on_this_day()` — operate
+on a single flat list without caring what's inside each record; only the rendering
+layer (`workout_card()`) branches on `kind`.
+
+## Why text wins when a date has both
+
+Some 2020 dates turned out to have *both* a photographed whiteboard and a later typed
+write-up of the same session — the photo was a same-day backup, typed up afterward.
+Keeping both would mean the same real workout showing up twice under "On This Day," and
+"Random Workout" silently double-weighting those dates. The build script resolves this
+by preferring the text entry, which also happens to be the richer of the two (it
+usually includes rep/set structure the photo doesn't make searchable).
+
+## Why the photos are recompressed
+
+The original whiteboard photos were uncompressed phone-camera PNGs, some over 10MB
+each — 325MB total for 120 images. `daily-dose` is a package meant to be installed, not
+just a static site, so shipping that weight in every install wasn't worth it. Downscale
+and re-encode as JPEG dropped it to ~21MB with no visible loss for what's essentially a
+photo of handwriting on a whiteboard.
+
+## Why Shiny Core, not Express
+
+The app is one server function wiring two buttons to two pure functions and a render
+call — small enough that Express's terser syntax would save a few lines. It's still
+built with Shiny Core: `core.py` has no dependency on Shiny at all, which is what makes
+`random_workout()` and `on_this_day()` unit-testable without spinning up a Shiny
+session (see `tests/test_core.py`). That separation is the reason `app.py` reads as
+thin glue rather than where the logic actually lives.
+
+## Why the parser keeps things it can't fully understand
+
+Four years of hand-typed markdown across five files don't use one consistent format
+for exercises, reps, or footnotes. Rather than force that into structured fields and
+risk silently mangling entries the parser can't parse confidently, `body_md` keeps the
+original markdown for each text entry verbatim, rendered as-is in the app. The only
+fields pulled out are the ones that are consistent enough to parse reliably: the date,
+the done-checkbox, and an optional video link.

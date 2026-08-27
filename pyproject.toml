@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "daily-dose"
+version = "0.1.0"
+description = "Shiny for Python app: a random or on-this-day pick from a workout history"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "shiny>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov", "mypy", "ruff", "great-docs", "Pillow"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/daily_dose"]
+
+[tool.ruff]
+src = ["src"]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=src --cov-report=term-missing"
