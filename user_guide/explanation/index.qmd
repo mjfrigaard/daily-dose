@@ -73,7 +73,7 @@ flowchart TD
 
 The original site was a full R Markdown site: a page per year, a Notes page, a Dev
 page. Converting it kept the two things that make a personal workout log worth opening
-day to day — a random pick, and "what did I do on this day before" — instead of
+day to day (a random pick, and "what did I do on this day before") instead of
 rebuilding a year-by-year browser nobody was asking for.
 
 Notes (training principles) and Dev (untested workout drafts, never real dated entries)
@@ -85,14 +85,14 @@ pick or an on-this-day match.
 Roughly 4 years of the history is typed markdown; a stretch of 2020 is photos of a
 whiteboard. Rather than model those as two separate collections, every workout is one
 record with a `date`, a `kind` (`"text"` or `"image"`), and whichever fields apply to
-that kind. Both features — `random_workout()` and `on_this_day()` — then operate on a
-single flat list without caring what's inside each record. Only the rendering layer
+that kind. `random_workout()` and `on_this_day()` then both operate on a single flat
+list without caring what's inside each record. Only the rendering layer
 (`workout_card()`) branches on `kind`.
 
 ## Why text wins when a date has both
 
 Some 2020 dates turned out to have *both* a photographed whiteboard and a later typed
-write-up of the same session — the photo was a same-day backup, typed up afterward.
+write-up of the same session. The photo was a same-day backup, typed up afterward.
 Keeping both would mean the same real workout showing up twice under "On This Day," and
 "Random Workout" silently double-weighting those dates. The build script resolves it by
 preferring the text entry, which is also the richer of the two: it usually includes the
@@ -101,7 +101,7 @@ rep/set structure the photo doesn't make searchable.
 ## Why the photos are recompressed
 
 The original whiteboard photos were uncompressed phone-camera PNGs, some over 10MB
-each — 325MB total for 120 images. `daily-dose` is a package meant to be installed, not
+each, 325MB total for 120 images. `daily-dose` is a package meant to be installed, not
 just a static site, so carrying that weight into every install wasn't worth it.
 Downscaling and re-encoding as JPEG dropped it to ~21MB, with no visible loss on what's
 essentially a photo of handwriting on a whiteboard.
@@ -109,7 +109,7 @@ essentially a photo of handwriting on a whiteboard.
 ## Why Shiny Core, not Express
 
 The app is one server function wiring two buttons to two pure functions and a render
-call — small enough that Express's terser syntax would save a few lines. It's still
+call, small enough that Express's terser syntax would save a few lines. It's still
 built with Shiny Core, because `core.py` has no dependency on Shiny at all, and that's
 what makes `random_workout()` and `on_this_day()` unit-testable without spinning up a
 Shiny session (see `tests/test_core.py`). That separation is why `app.py` reads as thin
@@ -139,7 +139,7 @@ root and installs from `requirements.txt`, full stop, with no way to point it at
 
 Restructuring the package around one deployment target's assumptions wasn't worth it.
 Instead, `app.py` is a small shim and `requirements.txt` holds real dependency lines
-mirroring `pyproject.toml`'s `[project.dependencies]` by hand — the first approach was
+mirroring `pyproject.toml`'s `[project.dependencies]` by hand. The first approach was
 `requirements.txt` containing just `-e .`, an editable install of the package from
 `pyproject.toml`, which kept the two files' *content* in sync automatically. That broke
 in production: Connect Cloud's dependency resolver doesn't run `pip install`, so it
@@ -147,5 +147,5 @@ can't interpret `-e .` and fails before installing anything at all (`Error deter
 requirements: / does not appear to be a Python project`). Since `daily_dose` is never
 actually installed there either way, `app.py` puts `src/` on `sys.path` directly rather
 than relying on an install step to make the import work. The duplication is now in file
-*content*, not just file *existence* — a dependency added to `pyproject.toml` needs the
+*content*, not just file *existence*: a dependency added to `pyproject.toml` needs the
 same line added to `requirements.txt` by hand.

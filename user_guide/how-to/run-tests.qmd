@@ -16,7 +16,7 @@ pytest                     # or: uv run pytest
 ```
 
 `testpaths` is set in `pyproject.toml`, so plain `pytest` from the repo root collects
-the right directory. The whole suite runs in well under a second — no network, no disk
+the right directory. The whole suite runs in well under a second: no network, no disk
 writes, no Shiny session.
 
 Run one file, or one test, the usual way:
@@ -31,8 +31,8 @@ pytest -k on_this_day
 
 `tests/test_core.py` never touches the real workout history. It builds a tiny
 three-record `FIXTURE` list by hand and feeds it straight to `random_workout()` and
-`on_this_day()`, so each test controls exactly what it's asserting against — forcing a
-date with matches in two years, say, and a date with none.
+`on_this_day()`, so each test controls exactly what it's asserting against. That means
+it can force a date with matches in two years, say, and a date with none.
 
 `tests/test_data.py` does the opposite on purpose. It calls `load_workouts()` with no
 fixture, loading the real bundled `workouts.json`, then checks properties that should
@@ -57,19 +57,19 @@ Pure logic: picking a random workout and matching on today's date.
 
 ### `tests/test_data.py` (4)
 
-The real, bundled dataset — a regression guard on the build script, not on app logic.
+The real, bundled dataset: a regression guard on the build script, not on app logic.
 
 | Test | What it pins down |
 |------|-------------------|
 | `test_load_workouts_count` | The bundled dataset has exactly 1000 workouts |
 | `test_every_workout_has_a_valid_date_and_kind` | Every record has an ISO `date` and a `kind` of `"text"` or `"image"` |
-| `test_no_duplicate_dates` | No date appears twice — confirms the text-vs-image dedup actually worked |
+| `test_no_duplicate_dates` | No date appears twice, confirming the text-vs-image dedup actually worked |
 | `test_image_files_exist` | Every `image_url` the data references exists under the packaged `www/` assets |
 
 ## What the tests do not cover
 
-The Shiny wiring in `app.py` — the two `@reactive.event` button handlers and the
-`results` render function — isn't unit tested. Exercising it needs a live Shiny
+The Shiny wiring in `app.py` isn't unit tested. That's the two `@reactive.event` button
+handlers and the `results` render function. Exercising it needs a live Shiny
 session, and it's a thin enough layer over `core.py` (see
 [Explanation](../explanation/index.qmd)) that there isn't much logic left in it to test
 in isolation.
@@ -78,7 +78,7 @@ Those paths were verified by driving a real browser session with Playwright: cli
 **Random Workout** repeatedly until both a text and a photo entry showed up, clicking
 **On This Day** and confirming it reflected the actual current date, and confirming the
 empty-state message renders when a date has no match. If you change the button-click
-wiring, that's the check to repeat — the suite won't catch it.
+wiring, that's the check to repeat, because the suite won't catch it.
 
 ## What CI runs on every push
 

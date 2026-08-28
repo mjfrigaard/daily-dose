@@ -30,8 +30,8 @@ two buttons, and nothing else yet:
 
 ## 3. Get a random workout
 
-Click **Random Workout**. A card appears with a date and the workout logged that day —
-most days this is typed markdown:
+Click **Random Workout**. A card appears with a date and the workout logged that day.
+Most days that's typed markdown:
 
 ![A text-logged workout](assets/random-workout-text.png)
 

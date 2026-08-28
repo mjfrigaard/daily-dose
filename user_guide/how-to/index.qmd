@@ -12,8 +12,8 @@ suite specifically, see [Run the Tests](run-tests.qmd).
 `scripts/build_workouts_data.py`. Re-run it after editing the legacy Rmd source (kept
 at `scripts/_rmd_src/`) or the workout photos.
 
-The original photos aren't kept in this repo — 325MB of raw phone photos, compressed
-down to ~21MB in `www/`. To regenerate from scratch:
+The original photos aren't kept in this repo. They're 325MB of raw phone photos,
+compressed down to ~21MB in `www/`. To regenerate from scratch:
 
 1. Install the script's one extra dependency (already in the `dev` extra): `Pillow`.
 2. Restore the original photos from the `rmarkdown-archive` branch, which still has them:
@@ -33,7 +33,7 @@ down to ~21MB in `www/`. To regenerate from scratch:
    `workouts.json`. Every photo it keeps is re-encoded as a downsized JPEG
    (~1600px max dimension, quality 82) into `src/daily_dose/www/images/`.
 
-4. Remove the restored source photos — they're not meant to be committed:
+4. Remove the restored source photos, which aren't meant to be committed:
 
    ```bash
    rm -rf images/
@@ -52,9 +52,9 @@ generated at build time, so a UI change won't update them on its own. To refresh
 
 1. Launch the app: `shiny run daily_dose.app:app`
 2. Install a headless browser once: `pip install playwright && playwright install chromium`
-3. Drive the running app with Playwright, screenshotting each state (initial load,
-   after clicking **Random Workout** — run it a few times to catch both a text and a
-   photo entry — and after clicking **On This Day**).
+3. Drive the running app with Playwright, screenshotting each state: initial load,
+   after clicking **Random Workout**, and after clicking **On This Day**. Run **Random
+   Workout** a few times to catch both a text and a photo entry.
 4. Save the results into `tutorials/assets/`, overwriting the existing files by name.
 
 ## Deploy to Posit Connect Cloud
@@ -66,25 +66,25 @@ don't match this project's layout: the app object must be importable from an `ap
 `pyproject.toml`. Both files already exist here for exactly that reason, and you
 shouldn't need to touch either:
 
-- `requirements.txt` (repo root) — a plain `shiny[theme]>=1.0.0`, mirroring
+- `requirements.txt` (repo root) holds a plain `shiny[theme]>=1.0.0`, mirroring
   `pyproject.toml`'s `[project.dependencies]` by hand. It has to be a real dependency
   list: Connect Cloud's resolver doesn't run `pip install -e .`, so an editable-install
   line here just fails outright (`Error determining requirements: / does not appear to
   be a Python project`) instead of installing anything, `daily_dose` included.
-- `app.py` (repo root) — since `daily_dose` is never actually installed on Connect
-  Cloud, this shim puts `src/` on `sys.path` before importing
+- `app.py` (repo root) is a shim. Since `daily_dose` is never actually installed on
+  Connect Cloud, it puts `src/` on `sys.path` before importing
   `from daily_dose.app import app`. Local development still uses `daily_dose.app:app`
   directly (see the [Tutorials](../tutorials/index.qmd) launch command); this file
   exists only for Connect Cloud's sake.
 
 To deploy:
 
-1. Make sure the repo is public and the latest commit is pushed to `main` — Connect
+1. Make sure the repo is public and the latest commit is pushed to `main`. Connect
    Cloud deploys from GitHub, not a local push.
 2. Sign in to [Connect Cloud](https://connect.posit.cloud) and click **Publish**.
 3. Choose **Shiny** as the app type and select this repository.
-4. Confirm the branch (`main`) and the primary file (`app.py` at the repo root — the
-   shim, not `src/daily_dose/app.py`).
+4. Confirm the branch (`main`) and the primary file: `app.py` at the repo root, the
+   shim, not `src/daily_dose/app.py`.
 5. Click **Publish**.
 
 To publish an update later, push to `main` and use the republish action in Connect
