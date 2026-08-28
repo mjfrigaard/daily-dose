@@ -138,7 +138,14 @@ root and installs from `requirements.txt`, full stop, with no way to point it at
 `src/daily_dose/app.py` or `pyproject.toml` instead.
 
 Restructuring the package around one deployment target's assumptions wasn't worth it.
-Instead, `app.py` is a two-line shim (`from daily_dose.app import app`) and
-`requirements.txt` is one line (`-e .`) that installs the package from
-`pyproject.toml`. The duplication is in file *existence*, not in file *content* that
-could drift out of sync.
+Instead, `app.py` is a small shim and `requirements.txt` holds real dependency lines
+mirroring `pyproject.toml`'s `[project.dependencies]` by hand — the first approach was
+`requirements.txt` containing just `-e .`, an editable install of the package from
+`pyproject.toml`, which kept the two files' *content* in sync automatically. That broke
+in production: Connect Cloud's dependency resolver doesn't run `pip install`, so it
+can't interpret `-e .` and fails before installing anything at all (`Error determining
+requirements: / does not appear to be a Python project`). Since `daily_dose` is never
+actually installed there either way, `app.py` puts `src/` on `sys.path` directly rather
+than relying on an install step to make the import work. The duplication is now in file
+*content*, not just file *existence* — a dependency added to `pyproject.toml` needs the
+same line added to `requirements.txt` by hand.

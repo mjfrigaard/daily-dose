@@ -66,14 +66,16 @@ don't match this project's layout: the app object must be importable from an `ap
 `pyproject.toml`. Both files already exist here for exactly that reason, and you
 shouldn't need to touch either:
 
-- `app.py` (repo root) — a two-line shim, `from daily_dose.app import app`. Local
-  development still uses `daily_dose.app:app` directly (see the
-  [Tutorials](../tutorials/index.qmd) launch command); this file exists only for
-  Connect Cloud's sake.
-- `requirements.txt` (repo root) — one line, `-e .`. That installs `daily-dose` itself
-  in editable mode from `pyproject.toml`, which pulls in every real dependency
-  (`shiny[theme]`) with it. There's nothing to keep in sync by hand between the two
-  files.
+- `requirements.txt` (repo root) — a plain `shiny[theme]>=1.0.0`, mirroring
+  `pyproject.toml`'s `[project.dependencies]` by hand. It has to be a real dependency
+  list: Connect Cloud's resolver doesn't run `pip install -e .`, so an editable-install
+  line here just fails outright (`Error determining requirements: / does not appear to
+  be a Python project`) instead of installing anything, `daily_dose` included.
+- `app.py` (repo root) — since `daily_dose` is never actually installed on Connect
+  Cloud, this shim puts `src/` on `sys.path` before importing
+  `from daily_dose.app import app`. Local development still uses `daily_dose.app:app`
+  directly (see the [Tutorials](../tutorials/index.qmd) launch command); this file
+  exists only for Connect Cloud's sake.
 
 To deploy:
 

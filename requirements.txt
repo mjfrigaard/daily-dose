@@ -1,4 +1,7 @@
-# Posit Connect Cloud installs from this file, not pyproject.toml. It installs
-# daily-dose itself (in editable mode) plus its runtime dependencies, both read
-# straight from pyproject.toml, so there's nothing to keep in sync by hand.
--e .
+# Posit Connect Cloud installs from this file, not pyproject.toml, and its
+# dependency resolver doesn't support the editable "-e ." install directive
+# (it errors with "does not appear to be a Python project" instead of running
+# pip). So this mirrors pyproject.toml's [project.dependencies] by hand; keep
+# the two in sync if that list ever changes. daily_dose itself isn't installed
+# at all here — app.py puts src/ on sys.path instead.
+shiny[theme]>=1.0.0

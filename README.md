@@ -45,16 +45,16 @@ Using `venv` (with it activated):
 
 ```bash
 pytest
-ruff check src tests
-mypy src
+ruff check src tests app.py
+mypy src app.py
 ```
 
 Using `uv`:
 
 ```bash
 uv run pytest
-uv run ruff check src tests
-uv run mypy src
+uv run ruff check src tests app.py
+uv run mypy src app.py
 ```
 
 ## Deploy
