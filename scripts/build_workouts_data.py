@@ -12,7 +12,7 @@ import json
 import re
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageOps
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MAX_IMAGE_DIM = 1600
@@ -26,7 +26,22 @@ DATA_PATH = REPO_ROOT / "src" / "daily_dose" / "data" / "workouts.json"
 DATE_HEADER_RE = re.compile(r"^###\s+(\d{4}-\d{2}-\d{2})\s*$")
 SECTION_BREAK_RE = re.compile(r"^#{1,2}\s+")
 CHECKBOX_RE = re.compile(r"^-\s*\[( |x)\]\s*")
-LINK_RE = re.compile(r"\[([^\]]*)\]\((https?://[^)]+)\)")
+# The Vimeo account these pointed at is gone, so every video link is now dead.
+# Unwrap `[text](vimeo-url)` down to plain `text` wherever it appears in an entry.
+VIMEO_LINK_RE = re.compile(r"\[([^\]]*)\]\(https?://(?:www\.)?vimeo\.com/[^)]+\)")
+# A few entries reference Vimeo as a bare URL instead (e.g. "Throwback to: <url>").
+BARE_VIMEO_RE = re.compile(r"https?://(?:www\.)?vimeo\.com/\S+")
+
+
+def clean_vimeo(line: str) -> str | None:
+    """Strip Vimeo links/URLs from a line; drop the line if that leaves only
+    a dangling label (e.g. "Throwback to:") with nothing after it."""
+    line = VIMEO_LINK_RE.sub(r"\1", line)
+    if BARE_VIMEO_RE.search(line):
+        line = BARE_VIMEO_RE.sub("", line).rstrip()
+        if not line or line.endswith((":", "-", "*")):
+            return None
+    return line
 
 
 def strip_html_comments(text: str) -> str:
@@ -44,18 +59,17 @@ def parse_rmd(path: Path) -> list[dict]:
     def flush() -> None:
         if current_date is None:
             return
-        body = "\n".join(body_lines).strip("\n")
-        first_line = next((ln for ln in body_lines if ln.strip()), "")
+        cleaned = (clean_vimeo(ln) for ln in body_lines)
+        cleaned_lines = [ln for ln in cleaned if ln is not None]
+        body = "\n".join(cleaned_lines).strip("\n")
+        first_line = next((ln for ln in cleaned_lines if ln.strip()), "")
         checkbox_match = CHECKBOX_RE.match(first_line.strip())
         done = checkbox_match.group(1) == "x" if checkbox_match else True
-        summary_source = (
+        summary = (
             first_line.strip()[checkbox_match.end() :].strip()
             if checkbox_match
             else first_line.strip()
         )
-        link_match = LINK_RE.search(summary_source)
-        video_url = link_match.group(2) if link_match else None
-        summary = LINK_RE.sub(lambda m: m.group(1), summary_source).strip()
         entries.append(
             {
                 "date": current_date,
@@ -63,7 +77,6 @@ def parse_rmd(path: Path) -> list[dict]:
                 "kind": "text",
                 "done": done,
                 "summary": summary,
-                "video_url": video_url,
                 "body_md": body,
                 "image_url": None,
                 "source_file": path.name,
@@ -107,7 +120,6 @@ def collect_image_entries() -> list[dict]:
                 "kind": "image",
                 "done": True,
                 "summary": None,
-                "video_url": None,
                 "body_md": None,
                 "image_url": f"/images/{year_dir}/{date_str}.jpg",
                 "source_file": str(src.relative_to(REPO_ROOT)),
@@ -118,12 +130,16 @@ def collect_image_entries() -> list[dict]:
 
 
 def compress_image(src_path: Path, dest_path: Path) -> None:
-    """Downscale to MAX_IMAGE_DIM on the long side and re-encode as JPEG.
+    """Apply EXIF rotation, downscale to MAX_IMAGE_DIM, and re-encode as JPEG.
 
     These are phone photos of a workout board/log, so JPEG at moderate
     quality is appropriate and shrinks the (originally uncompressed,
-    multi-MB) PNGs by roughly 95%."""
+    multi-MB) PNGs by roughly 95%. Phones tag rotated shots with an EXIF
+    orientation instead of rotating the pixels; ImageOps.exif_transpose()
+    applies that so the saved JPEG is upright without the tag (a plain
+    .convert("RGB") silently drops the tag and leaves the photo sideways)."""
     with Image.open(src_path) as img:
+        img = ImageOps.exif_transpose(img)
         img = img.convert("RGB")
         img.thumbnail((MAX_IMAGE_DIM, MAX_IMAGE_DIM), Image.LANCZOS)
         dest_path.parent.mkdir(parents=True, exist_ok=True)

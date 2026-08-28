@@ -9,7 +9,7 @@ description = "Shiny for Python app: a random or on-this-day pick from a workout
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "shiny>=1.0.0",
+    "shiny[theme]>=1.0.0",
 ]
 
 [project.optional-dependencies]

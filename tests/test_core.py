@@ -5,11 +5,11 @@ from daily_dose.core import Workout, on_this_day, random_workout
 
 FIXTURE: list[Workout] = [
     {"date": "2020-06-15", "year": 2020, "kind": "text", "done": True,
-     "summary": "a", "video_url": None, "body_md": "a", "image_url": None},
+     "summary": "a", "body_md": "a", "image_url": None},
     {"date": "2021-06-15", "year": 2021, "kind": "text", "done": True,
-     "summary": "b", "video_url": None, "body_md": "b", "image_url": None},
+     "summary": "b", "body_md": "b", "image_url": None},
     {"date": "2021-06-16", "year": 2021, "kind": "image", "done": True,
-     "summary": None, "video_url": None, "body_md": None,
+     "summary": None, "body_md": None,
      "image_url": "/images/2021/2021-06-16.png"},
 ]
 

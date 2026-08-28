@@ -7,19 +7,36 @@ from pathlib import Path
 from shiny import App, Inputs, Outputs, Session, reactive, render, ui
 
 from .core import Workout, load_workouts, on_this_day, random_workout
+from .theme import GOOGLE_FONTS_LINKS, theme
 from .workout_module import workout_card
 
 WORKOUTS: list[Workout] = load_workouts()
 STATIC_ASSETS = Path(__file__).parent / "www"
 
 app_ui = ui.page_fluid(
-    ui.h2("The Daily Dose"),
-    ui.layout_columns(
-        ui.input_action_button("random_btn", "🎲 Random Workout", class_="btn-primary"),
-        ui.input_action_button("today_btn", "📅 On This Day", class_="btn-secondary"),
-        col_widths=(6, 6),
+    ui.tags.head(*GOOGLE_FONTS_LINKS),
+    ui.div(
+        ui.div(
+            ui.h2("The Daily Dose", class_="fw-bold"),
+            ui.p(
+                "A random pick, or a look back at today, any year.",
+                class_="text-muted",
+            ),
+            class_="text-center mb-4",
+        ),
+        ui.layout_columns(
+            ui.input_action_button(
+                "random_btn", "🎲 Random Workout", class_="btn-primary btn-lg"
+            ),
+            ui.input_action_button(
+                "today_btn", "📅 On This Day", class_="btn-secondary btn-lg"
+            ),
+            col_widths=(6, 6),
+        ),
+        ui.output_ui("results"),
+        style="max-width: 720px; margin: 0 auto; padding: 2.5rem 1rem;",
     ),
-    ui.output_ui("results"),
+    theme=theme,
 )
 
 
@@ -44,7 +61,8 @@ def server(input: Inputs, output: Outputs, session: Session) -> None:
         if not workouts:
             msg = "No workouts logged on this day in past years."
             return ui.p(msg, class_="text-muted")
-        return ui.div(*[workout_card(w) for w in workouts])
+        cards = [workout_card(w) for w in workouts]
+        return ui.div(*cards, class_="d-flex flex-column gap-3 mt-3")
 
 
 app = App(app_ui, server, static_assets=STATIC_ASSETS)

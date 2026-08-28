@@ -6,56 +6,139 @@ Background on why `daily-dose` is shaped the way it is. For instructions, see th
 [Tutorials](../tutorials/index.qmd) or [How-to Guides](../how-to/index.qmd); for exact
 signatures, see [Reference](../../reference/index.qmd).
 
+## How a workout gets from source to screen
+
+Every section below explains one decision in this pipeline. This is the whole thing:
+
+```{mermaid}
+%%| eval: true
+%%| fig-width: 7
+%%| fig-height: 9
+%%| fig-align: 'center'
+%%| fig-caption: 'How a workout gets from source to screen'
+%%{init: {'theme': 'base', 'themeVariables': { 'fontFamily': 'monospace', "darkMode":true}}}%%
+flowchart TD
+    subgraph SourceGrp["<strong>Source</strong>"]
+        Rmd[/"5 Rmd files"/]
+        Photos[/"Workout photos"/]
+    end
+
+    subgraph BuildGrp["<strong>scripts/build_workouts_data.py</strong>"]
+        Parse[["Parse dates + checkboxes,<br>strip dead Vimeo links"]]
+        Rotate[["Fix EXIF rotation,<br>downscale, re-encode JPEG"]]
+        Dedup{"Both a photo and<br>a typed entry<br>for this date?"}
+    end
+
+    Rmd -->|"i"| Parse
+    Photos -->|"ii"| Rotate
+    Parse --> Dedup
+    Rotate --> Dedup
+
+    subgraph PkgGrp["<strong>src/daily_dose/</strong>"]
+        Data[("data/workouts.json<br>1000 records")]
+        Www[("www/images/")]
+        Core[["core.py"]]
+    end
+
+    Dedup -->|"iii: text wins"| Data
+    Dedup -->|"iii: image kept"| Www
+    Data --> Core
+
+    subgraph AppGrp["<strong>Shiny app</strong>"]
+        AppPy[["app.py"]]
+        Card[["workout_card()"]]
+    end
+
+    Core -->|"iv"| AppPy
+    AppPy --> Card
+    Www -.->|"image_url"| Card
+
+    style Rmd fill:#FFFFFF,color:#000000,stroke:#333,rx:5,ry:5
+    style Photos fill:#FFFFFF,color:#000000,stroke:#333,rx:5,ry:5
+    style Parse fill:#4CBB9D,color:#FFFFFF,rx:5,ry:5
+    style Rotate fill:#4CBB9D,color:#FFFFFF,rx:5,ry:5
+    style Dedup fill:#4CBB9D,color:#FFFFFF,rx:5,ry:5
+    style Data fill:#FFFFFF,color:#000000,stroke:#333,rx:5,ry:5
+    style Www fill:#FFFFFF,color:#000000,stroke:#333,rx:5,ry:5
+    style Core fill:#4CBB9D,color:#FFFFFF,rx:5,ry:5
+    style AppPy fill:#4CBB9D,color:#FFFFFF,rx:5,ry:5
+    style Card fill:#4CBB9D,color:#FFFFFF,rx:5,ry:5
+    style SourceGrp fill:#FFFFFF,color:#000000,stroke:#333,stroke-width:1px,rx:10,ry:10
+    style BuildGrp fill:#FFFFFF,color:#000000,stroke:#333,stroke-width:1px,rx:10,ry:10
+    style PkgGrp fill:#FFFFFF,color:#000000,stroke:#333,stroke-width:1px,rx:10,ry:10
+    style AppGrp fill:#FFFFFF,color:#000000,stroke:#333,stroke-width:1px,rx:10,ry:10
+```
+
 ## Why just two features
 
 The original site was a full R Markdown site: a page per year, a Notes page, a Dev
-page. Converting it kept exactly the two things that make a personal workout log worth
-opening day to day — a random pick, and "what did I do on this day before" — rather
-than rebuilding a year-by-year browser nobody was asking for. Notes (training
-principles) and Dev (untested workout drafts, never real dated entries) were dropped
-for the same reason: neither is a *workout*, so neither belongs in a random pick or an
-on-this-day match.
+page. Converting it kept the two things that make a personal workout log worth opening
+day to day — a random pick, and "what did I do on this day before" — instead of
+rebuilding a year-by-year browser nobody was asking for.
+
+Notes (training principles) and Dev (untested workout drafts, never real dated entries)
+were dropped for the same reason: neither is a *workout*, so neither belongs in a random
+pick or an on-this-day match.
 
 ## Why one record shape for two very different sources
 
 Roughly 4 years of the history is typed markdown; a stretch of 2020 is photos of a
-whiteboard. Rather than model these as two separate collections, every workout is one
+whiteboard. Rather than model those as two separate collections, every workout is one
 record with a `date`, a `kind` (`"text"` or `"image"`), and whichever fields apply to
-that kind. This lets both features — `random_workout()` and `on_this_day()` — operate
-on a single flat list without caring what's inside each record; only the rendering
-layer (`workout_card()`) branches on `kind`.
+that kind. Both features — `random_workout()` and `on_this_day()` — then operate on a
+single flat list without caring what's inside each record. Only the rendering layer
+(`workout_card()`) branches on `kind`.
 
 ## Why text wins when a date has both
 
 Some 2020 dates turned out to have *both* a photographed whiteboard and a later typed
 write-up of the same session — the photo was a same-day backup, typed up afterward.
 Keeping both would mean the same real workout showing up twice under "On This Day," and
-"Random Workout" silently double-weighting those dates. The build script resolves this
-by preferring the text entry, which also happens to be the richer of the two (it
-usually includes rep/set structure the photo doesn't make searchable).
+"Random Workout" silently double-weighting those dates. The build script resolves it by
+preferring the text entry, which is also the richer of the two: it usually includes the
+rep/set structure the photo doesn't make searchable.
 
 ## Why the photos are recompressed
 
 The original whiteboard photos were uncompressed phone-camera PNGs, some over 10MB
 each — 325MB total for 120 images. `daily-dose` is a package meant to be installed, not
-just a static site, so shipping that weight in every install wasn't worth it. Downscale
-and re-encode as JPEG dropped it to ~21MB with no visible loss for what's essentially a
-photo of handwriting on a whiteboard.
+just a static site, so carrying that weight into every install wasn't worth it.
+Downscaling and re-encoding as JPEG dropped it to ~21MB, with no visible loss on what's
+essentially a photo of handwriting on a whiteboard.
 
 ## Why Shiny Core, not Express
 
 The app is one server function wiring two buttons to two pure functions and a render
 call — small enough that Express's terser syntax would save a few lines. It's still
-built with Shiny Core: `core.py` has no dependency on Shiny at all, which is what makes
-`random_workout()` and `on_this_day()` unit-testable without spinning up a Shiny
-session (see `tests/test_core.py`). That separation is the reason `app.py` reads as
-thin glue rather than where the logic actually lives.
+built with Shiny Core, because `core.py` has no dependency on Shiny at all, and that's
+what makes `random_workout()` and `on_this_day()` unit-testable without spinning up a
+Shiny session (see `tests/test_core.py`). That separation is why `app.py` reads as thin
+glue rather than as the place the logic lives.
 
 ## Why the parser keeps things it can't fully understand
 
-Four years of hand-typed markdown across five files don't use one consistent format
-for exercises, reps, or footnotes. Rather than force that into structured fields and
-risk silently mangling entries the parser can't parse confidently, `body_md` keeps the
-original markdown for each text entry verbatim, rendered as-is in the app. The only
-fields pulled out are the ones that are consistent enough to parse reliably: the date,
-the done-checkbox, and an optional video link.
+Four years of hand-typed markdown across five files don't use one consistent format for
+exercises, reps, or footnotes. Forcing that into structured fields would risk silently
+mangling every entry the parser can't read confidently, so `body_md` keeps the original
+markdown for each text entry verbatim and the app renders it as-is. The only fields
+pulled out are the two that are consistent enough to parse reliably: the date and the
+done-checkbox.
+
+(Entries originally linked out to Vimeo for a video of the workout; that account is
+gone and every one of those links is now dead, so the build script unwraps them back
+down to plain text instead of shipping broken links.)
+
+## Why there's a root `app.py` and a `requirements.txt` too
+
+`pyproject.toml` is the real source of truth for dependencies, and local development
+never touches either root file. They exist only because
+[Posit Connect Cloud](https://docs.posit.co/connect-cloud/how-to/python/shiny-python.html)
+deploys by convention rather than configuration: it looks for an `app.py` at the repo
+root and installs from `requirements.txt`, full stop, with no way to point it at
+`src/daily_dose/app.py` or `pyproject.toml` instead.
+
+Restructuring the package around one deployment target's assumptions wasn't worth it.
+Instead, `app.py` is a two-line shim (`from daily_dose.app import app`) and
+`requirements.txt` is one line (`-e .`) that installs the package from
+`pyproject.toml`. The duplication is in file *existence*, not in file *content* that
+could drift out of sync.

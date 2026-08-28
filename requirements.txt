@@ -1,0 +1,4 @@
+# Posit Connect Cloud installs from this file, not pyproject.toml. It installs
+# daily-dose itself (in editable mode) plus its runtime dependencies, both read
+# straight from pyproject.toml, so there's nothing to keep in sync by hand.
+-e .

@@ -2,8 +2,9 @@
 title: "How-to Guides"
 ---
 
-Task-oriented recipes for maintaining the app. If you're looking to understand *why*
-things are built this way instead, see [Explanation](../explanation/index.qmd).
+Task-oriented recipes for maintaining the app. If you want to understand *why* things
+are built this way, see [Explanation](../explanation/index.qmd) instead. For the test
+suite specifically, see [Run the Tests](run-tests.qmd).
 
 ## Regenerate the workout data
 
@@ -11,14 +12,14 @@ things are built this way instead, see [Explanation](../explanation/index.qmd).
 `scripts/build_workouts_data.py`. Re-run it after editing the legacy Rmd source (kept
 at `scripts/_rmd_src/`) or the workout photos.
 
-The original photos aren't kept in this repo (325MB of raw phone photos, compressed
-down to ~21MB in `www/`). To regenerate from scratch:
+The original photos aren't kept in this repo — 325MB of raw phone photos, compressed
+down to ~21MB in `www/`. To regenerate from scratch:
 
 1. Install the script's one extra dependency (already in the `dev` extra): `Pillow`.
-2. Restore the original photos from the `gh-pages` branch, which still has them:
+2. Restore the original photos from the `rmarkdown-archive` branch, which still has them:
 
    ```bash
-   git archive gh-pages -- images | tar -x
+   git archive rmarkdown-archive -- images | tar -x
    ```
 
 3. Run the build script:
@@ -29,7 +30,7 @@ down to ~21MB in `www/`). To regenerate from scratch:
 
    It parses all five Rmd files, matches dated photos in `images/`, prefers the typed
    entry on any date that has both, and writes the deduplicated result to
-   `workouts.json`. It re-encodes every photo it uses as a downsized JPEG
+   `workouts.json`. Every photo it keeps is re-encoded as a downsized JPEG
    (~1600px max dimension, quality 82) into `src/daily_dose/www/images/`.
 
 4. Remove the restored source photos — they're not meant to be committed:
@@ -47,7 +48,7 @@ down to ~21MB in `www/`). To regenerate from scratch:
 ## Update the tutorial screenshots
 
 The screenshots in [Tutorials](../tutorials/index.qmd) are checked-in PNGs, not
-generated at build time. To refresh them after a UI change:
+generated at build time, so a UI change won't update them on its own. To refresh them:
 
 1. Launch the app: `shiny run daily_dose.app:app`
 2. Install a headless browser once: `pip install playwright && playwright install chromium`
@@ -56,11 +57,45 @@ generated at build time. To refresh them after a UI change:
    photo entry — and after clicking **On This Day**).
 4. Save the results into `tutorials/assets/`, overwriting the existing files by name.
 
+## Deploy to Posit Connect Cloud
+
+[Connect Cloud](https://docs.posit.co/connect-cloud/how-to/python/shiny-python.html)
+deploys straight from a public GitHub repo, but it has two fixed expectations that
+don't match this project's layout: the app object must be importable from an `app.py`
+**at the repo root**, and dependencies come from a `requirements.txt`, not
+`pyproject.toml`. Both files already exist here for exactly that reason, and you
+shouldn't need to touch either:
+
+- `app.py` (repo root) — a two-line shim, `from daily_dose.app import app`. Local
+  development still uses `daily_dose.app:app` directly (see the
+  [Tutorials](../tutorials/index.qmd) launch command); this file exists only for
+  Connect Cloud's sake.
+- `requirements.txt` (repo root) — one line, `-e .`. That installs `daily-dose` itself
+  in editable mode from `pyproject.toml`, which pulls in every real dependency
+  (`shiny[theme]`) with it. There's nothing to keep in sync by hand between the two
+  files.
+
+To deploy:
+
+1. Make sure the repo is public and the latest commit is pushed to `main` — Connect
+   Cloud deploys from GitHub, not a local push.
+2. Sign in to [Connect Cloud](https://connect.posit.cloud) and click **Publish**.
+3. Choose **Shiny** as the app type and select this repository.
+4. Confirm the branch (`main`) and the primary file (`app.py` at the repo root — the
+   shim, not `src/daily_dose/app.py`).
+5. Click **Publish**.
+
+To publish an update later, push to `main` and use the republish action in Connect
+Cloud's content list. It re-clones the repo and reinstalls from `requirements.txt`, so
+there's no separate build step on your end.
+
 ## Rebuild the docs site
+
+One command from the repo root rebuilds the whole site:
 
 ```bash
 great-docs build
 ```
 
-Rebuilds this whole site — homepage from `README.md`, this guide, Explanation, and the
-API Reference from `daily_dose.core`'s docstrings — into `great-docs/_site/`.
+That's the homepage from `README.md`, this guide, Explanation, and the API Reference
+from `daily_dose.core`'s docstrings, all written into `great-docs/_site/`.

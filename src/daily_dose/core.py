@@ -20,8 +20,8 @@ def load_workouts() -> list[Workout]:
 
     Returns:
         One dict per logged workout, each with ``date``, ``year``, ``kind``
-        (``"text"`` or ``"image"``), ``done``, ``summary``, ``video_url``,
-        ``body_md``, and ``image_url`` keys.
+        (``"text"`` or ``"image"``), ``done``, ``summary``, ``body_md``, and
+        ``image_url`` keys.
     """
     data_text = resources.files("daily_dose.data").joinpath("workouts.json").read_text(
         encoding="utf-8"
