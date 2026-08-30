@@ -33,7 +33,7 @@ flowchart TD
     Rotate --> Dedup
 
     subgraph PkgGrp["<strong>src/daily_dose/</strong>"]
-        Data[("data/workouts.json<br>1000 records")]
+        Data[("data/workouts.json<br>1001 records")]
         Www[("www/images/")]
         Core("core.py")
     end
@@ -105,6 +105,8 @@ I spent four years writing down workout, but they don't use one consistent forma
 `body_md` keeps the original markdown for each text entry verbatim and the app renders it as-is. The only fields pulled out are the two that are consistent enough to parse reliably: the date and the done-checkbox.
 
 (Entries originally linked out to Vimeo for a video of the workout; that account is gone and every one of those links is now dead, so the build script unwraps them back down to plain text instead of shipping broken links.)
+
+One date heading did break this: `2022-01-29` was written indented under the entry above it (`2022-01-30`), so the original parser's heading pattern, which only matched an unindented `### YYYY-MM-DD`, missed it and folded its text into `2022-01-30`'s entry instead of starting a new one. Two things fixed it: the heading pattern now allows leading whitespace, and the parser also checks a looser, date-shaped pattern against every line, raising if something matches that looser check but not the strict one. A future heading the parser genuinely can't handle now stops the build instead of silently merging into whatever entry came before it.
 
 ## The root `app.py` *and* `requirements.txt`
 

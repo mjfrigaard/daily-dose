@@ -36,10 +36,15 @@ it can force a date with matches in two years, say, and a date with none.
 
 `tests/test_data.py` does the opposite on purpose. It calls `load_workouts()` with no
 fixture, loading the real bundled `workouts.json`, then checks properties that should
-hold for the *actual* 1000-record dataset: exact count, no duplicate dates, every
+hold for the *actual* 1001-record dataset: exact count, no duplicate dates, every
 referenced image file present in `www/`. That makes it a regression guard on
 `scripts/build_workouts_data.py`. If a future edit to the parser silently drops or
 duplicates entries, this is what catches it.
+
+`tests/test_build_workouts_data.py` tests the parser itself, in isolation, against
+small in-memory `.Rmd` fixtures written to `tmp_path`. It loads
+`scripts/build_workouts_data.py` directly with `importlib.util`, since `scripts/` isn't
+an installed package.
 
 ## What the tests cover
 
@@ -61,10 +66,19 @@ The real, bundled dataset: a regression guard on the build script, not on app lo
 
 | Test | What it pins down |
 |------|-------------------|
-| `test_load_workouts_count` | The bundled dataset has exactly 1000 workouts |
+| `test_load_workouts_count` | The bundled dataset has exactly 1001 workouts |
 | `test_every_workout_has_a_valid_date_and_kind` | Every record has an ISO `date` and a `kind` of `"text"` or `"image"` |
 | `test_no_duplicate_dates` | No date appears twice, confirming the text-vs-image dedup actually worked |
 | `test_image_files_exist` | Every `image_url` the data references exists under the packaged `www/` assets |
+
+### `tests/test_build_workouts_data.py` (2)
+
+The parser, exercised against small `.Rmd` fixtures rather than the real data.
+
+| Test | What it pins down |
+|------|-------------------|
+| `test_parse_rmd_splits_indented_date_heading` | A date heading nested under the previous entry's list still becomes its own entry, not text merged into the entry above it |
+| `test_parse_rmd_raises_on_unparseable_date_heading` | A date-shaped heading `DATE_HEADER_RE` won't match (wrong heading level, trailing text, ...) raises `ValueError` instead of being silently dropped into the previous entry |
 
 ## What the tests do not cover
 

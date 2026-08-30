@@ -33,6 +33,11 @@ compressed down to ~21MB in `www/`. To regenerate from scratch:
    `workouts.json`. Every photo it keeps is re-encoded as a downsized JPEG
    (~1600px max dimension, quality 82) into `src/daily_dose/www/images/`.
 
+   If a date heading in the Rmd source is malformed in a way the parser can't safely
+   handle (wrong heading level, trailing text after the date, ...), the script raises
+   `ValueError` naming the file and line instead of silently merging it into the
+   previous entry. See [Design Notes](../explanation/index.qmd) for why.
+
 4. Remove the restored source photos, which aren't meant to be committed:
 
    ```bash

@@ -8,7 +8,7 @@ DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 def test_load_workouts_count() -> None:
     workouts = load_workouts()
-    assert len(workouts) == 1000
+    assert len(workouts) == 1001
 
 
 def test_every_workout_has_a_valid_date_and_kind() -> None:

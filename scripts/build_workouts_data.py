@@ -23,7 +23,11 @@ IMAGES_DIR = REPO_ROOT / "images"
 WWW_IMAGES_DIR = REPO_ROOT / "src" / "daily_dose" / "www" / "images"
 DATA_PATH = REPO_ROOT / "src" / "daily_dose" / "data" / "workouts.json"
 
-DATE_HEADER_RE = re.compile(r"^###\s+(\d{4}-\d{2}-\d{2})\s*$")
+DATE_HEADER_RE = re.compile(r"^\s*###\s+(\d{4}-\d{2}-\d{2})\s*$")
+# Looser than DATE_HEADER_RE: catches anything date-shaped that looks like a
+# heading (wrong heading level, trailing text, ...) so parse_rmd can fail
+# loudly instead of silently merging it into the previous entry's body.
+LOOSE_DATE_HEADER_RE = re.compile(r"^\s*#+\s*\d{4}-\d{2}-\d{2}")
 SECTION_BREAK_RE = re.compile(r"^#{1,2}\s+")
 CHECKBOX_RE = re.compile(r"^-\s*\[( |x)\]\s*")
 # The Vimeo account these pointed at is gone, so every video link is now dead.
@@ -90,6 +94,12 @@ def parse_rmd(path: Path) -> list[dict]:
             current_date = date_match.group(1)
             body_lines = []
             continue
+        if LOOSE_DATE_HEADER_RE.match(line):
+            raise ValueError(
+                f"{path.name}: date-shaped heading won't be parsed as its "
+                f"own entry, it'll be swallowed into the previous one: "
+                f"{line!r}"
+            )
         if SECTION_BREAK_RE.match(line) and current_date is not None:
             flush()
             current_date = None
