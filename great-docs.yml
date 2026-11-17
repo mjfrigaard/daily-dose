@@ -491,6 +491,17 @@ reference:
 #   dark: "#60a5fa"
 # navbar_color: null
 
+# 70s palette from stackcallr's pkgdown theme; fonts and the rest are in
+# docs-theme.css
+accent_color:
+  light: "#2A6F77"
+  dark: "#E8A33D"
+navbar_color:
+  light: "#F9F3E1"
+  dark: "#3E2A1E"
+site:
+  css: docs-theme.css
+
 # Explicit ordering of navbar items by their display text. Items not listed
 # are appended after the listed ones, preserving their original order.
 # : null - (default) items appear in the order they are added during build
@@ -567,7 +578,13 @@ reference:
 # include_in_header:
 #   - '<script defer src="/analytics.js"></script>'
 #   - file: partials/head.html
-# include_in_header: []
+# Let mermaid figures use the full column width (the centered flex wrapper
+# otherwise shrinks each diagram to 300px), and keep <code> labels readable.
+# The script marks each diagram as already fixed, so great-docs' dark mode
+# script leaves the palette colors alone (docs-theme.css keeps them light).
+include_in_header:
+  - '<script>new MutationObserver(function () { document.querySelectorAll("svg.mermaid-js").forEach(function (s) { s.dataset.gdFixed = "true"; }); }).observe(document.documentElement, { childList: true, subtree: true });</script>'
+  - '<style>.cell-output-display:has(.mermaid-js) > div { width: 100%; } svg.mermaid-js code { background: transparent !important; color: inherit !important; padding: 0; font-size: inherit; font-family: inherit; }</style>'
 
 # Freeze (Execution Caching)
 # --------------------------

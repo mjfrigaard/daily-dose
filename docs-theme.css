@@ -1,0 +1,164 @@
+/* 70s palette from stackcallr's pkgdown theme.
+   Navy #1B2A41, teal #2A6F77, brown #3E2A1E, gold #E8A33D,
+   orange #D2562B, brick #B83A4B, cream #F9F3E1 / #F2E6C2 */
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500;600&family=Ubuntu:ital,wght@0,400;0,500;1,400&family=Ubuntu+Mono:wght@400;700&display=swap");
+
+:root {
+  --bs-body-font-family: Ubuntu, sans-serif;
+  --bs-font-monospace: "Ubuntu Mono", monospace;
+}
+
+/* Fonts */
+body,
+p,
+li,
+.nav-link,
+.table {
+  font-family: Ubuntu, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+#toc-title {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+code,
+pre,
+kbd {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+/* Light mode */
+body {
+  background-color: #FFFFFF;
+  color: #3E2A1E;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #1B2A41;
+}
+
+a {
+  color: #2A6F77;
+}
+
+a:hover {
+  color: #D2562B;
+}
+
+/* Burnt orange stripe under the navbar in both modes */
+.navbar {
+  border-bottom: 3px solid #D2562B;
+}
+
+/* Inline code: small brick red pill on cream */
+:not(pre) > code {
+  color: #B83A4B;
+  background-color: #F9F3E1;
+  padding: 0.1em 0.3em;
+  border-radius: 0.25rem;
+}
+
+/* Code blocks: cream */
+pre,
+div.sourceCode {
+  background-color: #F9F3E1 !important;
+  border: 1px solid rgba(62, 42, 30, 0.15);
+}
+
+pre code {
+  background-color: transparent !important;
+}
+
+/* Dark mode: great-docs sets both markers */
+body.quarto-dark,
+[data-bs-theme="dark"] body {
+  background-color: #1B2A41;
+  color: #F2E6C2;
+}
+
+body.quarto-dark :is(h1, h2, h3, h4) {
+  color: #F2E6C2;
+}
+
+body.quarto-dark a {
+  color: #E8A33D;
+}
+
+body.quarto-dark a:hover {
+  color: #D2562B;
+}
+
+body.quarto-dark :not(pre) > code {
+  color: #E8A33D;
+  background-color: rgba(242, 230, 194, 0.08);
+}
+
+body.quarto-dark pre,
+body.quarto-dark div.sourceCode {
+  background-color: rgba(242, 230, 194, 0.06) !important;
+  border-color: rgba(242, 230, 194, 0.15);
+}
+
+/* Mermaid: diagrams stay light (great-docs fixes the theme), so set
+   them on cream in both modes with a navy border */
+.cell-output-display:has(.mermaid-js) {
+  background: #F9F3E1;
+  border-color: rgba(27, 42, 65, 0.25);
+}
+
+body.quarto-dark .cell-output-display:has(.mermaid-js) {
+  background: #F2E6C2;
+  border-color: #E8A33D;
+}
+
+svg.mermaid-js .edgeLabel,
+svg.mermaid-js .edgeLabel p {
+  background-color: #F9F3E1 !important;
+}
+
+/* Dark page surfaces: navy instead of great-docs' near black */
+html.quarto-dark,
+body.quarto-dark {
+  --gd-bg-primary: #1B2A41;
+  --gd-bg-secondary: #22344F;
+  --gd-bg-tertiary: #2A3D5A;
+  --gd-sidebar-bg: #1B2A41;
+  --gd-navbar-bg: #3E2A1E;
+  --gd-text-primary: #F2E6C2;
+  --gd-link-color: #E8A33D;
+  --gd-active-link: #E8A33D;
+  --gd-code-bg: rgba(242, 230, 194, 0.08);
+  --gd-code-color: #E8A33D;
+  --gd-border-color: rgba(242, 230, 194, 0.15);
+}
+
+/* Diagram colors for nodes without their own style line. Diagrams keep
+   these in dark mode too (a header script stops great-docs repainting
+   them), since they sit on a cream panel */
+:root,
+body,
+body.quarto-dark {
+  --mermaid-bg-color: #F9F3E1;
+  --mermaid-node-bg-color: #FFFFFF;
+  --mermaid-node-fg-color: #3E2A1E;
+  --mermaid-fg-color: #3E2A1E;
+  --mermaid-fg-color--lighter: #6B5444;
+  --mermaid-fg-color--lightest: #9C8A7A;
+  --mermaid-edge-color: #3E2A1E;
+  --mermaid-label-bg-color: #F9F3E1;
+  --mermaid-label-fg-color: #3E2A1E;
+}
+
+/* great-docs paints every label <p> #333 in dark mode; let labels keep
+   their node's text color (white on teal) */
+body.quarto-dark svg.mermaid-js .nodeLabel :is(p, code, span, div) {
+  color: inherit !important;
+}

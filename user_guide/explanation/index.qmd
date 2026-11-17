@@ -14,7 +14,7 @@ The sections below explain the decisions in this pipeline. This diagram tries to
 %%| fig-height: 9
 %%| fig-align: 'center'
 %%| fig-caption: 'How a workout gets from source to screen'
-%%{init: {'theme': 'base', 'themeVariables': { 'fontFamily': 'monospace', "darkMode":true}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'fontFamily': 'monospace', "darkMode":false}}}%%
 flowchart TD
     subgraph SourceGrp["<strong>Source</strong>"]
         Rmd[/".Rmd files"/]
@@ -51,20 +51,20 @@ flowchart TD
     AppPy --> Card
     Www -.->|"image_url"| Card
 
-    style Rmd fill:#FFFFFF,color:#000000,stroke:#333,rx:5,ry:5,font-size:16px
-    style Photos fill:#FFFFFF,color:#000000,stroke:#333,rx:5,ry:5,font-size:16px
-    style Parse fill:#4CBB9D,color:#FFFFFF,rx:5,ry:5,font-size:16px
-    style Rotate fill:#4CBB9D,color:#FFFFFF,rx:5,ry:5,font-size:16px
-    style Dedup fill:#4CBB9D,color:#FFFFFF,rx:5,ry:5,font-size:16px
-    style Data fill:#FFFFFF,color:#000000,stroke:#333,rx:5,ry:5,font-size:16px
-    style Www fill:#FFFFFF,color:#000000,stroke:#333,rx:5,ry:5,font-size:16px
-    style Core fill:#4CBB9D,color:#FFFFFF,rx:5,ry:5,font-size:16px
-    style AppPy fill:#4CBB9D,color:#FFFFFF,rx:5,ry:5,font-size:16px
-    style Card fill:#4CBB9D,color:#FFFFFF,rx:5,ry:5,font-size:16px
-    style SourceGrp fill:#FFFFFF,color:#000000,stroke:#333,stroke-width:1px,rx:10,ry:10,font-size:14px
-    style BuildGrp fill:#FFFFFF,color:#000000,stroke:#333,stroke-width:1px,rx:10,ry:10,font-size:14px
-    style PkgGrp fill:#FFFFFF,color:#000000,stroke:#333,stroke-width:1px,rx:10,ry:10,font-size:14px
-    style AppGrp fill:#FFFFFF,color:#000000,stroke:#333,stroke-width:1px,rx:10,ry:10,font-size:14px
+    style Rmd fill:#FFFFFF,color:#1B2A41,stroke:#1B2A41,rx:5,ry:5,font-size:16px
+    style Photos fill:#FFFFFF,color:#1B2A41,stroke:#1B2A41,rx:5,ry:5,font-size:16px
+    style Parse fill:#2A6F77,color:#FFFFFF,rx:5,ry:5,font-size:16px
+    style Rotate fill:#2A6F77,color:#FFFFFF,rx:5,ry:5,font-size:16px
+    style Dedup fill:#2A6F77,color:#FFFFFF,rx:5,ry:5,font-size:16px
+    style Data fill:#FFFFFF,color:#1B2A41,stroke:#1B2A41,rx:5,ry:5,font-size:16px
+    style Www fill:#FFFFFF,color:#1B2A41,stroke:#1B2A41,rx:5,ry:5,font-size:16px
+    style Core fill:#2A6F77,color:#FFFFFF,rx:5,ry:5,font-size:16px
+    style AppPy fill:#2A6F77,color:#FFFFFF,rx:5,ry:5,font-size:16px
+    style Card fill:#2A6F77,color:#FFFFFF,rx:5,ry:5,font-size:16px
+    style SourceGrp fill:#FFFFFF,color:#1B2A41,stroke:#1B2A41,stroke-width:1px,rx:10,ry:10,font-size:14px
+    style BuildGrp fill:#FFFFFF,color:#1B2A41,stroke:#1B2A41,stroke-width:1px,rx:10,ry:10,font-size:14px
+    style PkgGrp fill:#FFFFFF,color:#1B2A41,stroke:#1B2A41,stroke-width:1px,rx:10,ry:10,font-size:14px
+    style AppGrp fill:#FFFFFF,color:#1B2A41,stroke:#1B2A41,stroke-width:1px,rx:10,ry:10,font-size:14px
 
 ```
 
