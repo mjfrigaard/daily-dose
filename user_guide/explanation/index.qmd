@@ -9,7 +9,7 @@ Background on why the `daily-dose` app/package is shaped the way it is. For inst
 The sections below explain the decisions in this pipeline. This diagram tries to capture the whole thing:
 
 ```{mermaid}
-%%| eval: false
+%%| eval: true
 %%| fig-width: 7
 %%| fig-height: 9
 %%| fig-align: 'center'
